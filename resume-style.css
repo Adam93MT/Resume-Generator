@@ -1,0 +1,424 @@
+html{
+	font-size: 12px;
+	background-color: #ddd;
+}
+
+body {
+	padding: 0; margin: 0;
+	/*font-family: "Merriweather";*/
+	font-family: "Proxima Nova";
+	font-weight: 100; color: #4a4a4a; overflow-x: hidden;
+	background-color: #fff;
+}
+
+*::selection {
+  background: #DCE6CF; /* WebKit/Blink Browsers */
+}
+
+@media screen {
+	body {
+		width: 724px;
+		padding: 50px 50px;
+	}
+	section.container {
+		position: relative;
+		display: inline-block;
+	}
+}
+
+@page {
+   size: 8.5in 11in;  
+   margin: 50px 50px;
+}
+
+
+
+/* -------------- HEADER -------------- */
+.header, .sub-header{
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  color: inherit;
+}
+
+.main-header .container {
+	height: 62px;
+}
+
+.header .name {
+	position: relative;
+	display: inline-block;
+	font-family: "Raleway";
+	font-size: 56px;
+	line-height: 1.1em;
+	font-weight: 700;
+	float: left;
+	text-align: left;
+}
+.header a, .sub-header a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.header .tagline {
+	position: relative;
+	display: inline-block;
+	text-align: right;
+	font-family: "Proxima Nova";
+	font-weight: 400;
+	font-size: 18px;
+	top: 0.8em;
+	float: right;
+}
+.tagline em {
+	color: #5B753D;
+}
+
+.header .contact {
+	color: #5B753D;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 0.4em;
+	/*font-family: "Merriweather"*/
+	font-family: "Proxima Nova"
+}
+
+.header .contact span {
+	display: inline-block;
+	/*width: 33%;*/
+}
+.header .contact span:first-child {
+	/*padding-right: 0.8em;*/
+	text-align: left;
+	width: 30%;
+
+}
+.header .contact span:nth-child(2) {
+	/*padding-right: 0.8em;
+	padding-left: 0.8em;*/
+	text-align: center;
+	width: 39%;
+}
+.header .contact span:last-child {
+	/*padding-left: 0.8em;*/
+	text-align: right;
+	width: 30%;
+	float: right;
+}
+
+/* -------------- GLOBAL -------------- */
+
+section {
+	margin: 4px 0 4px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #5B753D;
+}
+
+ul.list {
+	padding-left: 16px;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 400;
+	margin: 4px auto 0 auto;
+	/*list-style-type: none;*/
+}
+
+.list li {
+	padding-bottom: 4px;
+}
+
+.title {
+	font-family: "Playfair Display";
+	font-weight: 500;
+}
+
+.content {
+	line-height: 1.2em;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+/* -------------- BODY -------------- */
+
+.section-header {
+	margin-bottom: 4px;
+	border-bottom: 1px solid #5B753D;
+	display: inline-block;
+}
+	.section-title {
+		font-size: 18px;
+		color: #5B753D;
+		min-height: 24px;
+	}
+
+.objective {
+	margin: 16px 8px 0 8px;
+	padding: 0 8px;
+	/*border-left: 2px solid #5B753D;*/
+	font-weight: 400;
+}
+.objective .content {
+	line-height: 1.2em;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.summary {
+}
+	.summary ul {
+
+	}
+
+	.summary li {
+		
+	}
+
+.experience {
+	width: 60%;
+	float: left;
+}
+	article.job {
+		display: block;
+		position: relative;
+		overflow: hidden;
+		/*margin-top: 20px;*/
+	}
+
+		.resume-content {
+			min-height: 100%;
+			display: inline-block;
+			position: relative;
+		}
+
+		.experience .resume-content {
+			margin-right: 12px;
+		}
+			.subsection-header {
+
+			}
+				.subsection-logo img{
+					position: absolute;
+					right: 8px;
+					height: 24px;
+					margin-right: 8px;
+					display: none;
+				}
+
+				.subsection-title {
+					color: #4a4a4a;
+					font-size: 14px;
+					font-weight: 600;
+				}
+					.inline-note {
+						display: inline;
+						font-size: 1.4em;
+						font-style: italic;
+					}
+
+				.subsection-company {
+					color: #4a4a4a;
+					font-size: 14px;
+					
+				}
+				.subsection-company::before {
+					content: " . "
+				}
+
+				.subsection-company a {
+					color: #4a4a4a;
+					border-bottom: 1px solid #4a4a4a;
+				}
+
+				.subsection-duration {
+					margin-left: 0.25em;
+				}
+				.subsection-duration:after {
+					content: " "
+				}
+				.subsection-duration, .subsection-location {
+					font-family: "Lato";
+					font-size: 10px;
+					font-weight: 300;
+					font-style: italic;
+					float: right;
+					position: relative;
+					top: 5px;
+				}
+				.subsection-location:before {
+					content: " — "
+				}
+			.resume-list {
+				/*list-style-type: circle;*/
+			}
+
+				.resume-content-divider {
+					font-size: 1.5em;
+					line-height: 1.5em;
+					margin-bottom: 0.5em;
+					/*text-decoration: underline;*/
+					font-style: italic;
+					display: none;
+				}
+
+				.resume-list .list-description {
+					font-family: "Merriweather";
+					font-size: 1em;
+				}
+
+.projects {
+	width: 40%;
+	float: right;
+
+}
+	.projects .resume-content {
+		width: 100%;
+	}
+
+	.project .content {
+		margin: 4px 0;
+	}
+
+	ul.project-list {
+		/*padding-left: 0;*/
+	}
+/*
+.skills {
+	position: relative;
+	display: inline-block;
+	margin-top: 2em;
+}
+	.skills-sub-header {
+		padding-left: 1em;
+		padding-top: 1.5em;
+		font-family: "Raleway", "Lato", "Helvetica", "Arial", sans-serif;
+		font-size: 1.5em;
+		line-height: 2em;	
+	}
+		.program-list {
+			display: block;
+			position: relative;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+			.program-list li {
+				position: relative;
+				width: 7%;
+				margin: 1rem 2.75% 1rem 2.75%;
+				float: left;
+			}
+			.program-list li:hover {
+				margin-top: 0.5em;
+				margin-bottom: 1.5em;
+			}
+				.program-list li .app-name {
+					position: relative;
+					margin: 0;
+					padding-top: 0.5em;
+					font-size: 1em;
+					line-height: 1em;
+					min-height: 2em;
+					text-align: center;
+				}
+				.program-list li .app-logo {
+					position: relative;
+					padding-bottom: 100%;
+					background-size: 100%;
+					background-repeat: no-repeat;
+					border-radius: 0;
+				}
+					/* APP ICONS */
+					/* graphics */
+/*
+					#sketch .app-logo {
+					background-image: url('image_assets/apps/sketch.png');}
+					#photoshop .app-logo {
+					background-image: url('image_assets/apps/photoshop.png');}
+					#ai .app-logo {
+					background-image: url('image_assets/apps/ai.png');}
+					#indesign .app-logo {
+					background-image: url('image_assets/apps/indd.png');}
+					#balsamiq .app-logo {
+					background-image: url('image_assets/apps/balsamiq.png');}
+
+					/* Dev 1 */
+/*					#html5 .app-logo {
+					background-image: url('image_assets/apps/html5.png');}
+					#css3 .app-logo {
+					background-image: url('image_assets/apps/css3.png');}
+					#jquery .app-logo {
+					background-image: url('image_assets/apps/jquery.png');}
+					#coffeescript .app-logo {
+					background-image: url('image_assets/apps/coffeescript.png');}
+
+					/* 3d */
+/*					#autocad .app-logo {
+					background-image: url('image_assets/apps/autocad.png');}
+					#inventor .app-logo {
+					background-image: url('image_assets/apps/inventor.png');}
+					#rhino .app-logo {
+					background-image: url('image_assets/apps/rhino.png');}
+					#max .app-logo {
+					background-image: url('image_assets/apps/max.png');}
+					#c4d .app-logo {
+					background-image: url('image_assets/apps/c4d.png');}
+
+					/* Dev 2 */
+/*					#arduino .app-logo {
+					background-image: url('image_assets/apps/arduino.png');}
+					#xcode .app-logo {
+					background-image: url('image_assets/apps/xcode.png');}
+					#php .app-logo {
+					background-image: url('image_assets/apps/php.png');}
+					#cpp .app-logo {
+					background-image: url('image_assets/apps/cpp.png');}
+					#java .app-logo {
+					background-image: url('image_assets/apps/java.png');}
+					#swift .app-logo {
+					background-image: url('image_assets/apps/swift.png');}
+					#git .app-logo {
+					background-image: url('image_assets/apps/git.png');}
+					#bootstrap .app-logo {
+					background-image: url('image_assets/apps/bootstrap.png');}
+					#sass .app-logo {
+					background-image: url('image_assets/apps/sass.png');}
+
+					/* video */
+/*					#ae .app-logo {
+					background-image: url('image_assets/apps/ae.png');}
+					#premiere .app-logo {
+					background-image: url('image_assets/apps/premiere.png');}
+					#final_cut .app-logo {
+					background-image: url('image_assets/apps/final_cut.png');}
+
+
+					/* Other */
+/*					#espresso .app-logo {
+					background-image: url('image_assets/apps/espresso.png');}
+					#sublime .app-logo {
+					background-image: url('image_assets/apps/sublime.png');}
+					#coda .app-logo {
+					background-image: url('image_assets/apps/coda.png');}
+
+*/
+.education {
+	position: relative;
+	display: inline-block;
+}
+.school {
+	margin-top: 2em;
+}
+	.school#uwaterloo .logo {
+		background-image: url('image_assets/uwaterloo.gif');
+	}
+	.school#fhci .logo {
+		background-image: url('image_assets/fhci.png');
+	}
+
+

@@ -1,0 +1,120 @@
+
+{
+name: "Sketch",
+tags: ["sketch"]
+},
+
+{
+name: "Photoshop",
+tags: ["ps"]
+},
+
+{
+name: "Illustrator",
+tags: ["ai", "illustrator"]
+},
+
+{
+name: "Balsamiq",
+tags: ["balsamiq"]
+},
+
+{
+name: "HTML 5",
+tags: ["html", "xml", "web"]
+},
+
+{
+name: "CSS 3",
+tags: ["css", "sass", "less", "web"]
+},
+
+{
+name: "jQuery",
+tags: ["js", "development", "web"]
+},
+
+{
+name: "CoffeeScript",
+tags: ["js", "web"]
+},
+
+{
+name: "AutoCad",
+tags: []
+},
+
+{
+name: "Inventor",
+tags: []
+},
+
+{
+name: "3DS Max",
+tags: []
+},
+
+{
+name: "Cinema 4D",
+tags: []
+},
+
+{
+name: "Arduino",
+tags: []
+},
+
+{
+name: "After Effects",
+tags: []
+},
+
+{
+name: "Final Cut X",
+tags: []
+},
+
+{
+name: "InDesign",
+tags: []
+},
+
+{
+name: "Swift",
+tags: []
+},
+
+{
+name: "PHP",
+tags: []
+},
+
+{
+name: "C++",
+tags: []
+},
+
+{
+name: "Java",
+tags: []
+},
+
+{
+name: "Git",
+tags: []
+},
+
+{
+name: "XCode",
+tags: []
+},
+
+{
+name: "Bootstrap",
+tags: []
+},
+
+{
+name: "SASS",
+tags: []
+},
