@@ -1,7 +1,26 @@
 resumeContent = {
+	
+	tagline: [
+		"Systems Design Engineering",
+		"Systems Design Engineering, BASc",
+		"University of Waterloo",
+		"BASc, University of Waterloo"
+	],
+
+	objective: "I’m a big-picture problem solver; always looking for the best solution to the right problem. I’m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.",
+
+	summary: [
+		"Over 1 year experience in UX and Product design",
+		"Product Management expereince researching, developing and prioritizing user & tech requirements",
+		"Pitching and presenting my own designs at all-hands meetings, backing them up with user-research data, and following through with a plan for imlementation",
+		"Collaborating and brainstorming design solutions with designers, developers, operations, and marketing",
+		"Diverse education in UX, software, electrical, and mechanical engineering"
+		],
+
 	experience: [
 	{
 		company: "Zynga",
+		url: "zynga.com",
 		term: "Spring 2016",
 		position: "Product Manager",
 		location: "Toronto, ON",
@@ -26,9 +45,10 @@ resumeContent = {
 	},
 	{
 		company: "Noom",
+		url: "noom.com",
 		term: "Fall 2015",
 		position: "Product Designer",
-		location: "New York, NY",
+		location: "New York City, NY",
 		responsibilities: [
 		{	
 			task: "Leveraged user testing results to re-design the meal-logging experience, improving clarity, speed of navigation and to better reflect the common mental model of logging food",
@@ -49,6 +69,7 @@ resumeContent = {
 	},
 	{
 		company: "KnowRoaming",
+		url: "KnowRoaming.com",
 		term: "Spring 2014 & Winter 2015",
 		position: ["Product Designer", "UX Designer", "Product Manager"],
 		location: "Toronto, ON",
@@ -97,6 +118,7 @@ resumeContent = {
 	},
 	{
 		company: "Sony",
+		url: "mediago.sony.com",
 		term: "Fall 2013",
 		position: ["UX Designer", "User Experience Designer"],
 		location: "Waterloo, ON",
@@ -121,22 +143,23 @@ resumeContent = {
 	}],
 
 	projects: [
-	{
-		name: "Audity Hearing Protection",
+	{	
+		id: "fydp",
+		name: "Audity",
 		term: "Sept. 2016 - present",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 		responsibilities: [
-		{},
 		]
 	},
 
 	{
+		id: "smrt-watr",
 		name: "SMRT WATR",
 		term: "Spring 2015",
 		description: "An interactive fountain with dynamic water spouts controlled by an Arduino, connected via a Raspberry Pi to enable users to play a quiz game with the fountain, which reacted to the quiz responses",
 		responsibilities: [
 		{
-			task: "Designed the in-game experience, app structure, and UI",
+			task: "Designed the in-game experience, architecture, and UI",
 			tags: []
 		},
 		{
@@ -160,7 +183,7 @@ resumeContent = {
 		responsibilities: []
 	},
 	{
-		name: "Analog Single-Note Guitar Tuner",
+		name: "Analog Single Note Guitar Tuner",
 		term: "August 2015",
 		description: "An analog circuit that uses a series of band-pass filters, and envelope detector, and rectifier to discern whether the high-E string is in tune.",
 		responsibilities: []

@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="resume-style.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="resumeContentJSON.js"></script>
+	<script type="text/javascript" src="compileResume.js"></script>
 	</head>
 	<body>
 
@@ -17,7 +18,7 @@
 		<div class="header">
 			<div class="container">
 				<div class="name"><a href="http://www.adamthompson.ca">Adam Thompson</a></div>
-				<div class="tagline">Systems Design <br> Engineering</div>
+				<div class="tagline">Lorem</div>
 			</div>
 			<div class="contact">
 				<span id="web"><a href="http://www.adamthompson.ca">adamthompson.ca</a></span>
@@ -27,27 +28,22 @@
 		</div>
 	</header>
 
-<section class="objective">
+<section id="objective">
 <!-- <header class="section-header"><div class="section-title">About Me</div></header> -->
 	<div class="content">
-	I’m a big-picture problem solver; always looking for the best solution to the right problem. I’m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 	</div>
 </section>
-<section class="summary">
+<section id="summary">
 <header class="section-header"><div class="title section-title">Summary</div></header>
 	<ul class="list">
-		<li>Over 1 year experience in UX and Product design</li>
-		<li>Product Management expereince researching, developing and prioritizing user & tech requirements</li>
-		<li>Pitching and presenting my own designs at all-hands meetings, backing them up with user-research data, and following through with a plan for imlementation</li>
-		<li>Collaborating and brainstorming design solutions with designers, developers, operations, and marketing</li>
-		<li>Diverse education in UX, software, electrical, and mechanical engineering</li>
 	</ul>
 </section>
 
-<section class="experience container" id="work-experience">
+<section class="container" id="experience">
 <header class="section-header"><div class="title section-title">Work Experience</div></header>
-
-	<article class="job noom">
+<!-- 
+	<article class="job" id="noom">
 		<div class="resume-content">
 			<div class="subsection-header">
 				<span class="subsection-logo"><img src="image_assets/noom_logo.png"></span>
@@ -125,13 +121,13 @@
 				<li class="resume-item">Designed a new procedure for evaluating and interviewing new job candidates</li>
 			</ul>
 		</div>
-	</article>
+	</article> -->
 </section>
 
 <section class="projects container" id="projects">
 	<header class="section-header"><div class="title section-title">Projects</div></header>
 
-	<article class="project" id="fydp">
+	<!-- <article class="project" id="fydp">
 		<div class="resume-content">
 			<div class="subsection-header">
 				<span class="title subsection-title">Dynamic Hearing Protection</span>
@@ -143,7 +139,7 @@
 		</div>	
 	</article>
 
-	<article class="project" id="smrtwatr">
+	<article id="project" id="smrtwatr">
 		<div class="resume-content">
 			<div class="subsection-header">
 				<span class="title subsection-title">SMRT WATR</span>
@@ -162,22 +158,14 @@
 			<li>Designed and built the wood and plastic frame and water basin</li>
 			</ul>
 		</div>	
-	</article>
+	</article> -->
 
 
 </section>
-
-
-
-
-
-<section class="skills container" id="toolbox">
-	<div class="resume-header">
-		<span class="title resume-title">My Toolbox <span class="filter-notification"></span></span>
-	</div>
-	<div class="skills-sub-header"><!-- Professional --></div>
-	<ul class="program-list"> <!-- must have a multiple of 8 -->
-		<li class="animate resume-item featured ux" id="sketch">
+<section class="container" id="skills">
+<header class="section-header"><div class="title section-title">Toolbox</div></header>
+	<ul class="skills-list"> <!-- must have a multiple of 8 -->
+		<!-- <li class="animate resume-item featured ux" id="sketch">
 			<div class="app-logo"></div><p class="app-name">Sketch</p>
 		</li>
 		<li class="animate resume-item featured ux graphics" id="photoshop">
@@ -202,6 +190,7 @@
 			<div class="app-logo"></div><p class="app-name">CoffeeScript</p>
 		</li>
 		<!-- Other -->
+		<!--
 		<li class="animate resume-item featured industrial" id="autocad">
 			<div class="app-logo"></div><p class="app-name">AutoCad</p>
 		</li>
@@ -227,6 +216,7 @@
 			<div class="app-logo"></div><p class="app-name">InDesign</p>
 		</li>
 		<!-- Software -->
+		<!--
 		<li class="animate resume-item featured web soft ux" id="swift">
 			<div class="app-logo"></div><p class="app-name">Swift</p>
 		</li>
@@ -250,7 +240,7 @@
 		</li>
 		<li class="animate resume-item web soft us" id="sass">
 			<div class="app-logo"></div><p class="app-name">SASS</p>
-		</li>
+		</li> -->
 	</ul>
 </section>
 <section class="education container" id="classes">
@@ -303,9 +293,6 @@
 		</div>
 	</article>
 </section>
-
-<script type="text/javascript">console.log(resumeContent.experience[0].company)</script>
-
 
 	</body>
 </html>

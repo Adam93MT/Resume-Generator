@@ -72,6 +72,7 @@ body {
 	font-size: 18px;
 	top: 0.8em;
 	float: right;
+	max-width: 164px;
 }
 .tagline em {
 	color: #5B753D;
@@ -79,11 +80,11 @@ body {
 
 .header .contact {
 	color: #5B753D;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
-	margin-top: 0.4em;
-	/*font-family: "Merriweather"*/
-	font-family: "Proxima Nova"
+	margin-top: 4px;
+	font-family: "Playfair Display";
+	/*font-family: "Proxima Nova";*/
 }
 
 .header .contact span {
@@ -147,29 +148,31 @@ ul.list {
 /* -------------- BODY -------------- */
 
 .section-header {
-	margin-bottom: 4px;
-	border-bottom: 1px solid #5B753D;
+	margin-bottom: 0px;
+	/*border-bottom: 1px solid #5B753D;*/
 	display: inline-block;
 }
 	.section-title {
+		font-family: "Raleway";
+		font-weight: 700;
 		font-size: 18px;
 		color: #5B753D;
 		min-height: 24px;
 	}
 
-.objective {
-	margin: 16px 8px 0 8px;
+#objective {
+	margin: 16px 8px 12px 8px;
 	padding: 0 8px;
 	/*border-left: 2px solid #5B753D;*/
 	font-weight: 400;
 }
-.objective .content {
+#objective .content {
 	line-height: 1.2em;
 	font-size: 12px;
 	text-align: justify;
 }
 
-.summary {
+#summary {
 }
 	.summary ul {
 
@@ -179,7 +182,7 @@ ul.list {
 		
 	}
 
-.experience {
+#experience {
 	width: 60%;
 	float: left;
 }
@@ -196,19 +199,12 @@ ul.list {
 			position: relative;
 		}
 
-		.experience .resume-content {
+		#experience .resume-content {
 			margin-right: 12px;
 		}
 			.subsection-header {
 
 			}
-				.subsection-logo img{
-					position: absolute;
-					right: 8px;
-					height: 24px;
-					margin-right: 8px;
-					display: none;
-				}
 
 				.subsection-title {
 					color: #4a4a4a;
@@ -227,19 +223,17 @@ ul.list {
 					
 				}
 				.subsection-company::before {
-					content: " . "
+					content: " at ";
+					font-size: 0.75em;
 				}
 
 				.subsection-company a {
 					color: #4a4a4a;
-					border-bottom: 1px solid #4a4a4a;
+					border-bottom: 1px solid #b3b3b3;
 				}
 
 				.subsection-duration {
-					margin-left: 0.25em;
-				}
-				.subsection-duration:after {
-					content: " "
+
 				}
 				.subsection-duration, .subsection-location {
 					font-family: "Lato";
@@ -249,9 +243,10 @@ ul.list {
 					float: right;
 					position: relative;
 					top: 5px;
+					padding-right: 0.2em;
 				}
-				.subsection-location:before {
-					content: " — "
+				.subsection-location-before {
+					font-size: 0.75em;
 				}
 			.resume-list {
 				/*list-style-type: circle;*/
@@ -271,12 +266,12 @@ ul.list {
 					font-size: 1em;
 				}
 
-.projects {
+#projects {
 	width: 40%;
 	float: right;
 
 }
-	.projects .resume-content {
+	#projects .resume-content {
 		width: 100%;
 	}
 
@@ -287,131 +282,173 @@ ul.list {
 	ul.project-list {
 		/*padding-left: 0;*/
 	}
-/*
-.skills {
+
+
+#skills {
 	position: relative;
 	display: inline-block;
-	margin-top: 2em;
+	margin-top: 4px;
 }
-	.skills-sub-header {
-		padding-left: 1em;
-		padding-top: 1.5em;
-		font-family: "Raleway", "Lato", "Helvetica", "Arial", sans-serif;
-		font-size: 1.5em;
-		line-height: 2em;	
+#skills.skills-fullwidth {
+	width: 100%;
+	float: left;
+}
+#skills.skills-rightcol {
+	width: 40%;
+	float: right;
+}
+
+
+	.skills-fullwidth .skills-list {
+		display: block;
+		position: relative;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		/* Limit to one row */
+		max-height: 77px; 
+		overflow: hidden;
 	}
-		.program-list {
-			display: block;
+		.skills-fullwidth .skills-list li {
 			position: relative;
-			padding: 0;
-			margin: 0;
-			list-style: none;
+			width: 7%;
+			margin: 12px 2.75% 12px 2.75%;
+			float: left;
 		}
-			.program-list li {
+			.skills-fullwidth .skills-list li .app-name {
 				position: relative;
-				width: 7%;
-				margin: 1rem 2.75% 1rem 2.75%;
-				float: left;
+				margin: 0;
+				padding-top: 2px;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1em;
+				min-height: 2em;
+				text-align: center;
 			}
-			.program-list li:hover {
-				margin-top: 0.5em;
-				margin-bottom: 1.5em;
+			.skills-fullwidth .skills-list li .app-logo {
+				position: relative;
+				padding-bottom: 100%;
+				background-size: 100%;
+				background-repeat: no-repeat;
+				border-radius: 0;
 			}
-				.program-list li .app-name {
-					position: relative;
-					margin: 0;
-					padding-top: 0.5em;
-					font-size: 1em;
-					line-height: 1em;
-					min-height: 2em;
-					text-align: center;
-				}
-				.program-list li .app-logo {
-					position: relative;
-					padding-bottom: 100%;
-					background-size: 100%;
-					background-repeat: no-repeat;
-					border-radius: 0;
-				}
-					/* APP ICONS */
-					/* graphics */
-/*
-					#sketch .app-logo {
-					background-image: url('image_assets/apps/sketch.png');}
-					#photoshop .app-logo {
-					background-image: url('image_assets/apps/photoshop.png');}
-					#ai .app-logo {
-					background-image: url('image_assets/apps/ai.png');}
-					#indesign .app-logo {
-					background-image: url('image_assets/apps/indd.png');}
-					#balsamiq .app-logo {
-					background-image: url('image_assets/apps/balsamiq.png');}
 
-					/* Dev 1 */
-/*					#html5 .app-logo {
-					background-image: url('image_assets/apps/html5.png');}
-					#css3 .app-logo {
-					background-image: url('image_assets/apps/css3.png');}
-					#jquery .app-logo {
-					background-image: url('image_assets/apps/jquery.png');}
-					#coffeescript .app-logo {
-					background-image: url('image_assets/apps/coffeescript.png');}
+	.skills-rightcol .skills-list {
+		display: block;
+		position: relative;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		/* Limit to two rows */
+		max-height: 144px; 
+		overflow: hidden;
+	}
+	.skills-rightcol .skills-list li {
+			position: relative;
+			/*width: 15%;*/
+			width: 25%;
+			/*padding: 2px 5% 2px 5%;*/
+			float: left;
+		}
+			.skills-rightcol .skills-list li .app-name {
+				position: relative;
+				margin: 0;
+				width: 100%;
+				padding-top: 2px;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1em;
+				min-height: 2em;
+				text-align: center;
+			}
+			.skills-rightcol .skills-list li .app-logo {
+				position: relative;
+				width: 64%;
+				margin: 0 18%;
+				padding-bottom: 64%;
+				background-size: 100%;
+				background-repeat: no-repeat;
+				border-radius: 0;
+			}
+				/* APP ICONS 
+				/* graphics */
 
-					/* 3d */
-/*					#autocad .app-logo {
-					background-image: url('image_assets/apps/autocad.png');}
-					#inventor .app-logo {
-					background-image: url('image_assets/apps/inventor.png');}
-					#rhino .app-logo {
-					background-image: url('image_assets/apps/rhino.png');}
-					#max .app-logo {
-					background-image: url('image_assets/apps/max.png');}
-					#c4d .app-logo {
-					background-image: url('image_assets/apps/c4d.png');}
+	#sketch .app-logo {
+	background-image: url('image_assets/apps/sketch.png');}
+	#photoshop .app-logo {
+	background-image: url('image_assets/apps/photoshop.png');}
+	#illustrator .app-logo {
+	background-image: url('image_assets/apps/ai.png');}
+	#indesign .app-logo {
+	background-image: url('image_assets/apps/indd.png');}
+	#balsamiq .app-logo {
+	background-image: url('image_assets/apps/balsamiq.png');}
 
-					/* Dev 2 */
-/*					#arduino .app-logo {
-					background-image: url('image_assets/apps/arduino.png');}
-					#xcode .app-logo {
-					background-image: url('image_assets/apps/xcode.png');}
-					#php .app-logo {
-					background-image: url('image_assets/apps/php.png');}
-					#cpp .app-logo {
-					background-image: url('image_assets/apps/cpp.png');}
-					#java .app-logo {
-					background-image: url('image_assets/apps/java.png');}
-					#swift .app-logo {
-					background-image: url('image_assets/apps/swift.png');}
-					#git .app-logo {
-					background-image: url('image_assets/apps/git.png');}
-					#bootstrap .app-logo {
-					background-image: url('image_assets/apps/bootstrap.png');}
-					#sass .app-logo {
-					background-image: url('image_assets/apps/sass.png');}
+	/* Dev 1 */
+	#html5 .app-logo {
+	background-image: url('image_assets/apps/html5.png');}
+	#css3 .app-logo {
+	background-image: url('image_assets/apps/css3.png');}
+	#jquery .app-logo {
+	background-image: url('image_assets/apps/jquery.png');}
+	#coffeescript .app-logo {
+	background-image: url('image_assets/apps/coffeescript.png');}
 
-					/* video */
-/*					#ae .app-logo {
-					background-image: url('image_assets/apps/ae.png');}
-					#premiere .app-logo {
-					background-image: url('image_assets/apps/premiere.png');}
-					#final_cut .app-logo {
-					background-image: url('image_assets/apps/final_cut.png');}
+	/* 3d */
+	#autocad .app-logo {
+	background-image: url('image_assets/apps/autocad.png');}
+	#inventor .app-logo {
+	background-image: url('image_assets/apps/inventor.png');}
+	#rhino .app-logo {
+	background-image: url('image_assets/apps/rhino.png');}
+	#max .app-logo {
+	background-image: url('image_assets/apps/max.png');}
+	#c4d .app-logo {
+	background-image: url('image_assets/apps/c4d.png');}
+
+	/* Dev 2 */
+	#arduino .app-logo {
+	background-image: url('image_assets/apps/arduino.png');}
+	#xcode .app-logo {
+	background-image: url('image_assets/apps/xcode.png');}
+	#php .app-logo {
+	background-image: url('image_assets/apps/php.png');}
+	#cpp .app-logo {
+	background-image: url('image_assets/apps/cpp.png');}
+	#java .app-logo {
+	background-image: url('image_assets/apps/java.png');}
+	#swift .app-logo {
+	background-image: url('image_assets/apps/swift.png');}
+	#git .app-logo {
+	background-image: url('image_assets/apps/git.png');}
+	#bootstrap .app-logo {
+	background-image: url('image_assets/apps/bootstrap.png');}
+	#sass .app-logo {
+	background-image: url('image_assets/apps/sass.png');}
+
+	/* video */
+	#ae .app-logo {
+	background-image: url('image_assets/apps/ae.png');}
+	#premiere .app-logo {
+	background-image: url('image_assets/apps/premiere.png');}
+	#final_cut .app-logo {
+	background-image: url('image_assets/apps/final_cut.png');}
 
 
-					/* Other */
-/*					#espresso .app-logo {
-					background-image: url('image_assets/apps/espresso.png');}
-					#sublime .app-logo {
-					background-image: url('image_assets/apps/sublime.png');}
-					#coda .app-logo {
-					background-image: url('image_assets/apps/coda.png');}
+	/* Other */
+	#espresso .app-logo {
+	background-image: url('image_assets/apps/espresso.png');}
+	#sublime .app-logo {
+	background-image: url('image_assets/apps/sublime.png');}
+	#coda .app-logo {
+	background-image: url('image_assets/apps/coda.png');}
 
-*/
-.education {
+
+#education {
 	position: relative;
 	display: inline-block;
 }
-.school {
+#school {
 	margin-top: 2em;
 }
 	.school#uwaterloo .logo {
