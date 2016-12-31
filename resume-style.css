@@ -1,6 +1,5 @@
 html{
 	font-size: 12px;
-	background-color: #ddd;
 }
 
 body {
@@ -16,6 +15,9 @@ body {
 }
 
 @media screen {
+	html {
+		background-color: #ddd;
+	}
 	body {
 		width: 724px;
 		padding: 50px 50px;
@@ -44,6 +46,9 @@ body {
   color: inherit;
 }
 
+.main-header {
+	margin-bottom: 8px;
+}
 .main-header .container {
 	height: 62px;
 }
@@ -121,6 +126,10 @@ a {
 	color: #5B753D;
 }
 
+.hidden {
+	display: none !important;
+}
+
 ul.list {
 	padding-left: 16px;
 	font-size: 12px;
@@ -161,18 +170,26 @@ ul.list {
 	}
 
 #objective {
-	margin: 16px 8px 12px 8px;
-	padding: 0 8px;
+	width: 60%;
+	float: left;
+	/*margin: 16px 8px 12px 8px;
+	padding: 0 8px;*/
 	/*border-left: 2px solid #5B753D;*/
 	font-weight: 400;
 }
 #objective .content {
+	margin: 8px 12px 8px 0;
+	padding: 8px 12px;
+	border: 2px solid #999;
 	line-height: 1.2em;
 	font-size: 12px;
 	text-align: justify;
 }
 
 #summary {
+	width: 40%;
+	float: right;
+	margin-top: 8px;
 }
 	.summary ul {
 
@@ -211,16 +228,10 @@ ul.list {
 					font-size: 14px;
 					font-weight: 600;
 				}
-					.inline-note {
-						display: inline;
-						font-size: 1.4em;
-						font-style: italic;
-					}
 
 				.subsection-company {
 					color: #4a4a4a;
 					font-size: 14px;
-					
 				}
 				.subsection-company::before {
 					content: " at ";
@@ -262,8 +273,9 @@ ul.list {
 				}
 
 				.resume-list .list-description {
-					font-family: "Merriweather";
+					font-family: "Proxima Nova";
 					font-size: 1em;
+					padding-top: 2px;
 				}
 
 #projects {
@@ -297,6 +309,10 @@ ul.list {
 	width: 40%;
 	float: right;
 }
+#skills.skills-leftcol {
+	width: 60%;
+	float: left;
+}
 
 
 	.skills-fullwidth .skills-list {
@@ -306,13 +322,13 @@ ul.list {
 		margin: 0;
 		list-style: none;
 		/* Limit to one row */
-		max-height: 77px; 
+		max-height: 72px; 
 		overflow: hidden;
 	}
 		.skills-fullwidth .skills-list li {
 			position: relative;
-			width: 7%;
-			margin: 12px 2.75% 12px 2.75%;
+			width: 10%;
+			/*margin: 12px 2.75% 12px 2.75%;*/
 			float: left;
 		}
 			.skills-fullwidth .skills-list li .app-name {
@@ -327,7 +343,47 @@ ul.list {
 			}
 			.skills-fullwidth .skills-list li .app-logo {
 				position: relative;
-				padding-bottom: 100%;
+				width: 64%;
+				margin: 0 18%;
+				padding-bottom: 64%;
+				background-size: 100%;
+				background-repeat: no-repeat;
+				border-radius: 0;
+			}
+
+	.skills-leftcol .skills-list {
+		display: block;
+		position: relative;
+		padding: 0;
+		margin: 0 12px 0 0;
+		list-style: none;
+		/* Limit to two rows */
+		max-height: 70px; 
+		overflow: hidden;
+	}
+	.skills-leftcol .skills-list li {
+			position: relative;
+			/*width: 15%;*/
+			width: 16.6%;
+			/*padding: 2px 5% 2px 5%;*/
+			float: left;
+		}
+			.skills-leftcol .skills-list li .app-name {
+				position: relative;
+				margin: 0;
+				width: 100%;
+				padding-top: 2px;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1em;
+				min-height: 2em;
+				text-align: center;
+			}
+			.skills-leftcol .skills-list li .app-logo {
+				position: relative;
+				width: 64%;
+				margin: 0 18%;
+				padding-bottom: 64%;
 				background-size: 100%;
 				background-repeat: no-repeat;
 				border-radius: 0;
@@ -401,10 +457,10 @@ ul.list {
 	background-image: url('image_assets/apps/inventor.png');}
 	#rhino .app-logo {
 	background-image: url('image_assets/apps/rhino.png');}
-	#max .app-logo {
-	background-image: url('image_assets/apps/max.png');}
-	#c4d .app-logo {
+	#cinema4d .app-logo {
 	background-image: url('image_assets/apps/c4d.png');}
+/*	#max .app-logo {
+	background-image: url('image_assets/apps/max.png');}*/
 
 	/* Dev 2 */
 	#arduino .app-logo {
@@ -448,14 +504,81 @@ ul.list {
 	position: relative;
 	display: inline-block;
 }
-#school {
-	margin-top: 2em;
+.school {
+	margin-bottom: 2px;
 }
-	.school#uwaterloo .logo {
-		background-image: url('image_assets/uwaterloo.gif');
+.school .subsection-header{
+	margin-bottom: 4px;
+}
+	.subsection-school {
+		color: #4a4a4a;
+		font-size: 14px;
+		font-weight: 600;
 	}
-	.school#fhci .logo {
-		background-image: url('image_assets/fhci.png');
+	.subsection-school a {
+		color: #4a4a4a;
+		border-bottom: 1px solid #b3b3b3;
 	}
+	.subsection-school:after {
+		content: ", "
+	}
+	.subsection-degree {
+		color: #4a4a4a;
+		font-size: 14px;
+	}
+	.subsection-degree#syde:before {
+		content: "BASc. ";
+		display: none;
+	}
+	.minor {
+		display: inline;
+		font-family: inherit;
+		font-size: 1em;
+		font-weight: lighter;
+		/*font-style: italic;*/
+	}
+	#education .resume-list {
+		margin: 2px 0;
+	}
+	.course-title {
+		font-weight: 700;
+	}
+	.course-code {
+		font-family: "Playfair Display";
+	}
+	.course-list li.course {
+		width: 50%;
+		float: left;
+	}
+	.course .list-description {
+		margin-right: 24px;
+	}
+
+	ul.course-list.no-courses {
+		display: none;
+	}
+
+	ul.course-list.titles-only {
+		display: inline;
+		list-style-type: none;
+		padding-left: 4px;
+	}
+	ul.course-list.titles-only li.course {
+		width: auto;
+		float: initial;
+		display: inline;
+		padding-right: 2px;
+	}
+	ul.course-list.titles-only li.course:after {
+		content: ", ";
+	}
+	ul.course-list.titles-only .course-title{
+		font-weight: 500;
+	}
+	ul.course-list.titles-only .list-description {
+		display: none;
+	}
+
+
 
 

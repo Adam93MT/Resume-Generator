@@ -7,7 +7,7 @@ resumeContent = {
 		"BASc, University of Waterloo"
 	],
 
-	objective: "I’m a big-picture problem solver; always looking for the best solution to the right problem. I’m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.",
+	objective: "I’m a \"big-picture\" problem solver; always looking for the best solution to the right problem. I’m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.",
 
 	summary: [
 		"Over 1 year experience in UX and Product design",
@@ -149,6 +149,30 @@ resumeContent = {
 		term: "Sept. 2016 - present",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 		responsibilities: [
+			{
+				task: "Team lead & project manager",
+				tags: []
+			},
+			{
+				task: "",
+				tags: []
+			},
+			{
+				task: "",
+				tags: []
+			},
+			{
+				task: "",
+				tags: []
+			},
+			{
+				task: "",
+				tags: []
+			},
+			{
+				task: "",
+				tags: []
+			},
 		]
 	},
 
@@ -159,20 +183,20 @@ resumeContent = {
 		description: "An interactive fountain with dynamic water spouts controlled by an Arduino, connected via a Raspberry Pi to enable users to play a quiz game with the fountain, which reacted to the quiz responses",
 		responsibilities: [
 		{
-			task: "Designed the in-game experience, architecture, and UI",
-			tags: []
+			task: "Designed the game interface, and app architecture",
+			tags: ["ui", "design", "ux", "sketch", "product"]
 		},
 		{
 			task: "Designed the mechanism to allow the servo motor to rotate the fountain jet",
-			tags: []
+			tags: ["mechanical", "cad", "electrical", "hardware", "prototype"]
 		},
 		{
 			task: "Developed the web-app front-end, and a portion of the Python server",
-			tags: []
+			tags: ["web", "development", "app", "design", "front-end", "python", "html", "css", "sass", "js"]
 		},
 		{
 			task: "Designed and built the wood and plastic frame and water basin",
-			tags: []
+			tags: ["mechanical", "construction", "prototype", "hardware"]
 		}
 		]
 	},
@@ -219,20 +243,81 @@ resumeContent = {
 
 	education: [
 	{
+		id: "uwaterloo",
+		url: "uwaterloo.ca/systems-design-engineering/about-systems-design-engineering",
 		school: "University of Waterloo",
 		program: "Systems Design Engineering",
-		degree: "BASc",
+		degree: "BASc.",
 		minor: "Cognitive Science",
 		courses: [
 		{
-			name: "",
+			name: "Cognitive Ergonomics",
+			code: "SYDE 543",
+			description: "This course focuses on the role engineering psychology research plays in design of the information displays and devices associated with simple and complex cognitive tasks.",
 			tags: []
 		},
+		{
+			name: "Intro to Control Systems",
+			code: "SYDE 575",
+			description: "Classical and state space representations of control systems. Stability, controllability, observability and sensitivity. Frequency domain behaviour, Bode plots, Nyquist stability criteria. Pole placement, PID, phase-lead and phase-lag controllers.",
+			tags: []
+		},
+		{
+			name: "User Centred Design",
+			code: "SYDE 348",
+			description: "The focus in this coures was on human factors and usability methods and techniques that should be applied throughout the design process, including: function and task analysis, usability analysis, prototyping and evaluation, user interaction styles, interface design, user designing to guidelines and standards",
+			tags: []
+		},
+		{
+			name: "Engineering Design",
+			code: "SYDE 361",
+			description: "In this class, we learned about the design process; from problem definition to ideation and prototyping. We practiced what we were learning with a term-long design project. Our team designed an <a href=\"http://www.adamthompson.ca/Portfolio/?p=smrtwatr\">interactive water fountain</a>",
+			tags: []
+		},
+		{
+			name: "Mechanics of Deformable Solids",
+			code: "SYDE 286",
+			description: "We explored the mechanics involved in stress and strain on common engineering materials. Our final was to build a cardboard bridge and estimate its failure load.",
+			tags: []
+		},
+		{
+			name: "Circuits & Instrumentation",
+			code: "SYDE 292",
+			description: "his course covered op-amps, analog filters and various transducers. We covered measurement and instrumentation devices, and hight, low and band-pass filters. My final project involved designing and building a single-note guitar tuner using an instrumentation amplifier, and a series of band-pass filters",
+			tags: []
+		},
+		{
+			name: "Intro to Cognitive Science",
+			code: "PSYCH 256",
+			description: "This course was an introduction to the field of cognitive science. We covered many of the approaches to the field such as the Computational-Reperesentational Understandind of the Mind (CRUM), and others.",
+			tags: []
+		},
+		{
+			name: "Human Factors in Design ",
+			code: "SYDE 162",
+			description: "We were introduced to needs-analysis, user interviews, ergonimics and user testing.",
+			tags: []
+		},
+		// {
+		// 	name: "",
+		// 	code: "",
+		// 	description: "",
+		// 	tags: []
+		// }
 		]
+	},
+	{
+		id: "fhci",
+		school: "Forest Heights Collegiate Institute",
+		program: "Extended French Certificate",
+		degree: "",
+		minor: "",
+		courses: []
 	}
+
 	],
 
-	skills: ["Sketch", "Photoshop", "Illustrator", "Balsamiq", "HTML 5", "CSS 3", "jQuery", "CoffeeScript", "AutoCad", "Inventor", "3DS Max", "Cinema 4D", "Arduino", "After Effects", "Final Cut X", "InDesign", "Swift", "PHP", "C++", "Java", "Git", "XCode", "Bootstrap", "SASS"],
+	skills: ["Sketch", "Photoshop", "Illustrator", "Balsamiq", "HTML 5", "CSS 3", "jQuery", "CoffeeScript", "AutoCad", "Inventor", "Cinema 4D", "Arduino", "After Effects", "Final Cut X",  "3DS Max", "InDesign", "Swift", "PHP", "C++", "Java", "Git", "XCode", "Bootstrap", "SASS"],
 
 
 }
