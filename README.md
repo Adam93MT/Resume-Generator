@@ -2,7 +2,7 @@
 My HTML resume
 
 #Requirements
-- [Prince XML](http://www/princexml.com)
+- [Prince XML](http://www.princexml.com)
 
 
 # To Generate
