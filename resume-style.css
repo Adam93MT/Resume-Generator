@@ -431,20 +431,24 @@ ul.list {
 
 	#sketch .app-logo {
 	background-image: url('image_assets/apps/sketch.png');}
-	#photoshop .app-logo {
+	#ps .app-logo {
 	background-image: url('image_assets/apps/photoshop.png');}
-	#illustrator .app-logo {
+	#ai .app-logo {
 	background-image: url('image_assets/apps/ai.png');}
 	#indesign .app-logo {
 	background-image: url('image_assets/apps/indd.png');}
 	#balsamiq .app-logo {
 	background-image: url('image_assets/apps/balsamiq.png');}
+	#framer .app-logo {
+	background-image: url('image_assets/apps/framer.png');}
+	#origami .app-logo {
+	background-image: url('image_assets/apps/origami.png');}
 
 	/* Dev 1 */
-	#html5 .app-logo {
-	background-image: url('image_assets/apps/html5.png');}
-	#css3 .app-logo {
-	background-image: url('image_assets/apps/css3.png');}
+	#html .app-logo {
+	background-image: url('image_assets/apps/html.png');}
+	#css .app-logo {
+	background-image: url('image_assets/apps/css.png');}
 	#jquery .app-logo {
 	background-image: url('image_assets/apps/jquery.png');}
 	#coffeescript .app-logo {
@@ -459,8 +463,8 @@ ul.list {
 	background-image: url('image_assets/apps/rhino.png');}
 	#cinema4d .app-logo {
 	background-image: url('image_assets/apps/c4d.png');}
-/*	#max .app-logo {
-	background-image: url('image_assets/apps/max.png');}*/
+	#max .app-logo {
+	background-image: url('image_assets/apps/max.png');}
 
 	/* Dev 2 */
 	#arduino .app-logo {

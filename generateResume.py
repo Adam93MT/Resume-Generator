@@ -15,7 +15,7 @@ keywords = []
 tags = []
 tagMap = []
 
-with open('resources/skillsMap.csv', 'rb') as csvfile:
+with open('resources/tagMap.csv', 'rb') as csvfile:
 	CSVreader = csv.reader(csvfile, delimiter=',', quotechar='|')
 	for row in CSVreader:
 		if row[0] == "TAGS":
@@ -67,6 +67,7 @@ for item in resumeContent:
 					idx = tags.index(tag)
 				if tagCount[idx] > 0:
 					blurbWeight[b] += tagCount[idx]
+			print str(blurb["blurb"]) + " " + str(blurbWeight[b]) + "\n"
 		for x in xrange(0,4):
 			max_idx = blurbWeight.index(max(blurbWeight))
 			SummaryToSave.append(resumeContent[item][max_idx]["blurb"])
@@ -151,7 +152,6 @@ for item in resumeContent:
 		
 		toSave[item] = projectsToSave
 	
-	
 	# Education
 	elif item == "education":
 		eduToSave = [None] * len(resumeContent[item])
@@ -199,12 +199,14 @@ for item in resumeContent:
 					idx = tags.index(tag)
 				if tagCount[idx] > 0:
 					skillWeight[s] += tagCount[idx]
-			if str(skill).lower() in jobDescription:
-				skillWeight[s] += 100
+			if str(skill[0]).lower() in jobDescription:
+				skillWeight[s] += 25*jobDescription.count(str(skill[0]).lower())
+			
+			# print str(skill[0]) + " " + str(skillWeight[s])
 
 		for x in xrange(0,10):
 			max_idx = skillWeight.index(max(skillWeight))
-			skillsToSave.append(resumeContent[item][max_idx][0])
+			skillsToSave.append(resumeContent[item][max_idx])
 			skillWeight[max_idx] = 0
 
 		toSave[item] = skillsToSave

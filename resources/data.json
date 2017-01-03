@@ -38,10 +38,10 @@
             "location": "Toronto, ON", 
             "position": "Product Designer", 
             "responsibilities": [
-                "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
                 "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker.", 
                 "Storyboarded, and animated an app intro video for the updated KnowRoaming app", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP."
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP.", 
+                "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "KnowRoaming.com"
@@ -75,7 +75,9 @@
             "name": "SMRT WATR", 
             "responsibilities": [
                 "Developed the web-app front-end, and a portion of the Python server", 
-                "Designed the game interface, and app architecture"
+                "Designed the game interface, and app architecture", 
+                "Designed and built the wood and plastic frame and water basin", 
+                "Designed the mechanism to allow the servo motor to rotate the fountain jet"
             ], 
             "term": "Spring 2015"
         }, 
@@ -107,22 +109,103 @@
         }
     ], 
     "skills": [
-        "Sketch", 
-        "Balsamiq", 
-        "Photoshop", 
-        "InDesign", 
-        "Java", 
-        "jQuery", 
-        "CoffeeScript", 
-        "Swift", 
-        "PHP", 
-        "C++"
+        [
+            "jQuery", 
+            [
+                "jQuery", 
+                "js", 
+                "web", 
+                "front-end", 
+                "dev"
+            ]
+        ], 
+        [
+            "Framer", 
+            [
+                "framer", 
+                "ux", 
+                "ui", 
+                "js", 
+                "coffeescript", 
+                "prototype"
+            ]
+        ], 
+        [
+            "Sketch", 
+            [
+                "sketch", 
+                "ui", 
+                "ux", 
+                "wireframe"
+            ]
+        ], 
+        [
+            "Origami", 
+            [
+                "origami", 
+                "ux", 
+                "ui", 
+                "prototype"
+            ]
+        ], 
+        [
+            "Photoshop", 
+            [
+                "ps", 
+                "photoshop", 
+                "ui", 
+                "graphic"
+            ]
+        ], 
+        [
+            "Balsamiq", 
+            [
+                "balsamiq", 
+                "ux", 
+                "wireframe", 
+                "pm"
+            ]
+        ], 
+        [
+            "CoffeeScript", 
+            [
+                "coffeescript", 
+                "js", 
+                "web", 
+                "dev"
+            ]
+        ], 
+        [
+            "PHP", 
+            [
+                "php", 
+                "dev", 
+                "web"
+            ]
+        ], 
+        [
+            "HTML", 
+            [
+                "html", 
+                "web", 
+                "front-end", 
+                "prototype"
+            ]
+        ], 
+        [
+            "Illustrator", 
+            [
+                "ai", 
+                "illustrator", 
+                "graphic"
+            ]
+        ]
     ], 
     "summary": [
-        "Diverse education in UX, software, electrical, and mechanical engineering", 
         "Collaborating and brainstorming design solutions with designers, developers, operations, and marketing", 
+        "Diverse education in UX, software, electrical, and mechanical engineering", 
         "Over 1 year experience in UX and Product design", 
-        "Product Management expereince researching, developing and prioritizing user & tech requirements"
+        "Pitching and presenting my own designs at all-hands meetings, backing them up with user-research data, and following through with a plan for imlementation"
     ], 
     "tagline": "Systems Design Engineering"
 }

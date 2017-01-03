@@ -96,9 +96,9 @@ function compileResume(R) {
 		$('#skills').addClass('skills-fullwidth');	
 
 	for (var s = 0; s < R.skills.length; s++){
-		skl_id = R.skills[s].toLowerCase().replace(/\s+/g, '');
+		skl_id = R.skills[s][1][0].toLowerCase().replace(/\s+/g, ''); // The first tag is the skill id
 		skl = "<li class=\" resume-item\" id=\"" + skl_id + "\">";
-		skl += "<div class=\"app-logo\"></div><p class=\"app-name\">" + R.skills[s] + "</p>";
+		skl += "<div class=\"app-logo\"></div><p class=\"app-name\">" + R.skills[s][0] + "</p>";
 		skl += "</li>";
 
 		$("#skills .skills-list").append(skl);

@@ -11,15 +11,15 @@
 	"summary": [
 		{
 			"blurb": "Over 1 year experience in UX and Product design",
-			"tags": ["ux", "ui", "sketch", "ps"]
+			"tags": ["ux", "ui","", "sketch", "ps"]
 		},
 		{
 			"blurb": "Product Management expereince researching, developing and prioritizing user & tech requirements",
-			"tags": ["pm", "research", "dev", "lead", "ux"]
+			"tags": ["pm", "research", "dev", "lead"]
 		},
 		{
 			"blurb": "Pitching and presenting my own designs at all-hands meetings, backing them up with user-research data, and following through with a plan for imlementation",
-			"tags": ["lead", "pm", "research", "ux", "dev"]
+			"tags": ["lead", "pm", "research", "ux"]
 		},
 		{
 			"blurb": "Collaborating and brainstorming design solutions with designers, developers, operations, and marketing",
@@ -27,7 +27,7 @@
 		},
 		{
 			"blurb": "Diverse education in UX, software, electrical, and mechanical engineering",
-			"tags": ["ux", "dev", "research", "electrical", "mechanical", "design"]
+			"tags": ["ux", "dev", "research", "elect", "mech", "design"]
 		}
 	],
 
@@ -310,30 +310,29 @@
 	],
 
 	"skills": [
-		["Sketch", ["sketch", "design", "ui", "ux"]], 
-		["Photoshop", ["ps", "photoshop","design", "ui"]], 
-		["Illustrator", ["illustrator", "ai", "graphic"]],
-		["Balsamiq", ["balsamiq", "design", "ux", "pm"]],
-		["HTML 5", ["html", "web", "front-end"]],
-		["CSS 3", ["css", "web", "front-end" ]],
-		["jQuery", ["js", "web", "front-end", "dev"]],
-		["CoffeeScript", ["js", "coffeescript", "web", "dev"]],
+		["Sketch", ["sketch", "ui", "ux", "wireframe"]], 
+		["Photoshop", ["ps", "photoshop", "ui", "graphic"]], 
+		["Balsamiq", ["balsamiq", "ux", "wireframe", "pm"]],
+		["Framer", ["framer", "ux", "ui", "js", "coffeescript", "prototype"]],
+		["Origami", ["origami", "ux", "ui", "prototype"]],
+		["HTML", ["html", "web", "front-end", "prototype"]],
+		["CSS", ["css", "web", "front-end" ]],
+		["jQuery", ["jQuery","js", "web", "front-end", "dev"]],
+		["CoffeeScript", [ "coffeescript","js", "web", "dev"]],	
+		["Swift", ["swift", "dev", "ios"]],
+		["PHP", ["php", "dev", "web"]],
+		["C++", ["cpp", "dev"]],
+		["Git", ["git", "dev"]],
+		["XCode", ["xcode", "ios", "swift"]],
 		["AutoCad", ["cad", "autocad"]],
 		["Inventor", ["cad", "inventor"]],
 		["Cinema 4D", ["cad", "3D", "c4d"]],
 		["Arduino", ["arduino", "prototype", "hardware"]],
+		["Illustrator", ["ai", "illustrator", "graphic"]],
+		["InDesign", ["indesign","graphic"]],
 		["After Effects", ["ae", "video"]],
 		["Final Cut X", ["fcx", "video"]],
-		[ "3DS Max", ["3ds", "3D", "video"]],
-		["InDesign", ["design", "graphic"]],
-		["Swift", ["swift", "dev", "ios"]],
-		["PHP", ["php", "dev", "web"]],
-		["C++", ["cpp", "dev"]],
-		["Java", ["java", "dev", "android"]],
-		["Git", ["git", "dev"]],
-		["XCode", ["xcode", "ios"]],
-		["Bootstrap", [""]],
-		["SASS", [""]]
+		["3DS Max", ["3ds", "3D", "video"]]
 	]
 }
 
