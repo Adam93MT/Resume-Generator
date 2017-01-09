@@ -107,18 +107,13 @@
             "term": "Fall 2016"
         }, 
         {
-            "description": "A web app that represents the current temperature, weather conditions and time as an HSV colour.", 
-            "id": "color-therm", 
-            "name": "Colour Thermometer", 
-            "term": "Winter 2015"
-        }, 
-        {
             "description": "A Chrome extension that scans a webpage for Comic Sans, and replaces it with Helvetica.", 
             "id": "comic-sans", 
             "name": "Say No To Comic Sans", 
             "term": "Spring 2013"
         }, 
         {}, 
+        null, 
         null, 
         null
     ], 

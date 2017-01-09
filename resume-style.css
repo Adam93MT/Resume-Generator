@@ -29,10 +29,17 @@ body {
 	}
 }
 
+@media print {
+	section.container {
+		position: relative;
+		display: inline-block;
+	}
+}
+
 @page {
    size: 8.5in 11in;
    /*size: 21.0cm 29.7cm;*/
-   margin: 1cm 1cm;
+   margin: 1.5cm 1.5cm;
 }
 
 
