@@ -4,7 +4,6 @@ html{
 
 body {
 	padding: 0; margin: 0;
-	/*font-family: "Merriweather";*/
 	font-family: "Proxima Nova";
 	font-weight: 100; color: #4a4a4a; overflow-x: hidden;
 	background-color: #fff;
@@ -20,7 +19,9 @@ body {
 	}
 	body {
 		width: 724px;
+		min-height: 100vh;
 		padding: 50px 50px;
+		margin: 0 auto;
 	}
 	section.container {
 		position: relative;
@@ -29,8 +30,9 @@ body {
 }
 
 @page {
-   size: 8.5in 11in;  
-   margin: 50px 50px;
+   size: 8.5in 11in;
+   /*size: 21.0cm 29.7cm;*/
+   margin: 1cm 1cm;
 }
 
 
@@ -72,10 +74,10 @@ body {
 	position: relative;
 	display: inline-block;
 	text-align: right;
-	font-family: "Proxima Nova";
+	font-family: "Playfair Display";
 	font-weight: 400;
-	font-size: 18px;
-	top: 0.8em;
+	font-size: 16px;
+	top: 0.75em;
 	float: right;
 	max-width: 164px;
 }
@@ -178,7 +180,7 @@ ul.list {
 	font-weight: 400;
 }
 #objective .content {
-	margin: 8px 12px 8px 0;
+	margin: 8px 12px 0 0;
 	padding: 8px 12px;
 	border: 2px solid #999;
 	line-height: 1.2em;
@@ -328,28 +330,8 @@ ul.list {
 		.skills-fullwidth .skills-list li {
 			position: relative;
 			width: 10%;
-			/*margin: 12px 2.75% 12px 2.75%;*/
 			float: left;
 		}
-			.skills-fullwidth .skills-list li .app-name {
-				position: relative;
-				margin: 0;
-				padding-top: 2px;
-				font-size: 12px;
-				font-weight: 500;
-				line-height: 1em;
-				min-height: 2em;
-				text-align: center;
-			}
-			.skills-fullwidth .skills-list li .app-logo {
-				position: relative;
-				width: 64%;
-				margin: 0 18%;
-				padding-bottom: 64%;
-				background-size: 100%;
-				background-repeat: no-repeat;
-				border-radius: 0;
-			}
 
 	.skills-leftcol .skills-list {
 		display: block;
@@ -363,30 +345,11 @@ ul.list {
 	}
 	.skills-leftcol .skills-list li {
 			position: relative;
-			/*width: 15%;*/
 			width: 16.6%;
-			/*padding: 2px 5% 2px 5%;*/
 			float: left;
 		}
 			.skills-leftcol .skills-list li .app-name {
-				position: relative;
-				margin: 0;
 				width: 100%;
-				padding-top: 2px;
-				font-size: 12px;
-				font-weight: 500;
-				line-height: 1em;
-				min-height: 2em;
-				text-align: center;
-			}
-			.skills-leftcol .skills-list li .app-logo {
-				position: relative;
-				width: 64%;
-				margin: 0 18%;
-				padding-bottom: 64%;
-				background-size: 100%;
-				background-repeat: no-repeat;
-				border-radius: 0;
 			}
 
 	.skills-rightcol .skills-list {
@@ -407,25 +370,28 @@ ul.list {
 			float: left;
 		}
 			.skills-rightcol .skills-list li .app-name {
-				position: relative;
-				margin: 0;
 				width: 100%;
-				padding-top: 2px;
-				font-size: 12px;
-				font-weight: 500;
-				line-height: 1em;
-				min-height: 2em;
-				text-align: center;
 			}
-			.skills-rightcol .skills-list li .app-logo {
-				position: relative;
-				width: 64%;
-				margin: 0 18%;
-				padding-bottom: 64%;
-				background-size: 100%;
-				background-repeat: no-repeat;
-				border-radius: 0;
-			}
+
+	.skills-list li .app-name {
+		position: relative;
+		margin: 0;
+		padding-top: 2px;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 1em;
+		min-height: 2em;
+		text-align: center;
+	}
+	.skills-list li .app-logo {
+		position: relative;
+		width: 64%;
+		margin: 0 18%;
+		padding-bottom: 64%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		border-radius: 0;
+	}
 				/* APP ICONS 
 				/* graphics */
 
@@ -479,6 +445,10 @@ ul.list {
 	background-image: url('image_assets/apps/java.png');}
 	#swift .app-logo {
 	background-image: url('image_assets/apps/swift.png');}
+	#python .app-logo {
+	background-image: url('image_assets/apps/python.png');}
+	#matlab .app-logo {
+	background-image: url('image_assets/apps/matlab.png');}
 	#git .app-logo {
 	background-image: url('image_assets/apps/git.png');}
 	#bootstrap .app-logo {
@@ -514,7 +484,7 @@ ul.list {
 .school .subsection-header{
 	margin-bottom: 4px;
 }
-	.subsection-school {
+	.subsection-school, .subsection-clubname {
 		color: #4a4a4a;
 		font-size: 14px;
 		font-weight: 600;
@@ -583,6 +553,22 @@ ul.list {
 		display: none;
 	}
 
-
-
+#education.edu-club-line {
+	width: 33%;
+	float: left;
+}
+#clubs.edu-club-line {
+	width: 66%;
+	float: right;
+}
+#clubs {
+	width: 100%;
+}
+.club .resume-content {
+	width: 50%;
+	float: left;
+}
+.club .content, .club .subsection-header {
+	margin-right: 12px;
+}
 

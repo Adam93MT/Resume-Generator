@@ -104,6 +104,10 @@ function compileResume(R) {
 		$("#skills .skills-list").append(skl);
 	}
 
+	if (rspace < 0) {
+		$("#skills").css("margin-top","-4px");
+	}
+
 
 	// ------------------------ Education ------------------------
 	for (var e = 0; e < R.education.length; e++){
@@ -118,33 +122,62 @@ function compileResume(R) {
 			edu += "</a>";
 		edu += "</span>";
 
-		edu += "<span class=\"title subsection-degree\">"
-		// if (getFullYear() >= 2017) {
-			edu += R.education[e].degree + " ";
-		// }
-		edu += R.education[e].program + ", ";
-		edu += "<span class=\"minor\">";
-		edu += "Minor in " + R.education[e].minor;
-		edu += "</span></span></div>"
+		if (R.showCourses) {
 
-		// if show_courses &&
-		if (R.education[e].courses > 0 && false) {
+			edu += "<span class=\"title subsection-degree\">"
+			// if (getFullYear() >= 2017) {
+				edu += R.education[e].degree + " ";
+			// }
+			edu += R.education[e].program + ", ";
+			edu += "<span class=\"minor\">";
+			edu += "Minor in " + R.education[e].minor;
+			edu += "</span></span></div>"
+
+			// if show_courses &&
 			edu += "<ul class=\"list course-list "
-			// if titles-only
-			edu += "titles-only\">"
-			for (c in R.education[e].courses) {
-				edu +="<li class=\"course\">"
-				edu +="<span class=\"title course-title\">";
-				edu += R.education[e].courses[c].name + "</span>";
-				edu += "<span class=\"course-code\"> ("
-				edu += R.education[e].courses[c].code + ")</span>";
-				edu += "<div class=\"list-description\">"
-				edu += R.education[e].courses[c].description + "</div></li>";
+			if (R.courseDescriptions) {
+				edu += "titles-only\">"
+				for (c in R.education[e].courses) {
+					edu +="<li class=\"course\">"
+					edu +="<span class=\"title course-title\">";
+					edu += R.education[e].courses[c].name + "</span>";
+					edu += "<span class=\"course-code\"> ("
+					edu += R.education[e].courses[c].code + ")</span>";
+					edu += "<div class=\"list-description\">"
+					edu += R.education[e].courses[c].description + "</div></li>";
+				}
+				edu += "</ul>";
 			}
-			edu += "</ul>";
 		}
-			edu += "</div></article>"
+		else {
+			edu += "</div><div class=\"content\">"
+			edu += R.education[e].degree + " " 
+			edu += R.education[e].program + ", <br/>"
+			edu += R.education[e].minor + " minor"
+			$("#education").addClass("edu-club-line")
+			$("#clubs").addClass("edu-club-line")
+
+		}
+		edu += "</div></article>"
 		$("#education").append(edu);
+	}
+
+	// ------------------------ Clubs & Groups ------------------------
+	for (var g = 0; g < R.clubs.length; g++) {
+		clb = "<article class=\"club\" id=\"" + R.clubs[g].id + "\">"
+		clb += "<div class=\"resume-content\">"
+		clb += "<div class=\"subsection-header\">"
+		clb += "<span class=\"title subsection-clubname\">"
+		clb += R.clubs[g].name
+		clb += "</span><span class=\"subsection-duration\">"
+		clb += R.clubs[g].term
+		clb += "</span></div>"
+		clb += "<div class=\"content\">"
+		clb += R.clubs[g].description
+		clb += "</div></div></article>"
+
+
+		$("#clubs").append(clb)
 	}
 
 	console.log("\n Compiled \n")
