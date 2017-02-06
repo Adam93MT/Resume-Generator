@@ -14,7 +14,7 @@
 			"tags": ["ux", "ui", "sketch", "ps"]
 		},
 		{
-			"blurb": "Product Management expereince researching, developing and prioritizing user & tech requirements",
+			"blurb": "Product Management experience researching, developing and prioritizing user & tech requirements",
 			"tags": ["pm", "research", "dev", "lead", "ux"]
 		},
 		{
@@ -93,7 +93,7 @@
 			"location": "Toronto, ON",
 			"responsibilities": [
 			{
-				"task": "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker.",
+				"task": "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker",
 				"tags": ["ux", "pm", "product", "design", "ucd"]
 			},
 			{
@@ -109,7 +109,7 @@
 				"tags": ["ux", "ui", "animation", "video", "media"]
 			},
 			{
-				"task": "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP.",
+				"task": "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP",
 				"tags": ["ux", "web", "development", "ui", "html", "css", "js", "php"]
 			},
 			{
@@ -164,21 +164,29 @@
 	"projects": [
 		{	
 			"id": "fydp",
-			"name": "MADD.audio",
+			"name": "Chameleon Hearing Protection",
 			"term": "Sept. 2016 - present",
-			"description": "A variable hearing protection device for periodically loud environments, such as construction sites and factories which continuously adjusts its attenuation based on the volume of the environment.",
+			"description": "A variable hearing protection device for periodically loud environments, such as construction sites and factories which continuously adjusts its attenuation based on the loudness of the environment.",
 			"responsibilities": [
 				{
-					"task": "Team lead & project manager",
+					"task": "Managed team priorities and coordinated collaboration efforts",
 					"tags": ["pm", "lead", "manage"]
 				},
 				{
-					"task": "Designed analog circuit to determine the sound level at the ear",
+					"task": "Developed analog circuit to determine the perceived loudness at the ear",
 					"tags": ["analog", "signals", "elec"]
 				},
 				{
-					"task": "Developed and built a test apparatus and processing software",
+					"task": "Designed and built testing apparatus and developed test evaluation software",
 					"tags": ["dev", "mech", "research", "signals", "dsp"]
+				},
+				{
+					"task": "Designed outer casing, and attenuator actuation mechanism",
+					"tags": ["design", "mechanical", "hardware", "modelling", "cad", "prototype"]
+				},
+				{
+					"task": "Developed naïve 8-hr equivalent prediction algorithm",
+					"tags": ["dev", "python", "matlab"]
 				}
 			]
 		},

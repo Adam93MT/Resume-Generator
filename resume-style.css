@@ -163,6 +163,20 @@ ul.list {
 	font-weight: 400;
 }
 
+.col-left{
+	width: 60%;
+	float: left;
+	margin-top: 8px;
+}
+
+.col-left .resume-content  {
+	margin-right: 12px;
+}
+.col-right {
+	width: 40%;
+	float: right;
+}
+
 /* -------------- BODY -------------- */
 
 .section-header {
@@ -172,7 +186,7 @@ ul.list {
 }
 	.section-title {
 		font-family: "Raleway";
-		font-weight: 700;
+		font-weight: 600;
 		font-size: 18px;
 		color: #5B753D;
 		min-height: 24px;
@@ -181,9 +195,6 @@ ul.list {
 #objective {
 	width: 60%;
 	float: left;
-	/*margin: 16px 8px 12px 8px;
-	padding: 0 8px;*/
-	/*border-left: 2px solid #5B753D;*/
 	font-weight: 400;
 }
 #objective .content {
@@ -196,9 +207,9 @@ ul.list {
 }
 
 #summary {
-	width: 40%;
+/*	width: 40%;
 	float: right;
-	margin-top: 8px;
+	margin-top: 8px;*/
 }
 	.summary ul {
 
@@ -209,8 +220,8 @@ ul.list {
 	}
 
 #experience {
-	width: 60%;
-	float: left;
+/*	width: 60%;
+	float: left;*/
 }
 	article.job {
 		display: block;
@@ -226,7 +237,7 @@ ul.list {
 		}
 
 		#experience .resume-content {
-			margin-right: 12px;
+			/*margin-right: 12px;*/
 		}
 			.subsection-header {
 
@@ -288,8 +299,8 @@ ul.list {
 				}
 
 #projects {
-	width: 40%;
-	float: right;
+/*	width: 40%;
+	float: right;*/
 
 }
 	#projects .resume-content {
@@ -426,20 +437,6 @@ ul.list {
 	background-image: url('image_assets/apps/jquery.png');}
 	#coffeescript .app-logo {
 	background-image: url('image_assets/apps/coffeescript.png');}
-
-	/* 3d */
-	#autocad .app-logo {
-	background-image: url('image_assets/apps/autocad.png');}
-	#inventor .app-logo {
-	background-image: url('image_assets/apps/inventor.png');}
-	#rhino .app-logo {
-	background-image: url('image_assets/apps/rhino.png');}
-	#cinema4d .app-logo {
-	background-image: url('image_assets/apps/c4d.png');}
-	#max .app-logo {
-	background-image: url('image_assets/apps/max.png');}
-
-	/* Dev 2 */
 	#arduino .app-logo {
 	background-image: url('image_assets/apps/arduino.png');}
 	#xcode .app-logo {
@@ -462,8 +459,24 @@ ul.list {
 	background-image: url('image_assets/apps/bootstrap.png');}
 	#sass .app-logo {
 	background-image: url('image_assets/apps/sass.png');}
+	#excel .app-logo {
+	background-image: url('image_assets/apps/excel.png');}
+	#sql .app-logo {
+	background-image: url('image_assets/apps/sql.png');}	
+
+	/* 3d */
+	#autocad .app-logo {
+	background-image: url('image_assets/apps/autocad.png');}
+	#inventor .app-logo {
+	background-image: url('image_assets/apps/inventor.png');}
+	#rhino .app-logo {
+	background-image: url('image_assets/apps/rhino.png');}
 
 	/* video */
+	#cinema4d .app-logo {
+	background-image: url('image_assets/apps/c4d.png');}
+	#max .app-logo {
+	background-image: url('image_assets/apps/max.png');}
 	#ae .app-logo {
 	background-image: url('image_assets/apps/ae.png');}
 	#premiere .app-logo {

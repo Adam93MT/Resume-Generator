@@ -30,8 +30,8 @@
             "location": "Toronto, ON", 
             "position": "Product Manager (Poker)", 
             "responsibilities": [
-                "Designed the initial user experience wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users", 
-                "Perfromed background research, user analysis, and A/B testing as part of the design process for a new Subscriptions model", 
+                "Designed the initial UX wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users", 
+                "Performed background research, user analysis, and A/B testing as part of the design process for a new Subscriptions model", 
                 "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebok feed app entry by 36%", 
                 "Managed, analyzed, and reported on key metrics for various in-app experiments"
             ], 
@@ -56,9 +56,9 @@
             "location": "Toronto, ON", 
             "position": "UX Designer", 
             "responsibilities": [
-                "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker.", 
+                "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP.", 
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP", 
                 "Storyboarded, and animated an app intro video for the updated KnowRoaming app"
             ], 
             "term": "Spring 2014 & Winter 2015", 
@@ -81,12 +81,14 @@
     "objective": "I\u2019m a \"big-picture\" problem solver; always looking for the best solution to the right problem. I\u2019m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.", 
     "projects": [
         {
-            "description": "A variable hearing protection device for periodically loud environments, such as construction sites and factories which continuously adjusts its attenuation based on the volume of the environment.", 
+            "description": "A variable hearing protection device for periodically loud environments, such as construction sites and factories which continuously adjusts its attenuation based on the loudness of the environment.", 
             "id": "fydp", 
-            "name": "MADD.audio", 
+            "name": "Chameleon Hearing Protection", 
             "responsibilities": [
-                "Team lead & project manager", 
-                "Developed and built a test apparatus and processing software"
+                "Designed outer casing, and attenuator actuation mechanism", 
+                "Managed team priorities and coordinated collaboration efforts", 
+                "Designed and built testing apparatus and developed test evaluation software", 
+                "Developed analog circuit to determine the perceived loudness at the ear"
             ], 
             "term": "Sept. 2016 - present"
         }, 
@@ -96,7 +98,9 @@
             "name": "SMRT WATR", 
             "responsibilities": [
                 "Designed the game interface, and app architecture", 
-                "Developed the web-app front-end, and a portion of the Python server"
+                "Developed the web-app front-end, and a portion of the Python server", 
+                "Designed a mechanism to allow the servo motor to rotate the fountain jet", 
+                "Designed and built the wood and plastic frame and water basin"
             ], 
             "term": "Spring 2015"
         }, 
@@ -215,7 +219,7 @@
     ], 
     "summary": [
         "Experience in UX and Product design since 2013", 
-        "Product Management expereince researching, developing and prioritizing user & tech requirements", 
+        "Product Management experience researching, developing and prioritizing user & tech requirements", 
         "Pitching and presenting my own designs at all-hands meetings, backing them up with user-research data, and following through with a plan for imlementation", 
         "Collaborating and brainstorming design solutions with designers, developers, operations, and marketing"
     ], 

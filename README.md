@@ -1,4 +1,4 @@
-# resume
+# Resume Generator
 My HTML resume
 
 #Requirements
@@ -12,7 +12,7 @@ My HTML resume
 
 3) Add tags to your resume content file where applicable
 
-4) Paste a job description into `<job title>.txt` file and save it in `job_descriptions/`
+4) Save a job description as `<job title>.txt` in `job_descriptions/` folder
 
 5) run command `python generateResume.py "<job title>"`
 

@@ -10,6 +10,10 @@ jobTitle = str(sys.argv[1])
 jobDescriptionFile = "job_descriptions/" + jobTitle + ".txt"
 jobDescription = open(jobDescriptionFile, 'r').read().lower()
 
+MAX_BULLETS = 4
+MAX_BULLETS_PROJ = MAX_BULLETS
+MAX_JOBS = 3
+MAX_SKILLS = 10
 
 ShowCourses = False
 CourseDescriptions = False
@@ -18,6 +22,7 @@ keywords = []
 tags = []	
 tagMap = []
 
+# Parse Job Description
 with open('resources/tagMap.csv', 'rb') as csvfile:
 	CSVreader = csv.reader(csvfile, delimiter=',', quotechar='|')
 	for row in CSVreader:
@@ -47,9 +52,6 @@ for w,word in enumerate(keywords):
 		# if t == 1:
 		# 	print tags[t] + " " + word + " " + str(wordCount)
 
-# for t,tag in enumerate(tags):
-# 	print str(tag) + "[" + str(t) + "] : " + str(tagCount[t])
-
 with open('resources/resumeContent.json') as jsonfile:    
     resumeContent = json.load(jsonfile)
 	# JSON must be in proper format
@@ -78,18 +80,8 @@ if not(os.path.isfile(jobTitle + '.json')):
 		elif item == "summary":
 			# Decide which Summary elememts to use
 			SummaryToSave = []
-			# blurbWeight = [0] * len(resumeContent[item])
-			# for b,blurb in enumerate(resumeContent[item]):
-			# 	for tag in blurb["tags"]:
-			# 		if tag in tags:
-			# 			idx = tags.index(tag)
-			# 		if tagCount[idx] > 0:
-			# 			blurbWeight[b] += tagCount[idx]
-			# 	print str(blurb["blurb"]) + " " + str(blurbWeight[b]) + "\n"
-			for x in xrange(0,4):
-				# max_idx = blurbWeight.index(max(blurbWeight))
+			for x in xrange(0,MAX_BULLETS):
 				SummaryToSave.append(resumeContent[item][x]["blurb"])
-				# blurbWeight[max_idx] = 0
 			toSave[item] = SummaryToSave
 
 		# Experience
@@ -130,7 +122,7 @@ if not(os.path.isfile(jobTitle + '.json')):
 							taskWeight[t] += tagCount[idx]
 
 				jobsToSave[j]["responsibilities"] = []
-				for x in xrange(0,4):
+				for x in xrange(0,MAX_BULLETS):
 					max_idx = taskWeight.index(max(taskWeight))
 					if max(taskWeight) == 0:
 						break
@@ -177,9 +169,9 @@ if not(os.path.isfile(jobTitle + '.json')):
 					
 					if "responsibilities" in proj:
 						projectsToSave[i]["responsibilities"] = []
-						for x in xrange(0,2):
-							if max(taskWeight[p]) == 0:
-								break
+						for x in xrange(0, MAX_BULLETS_PROJ):
+							if max(taskWeight[p]) == 0 and projectsToSave[i]["responsibilities"] <= 3:
+									break
 							max_idx = taskWeight[p].index(max(taskWeight[p]))
 							projectsToSave[i]["responsibilities"].append(proj["responsibilities"][max_idx]["task"])
 							taskWeight[p][max_idx] = 0
@@ -207,7 +199,7 @@ if not(os.path.isfile(jobTitle + '.json')):
 						courseWeight[c] = iterateTags(course["tags"])
 					if len(school["courses"]) > 0 and max(courseWeight) > 0:
 						eduToSave[s]["courses"] = [None] * 4
-						for x in xrange(0,4):
+						for x in xrange(0,MAX_BULLETS):
 							if max(courseWeight) == 0:
 								break
 							eduToSave[s]["courses"][x] = {}
@@ -226,7 +218,7 @@ if not(os.path.isfile(jobTitle + '.json')):
 			for s,skill in enumerate(resumeContent[item]):
 				skillWeight[s] = iterateTags(skill[1])
 				# print str(skill[0]) + " " + str(skillWeight[s])
-			for x in xrange(0,10):
+			for x in xrange(0,MAX_SKILLS):
 				max_idx = skillWeight.index(max(skillWeight))
 				skillsToSave.append(resumeContent[item][max_idx])
 				skillWeight[max_idx] = 0

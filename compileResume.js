@@ -5,6 +5,7 @@ $( document).ready(function() {
 		console.log("AJAX");
 	})
 	.fail(function() {
+		console.log('No AJAX')
 		R = resumeContent;
 	}).always(function() {
 		console.log("\n Compiling...")
@@ -20,13 +21,14 @@ function compileResume(R) {
 	$('.main-header .tagline').html(R.tagline);
 
 	// ------------------------ Objective ------------------------
-	$('#objective .content').text(R.objective);
-	L_Col_Height += $('#objective').height();
+	// $('#objective .content').text(R.objective);
+	// L_Col_Height += $('#objective').height();
 
 	// ------------------------ Summary  ------------------------
 	for (i = 0;  i<  R.summary.length; i++) {
-		$("#summary ul").append("<li>" + R.summary[i] + "</li>");
+		$("#summary .resume-content ul").append("<li>" + R.summary[i] + "</li>");
 	}
+	$("#summary").addClass('col-left')
 	R_Col_Height += $('#summary').height();
 
 	// ------------------------ Experience  ------------------------
@@ -54,6 +56,7 @@ function compileResume(R) {
 			break
 		}
 	}
+	$('#experience').addClass('col-left')
 	L_Col_Height += $("#experience").height();
 
 	// ------------------------ Projects   ------------------------
@@ -82,6 +85,8 @@ function compileResume(R) {
 			break
 		}
 	}
+	$('#projects').addClass('col-right')
+	$('#projects').insertBefore('#experience')
 	R_Col_Height += $("#projects").height();
 
 
