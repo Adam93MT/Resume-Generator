@@ -31,9 +31,9 @@
             "position": "Product Manager (Poker)", 
             "responsibilities": [
                 "Designed the initial UX wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users", 
-                "Performed background research, user analysis, and A/B testing as part of the design process for a new Subscriptions model", 
+                "Managed, analyzed, and reported on key metrics for various in-app experiments", 
                 "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebok feed app entry by 36%", 
-                "Managed, analyzed, and reported on key metrics for various in-app experiments"
+                "Performed background research, user analysis, and A/B testing as part of the design process for a new Subscriptions model"
             ], 
             "term": "Spring 2016", 
             "url": "zynga.com/poker"
@@ -43,10 +43,10 @@
             "location": "New York City, NY", 
             "position": "Product Designer", 
             "responsibilities": [
+                "Initiated multidisciplinary collaboration with all stakeholders to better understand product requirements, and managed the early design process for the coach dashboard", 
                 "Leveraged user testing results to re-design the meal-logging experience, improving clarity, speed of navigation and to better reflect the common mental model of logging food", 
                 "Prototyped and iterated interaction designs using Sketch, Framer JS, and Origami, and tested using Usability Hub and UserTesting.com", 
-                "Enhanced the food portion picker interface to improve user confidence when logging food items", 
-                "Initiated multidisciplinary collaboration with all stakeholders to better understand product requirements, and managed the early design process for the coach dashboard"
+                "Enhanced the food portion picker interface to improve user confidence when logging food items"
             ], 
             "term": "Fall 2015", 
             "url": "noom.com"
@@ -57,8 +57,8 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
-                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor", 
-                "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
+                "Lead weekly design meetings with relevant stakeholers to discuss the experience and design of the mobile apps", 
+                "Created, branded and optimized a core company service, now called ReachMe.", 
                 "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
             ], 
             "term": "Spring 2014 & Winter 2015", 
@@ -70,9 +70,9 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Lead the design and development for a new music-dicovery/radio feature in MediaGo.", 
+                "Developed the front-end for the new feature using HTML, SASS and jQuery", 
                 "Designed promotional graphics and videos for MediaGo", 
-                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience", 
-                "Developed the front-end for the new feature using HTML, SASS and jQuery"
+                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience"
             ], 
             "term": "Fall 2013", 
             "url": "mediago.sony.com"
@@ -85,10 +85,10 @@
             "id": "fydp", 
             "name": "Chameleon Hearing Protection", 
             "responsibilities": [
-                "Designed outer casing, and attenuator actuation mechanism", 
-                "Designed and built testing apparatus and developed test evaluation software", 
                 "Managed team priorities and coordinated collaboration efforts", 
-                "Developed analog circuit to determine the perceived loudness at the ear"
+                "Designed and built testing apparatus and developed test evaluation software", 
+                "Designed outer casing, and attenuator actuation mechanism", 
+                "Managed team priorities and coordinated collaboration efforts"
             ], 
             "term": "Sept. 2016 - present"
         }, 
@@ -97,10 +97,10 @@
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
-                "Designed the game interface, and app architecture", 
                 "Developed the web-app front-end, and a portion of the Python server", 
+                "Designed the game interface, and app architecture", 
                 "Designed a mechanism to allow the servo motor to rotate the fountain jet", 
-                "Designed and built the wood and plastic frame and water basin"
+                "Designed the game interface, and app architecture"
             ], 
             "term": "Spring 2015"
         }, 
@@ -124,68 +124,11 @@
     "showCourses": false, 
     "skills": [
         [
-            "Framer", 
-            [
-                "framer", 
-                "ux", 
-                "ui", 
-                "js", 
-                "coffeescript", 
-                "prototype"
-            ]
-        ], 
-        [
-            "Sketch", 
-            [
-                "sketch", 
-                "ui", 
-                "ux", 
-                "wireframe"
-            ]
-        ], 
-        [
-            "Balsamiq", 
-            [
-                "balsamiq", 
-                "ux", 
-                "wireframe", 
-                "pm"
-            ]
-        ], 
-        [
-            "Origami", 
-            [
-                "origami", 
-                "ux", 
-                "ui", 
-                "prototype"
-            ]
-        ], 
-        [
             "CoffeeScript", 
             [
                 "coffeescript", 
                 "js", 
                 "web", 
-                "dev"
-            ]
-        ], 
-        [
-            "Photoshop", 
-            [
-                "ps", 
-                "photoshop", 
-                "ui", 
-                "graphic"
-            ]
-        ], 
-        [
-            "jQuery", 
-            [
-                "jQuery", 
-                "js", 
-                "web", 
-                "front-end", 
                 "dev"
             ]
         ], 
@@ -200,6 +143,16 @@
             ]
         ], 
         [
+            "jQuery", 
+            [
+                "jQuery", 
+                "js", 
+                "web", 
+                "front-end", 
+                "dev"
+            ]
+        ], 
+        [
             "PHP", 
             [
                 "php", 
@@ -208,11 +161,53 @@
             ]
         ], 
         [
-            "Cinema 4D", 
+            "Git", 
             [
-                "cad", 
-                "3D", 
-                "c4d"
+                "git", 
+                "dev"
+            ]
+        ], 
+        [
+            "Balsamiq", 
+            [
+                "balsamiq", 
+                "ux", 
+                "wireframe", 
+                "pm"
+            ]
+        ], 
+        [
+            "Swift", 
+            [
+                "swift", 
+                "dev", 
+                "ios"
+            ]
+        ], 
+        [
+            "XCode", 
+            [
+                "xcode", 
+                "ios", 
+                "swift"
+            ]
+        ], 
+        [
+            "Framer", 
+            [
+                "framer", 
+                "ux", 
+                "ui", 
+                "js", 
+                "coffeescript", 
+                "prototype"
+            ]
+        ], 
+        [
+            "C++", 
+            [
+                "cpp", 
+                "dev"
             ]
         ]
     ], 

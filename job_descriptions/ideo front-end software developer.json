@@ -57,9 +57,9 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
-                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor", 
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
+                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
@@ -86,8 +86,8 @@
             "name": "Chameleon Hearing Protection", 
             "responsibilities": [
                 "Designed outer casing, and attenuator actuation mechanism", 
-                "Designed and built testing apparatus and developed test evaluation software", 
                 "Managed team priorities and coordinated collaboration efforts", 
+                "Designed and built testing apparatus and developed test evaluation software", 
                 "Developed analog circuit to determine the perceived loudness at the ear"
             ], 
             "term": "Sept. 2016 - present"
@@ -180,16 +180,6 @@
             ]
         ], 
         [
-            "jQuery", 
-            [
-                "jQuery", 
-                "js", 
-                "web", 
-                "front-end", 
-                "dev"
-            ]
-        ], 
-        [
             "Python", 
             [
                 "python", 
@@ -197,6 +187,16 @@
                 "front-end", 
                 "web", 
                 "dsp"
+            ]
+        ], 
+        [
+            "jQuery", 
+            [
+                "jQuery", 
+                "js", 
+                "web", 
+                "front-end", 
+                "dev"
             ]
         ], 
         [
@@ -208,11 +208,11 @@
             ]
         ], 
         [
-            "Cinema 4D", 
+            "Swift", 
             [
-                "cad", 
-                "3D", 
-                "c4d"
+                "swift", 
+                "dev", 
+                "ios"
             ]
         ]
     ], 

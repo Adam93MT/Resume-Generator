@@ -31,9 +31,9 @@
             "position": "Product Manager (Poker)", 
             "responsibilities": [
                 "Designed the initial UX wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users", 
+                "Managed, analyzed, and reported on key metrics for various in-app experiments", 
                 "Performed background research, user analysis, and A/B testing as part of the design process for a new Subscriptions model", 
-                "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebok feed app entry by 36%", 
-                "Managed, analyzed, and reported on key metrics for various in-app experiments"
+                "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebok feed app entry by 36%"
             ], 
             "term": "Spring 2016", 
             "url": "zynga.com/poker"
@@ -44,8 +44,8 @@
             "position": "Product Designer", 
             "responsibilities": [
                 "Leveraged user testing results to re-design the meal-logging experience, improving clarity, speed of navigation and to better reflect the common mental model of logging food", 
-                "Prototyped and iterated interaction designs using Sketch, Framer JS, and Origami, and tested using Usability Hub and UserTesting.com", 
                 "Enhanced the food portion picker interface to improve user confidence when logging food items", 
+                "Prototyped and iterated interaction designs using Sketch, Framer JS, and Origami, and tested using Usability Hub and UserTesting.com", 
                 "Initiated multidisciplinary collaboration with all stakeholders to better understand product requirements, and managed the early design process for the coach dashboard"
             ], 
             "term": "Fall 2015", 
@@ -57,9 +57,9 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
-                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor", 
-                "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
+                "Lead weekly design meetings with relevant stakeholers to discuss the experience and design of the mobile apps", 
+                "Created, branded and optimized a core company service, now called ReachMe.", 
+                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
@@ -85,10 +85,10 @@
             "id": "fydp", 
             "name": "Chameleon Hearing Protection", 
             "responsibilities": [
+                "Managed team priorities and coordinated collaboration efforts", 
                 "Designed outer casing, and attenuator actuation mechanism", 
                 "Designed and built testing apparatus and developed test evaluation software", 
-                "Managed team priorities and coordinated collaboration efforts", 
-                "Developed analog circuit to determine the perceived loudness at the ear"
+                "Managed team priorities and coordinated collaboration efforts"
             ], 
             "term": "Sept. 2016 - present"
         }, 
@@ -124,6 +124,15 @@
     "showCourses": false, 
     "skills": [
         [
+            "Balsamiq", 
+            [
+                "balsamiq", 
+                "ux", 
+                "wireframe", 
+                "pm"
+            ]
+        ], 
+        [
             "Framer", 
             [
                 "framer", 
@@ -144,30 +153,12 @@
             ]
         ], 
         [
-            "Balsamiq", 
-            [
-                "balsamiq", 
-                "ux", 
-                "wireframe", 
-                "pm"
-            ]
-        ], 
-        [
             "Origami", 
             [
                 "origami", 
                 "ux", 
                 "ui", 
                 "prototype"
-            ]
-        ], 
-        [
-            "CoffeeScript", 
-            [
-                "coffeescript", 
-                "js", 
-                "web", 
-                "dev"
             ]
         ], 
         [
@@ -180,6 +171,39 @@
             ]
         ], 
         [
+            "CoffeeScript", 
+            [
+                "coffeescript", 
+                "js", 
+                "web", 
+                "dev"
+            ]
+        ], 
+        [
+            "Swift", 
+            [
+                "swift", 
+                "dev", 
+                "ios"
+            ]
+        ], 
+        [
+            "Git", 
+            [
+                "git", 
+                "dev"
+            ]
+        ], 
+        [
+            "HTML", 
+            [
+                "html", 
+                "web", 
+                "front-end", 
+                "prototype"
+            ]
+        ], 
+        [
             "jQuery", 
             [
                 "jQuery", 
@@ -187,32 +211,6 @@
                 "web", 
                 "front-end", 
                 "dev"
-            ]
-        ], 
-        [
-            "Python", 
-            [
-                "python", 
-                "dev", 
-                "front-end", 
-                "web", 
-                "dsp"
-            ]
-        ], 
-        [
-            "PHP", 
-            [
-                "php", 
-                "dev", 
-                "web"
-            ]
-        ], 
-        [
-            "Cinema 4D", 
-            [
-                "cad", 
-                "3D", 
-                "c4d"
             ]
         ]
     ], 

@@ -7,7 +7,7 @@ resumeContent = {
             "term": "Fall 2014 to Spring 2016"
         }, 
         {
-            "description": "Lead baritone for the premiere all-male a cappella group at UW", 
+            "description": "Soloist and lead baritone for the ICCA semi-finalist a cappella group", 
             "id": "waterboys", 
             "name": "The Water Boys", 
             "term": "Fall 2013 to Winter 2017"
@@ -57,9 +57,9 @@ resumeContent = {
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
+                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP", 
-                "Storyboarded, and animated an app intro video for the updated KnowRoaming app"
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
@@ -70,8 +70,8 @@ resumeContent = {
             "position": "UX Designer", 
             "responsibilities": [
                 "Lead the design and development for a new music-dicovery/radio feature in MediaGo.", 
-                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience", 
                 "Designed promotional graphics and videos for MediaGo", 
+                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience", 
                 "Developed the front-end for the new feature using HTML, SASS and jQuery"
             ], 
             "term": "Fall 2013", 
@@ -86,8 +86,8 @@ resumeContent = {
             "name": "Chameleon Hearing Protection", 
             "responsibilities": [
                 "Designed outer casing, and attenuator actuation mechanism", 
-                "Managed team priorities and coordinated collaboration efforts", 
                 "Designed and built testing apparatus and developed test evaluation software", 
+                "Managed team priorities and coordinated collaboration efforts", 
                 "Developed analog circuit to determine the perceived loudness at the ear"
             ], 
             "term": "Sept. 2016 - present"
@@ -135,15 +135,6 @@ resumeContent = {
             ]
         ], 
         [
-            "Origami", 
-            [
-                "origami", 
-                "ux", 
-                "ui", 
-                "prototype"
-            ]
-        ], 
-        [
             "Sketch", 
             [
                 "sketch", 
@@ -162,21 +153,12 @@ resumeContent = {
             ]
         ], 
         [
-            "HTML", 
+            "Origami", 
             [
-                "html", 
-                "web", 
-                "front-end", 
-                "prototype"
-            ]
-        ], 
-        [
-            "Photoshop", 
-            [
-                "ps", 
-                "photoshop", 
+                "origami", 
+                "ux", 
                 "ui", 
-                "graphic"
+                "prototype"
             ]
         ], 
         [
@@ -186,6 +168,15 @@ resumeContent = {
                 "js", 
                 "web", 
                 "dev"
+            ]
+        ], 
+        [
+            "Photoshop", 
+            [
+                "ps", 
+                "photoshop", 
+                "ui", 
+                "graphic"
             ]
         ], 
         [
@@ -214,6 +205,14 @@ resumeContent = {
                 "php", 
                 "dev", 
                 "web"
+            ]
+        ], 
+        [
+            "Cinema 4D", 
+            [
+                "cad", 
+                "3D", 
+                "c4d"
             ]
         ]
     ], 

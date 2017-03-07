@@ -57,9 +57,9 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
-                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor", 
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
+                "Storyboarded, and animated an app intro video for the updated KnowRoaming app"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
@@ -97,8 +97,8 @@
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
-                "Designed the game interface, and app architecture", 
                 "Developed the web-app front-end, and a portion of the Python server", 
+                "Designed the game interface, and app architecture", 
                 "Designed a mechanism to allow the servo motor to rotate the fountain jet", 
                 "Designed and built the wood and plastic frame and water basin"
             ], 
@@ -135,24 +135,6 @@
             ]
         ], 
         [
-            "Sketch", 
-            [
-                "sketch", 
-                "ui", 
-                "ux", 
-                "wireframe"
-            ]
-        ], 
-        [
-            "Balsamiq", 
-            [
-                "balsamiq", 
-                "ux", 
-                "wireframe", 
-                "pm"
-            ]
-        ], 
-        [
             "Origami", 
             [
                 "origami", 
@@ -171,15 +153,6 @@
             ]
         ], 
         [
-            "Photoshop", 
-            [
-                "ps", 
-                "photoshop", 
-                "ui", 
-                "graphic"
-            ]
-        ], 
-        [
             "jQuery", 
             [
                 "jQuery", 
@@ -187,6 +160,24 @@
                 "web", 
                 "front-end", 
                 "dev"
+            ]
+        ], 
+        [
+            "Sketch", 
+            [
+                "sketch", 
+                "ui", 
+                "ux", 
+                "wireframe"
+            ]
+        ], 
+        [
+            "Balsamiq", 
+            [
+                "balsamiq", 
+                "ux", 
+                "wireframe", 
+                "pm"
             ]
         ], 
         [
@@ -200,6 +191,15 @@
             ]
         ], 
         [
+            "HTML", 
+            [
+                "html", 
+                "web", 
+                "front-end", 
+                "prototype"
+            ]
+        ], 
+        [
             "PHP", 
             [
                 "php", 
@@ -208,11 +208,12 @@
             ]
         ], 
         [
-            "Cinema 4D", 
+            "Photoshop", 
             [
-                "cad", 
-                "3D", 
-                "c4d"
+                "ps", 
+                "photoshop", 
+                "ui", 
+                "graphic"
             ]
         ]
     ], 

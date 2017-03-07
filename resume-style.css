@@ -498,6 +498,12 @@ ul.list {
 	position: relative;
 	display: inline-block;
 }
+.edu-one-line *{
+	display: inline;
+}
+.edu-one-line .subsection-header, .edu-one-line .content{
+	margin-left: 3px;
+}
 .school {
 	margin-bottom: 2px;
 }
@@ -581,14 +587,17 @@ ul.list {
 	width: 66%;
 	float: right;
 }
-#clubs {
+/*#clubs {
 	width: 100%;
-}
+}*/
 .club .resume-content {
-	width: 50%;
+	width: 100%;
 	float: left;
 }
 .club .content, .club .subsection-header {
 	margin-right: 12px;
 }
 
+#clubs.col-right #waterboys .resume-content{
+	padding-top: 3px;
+}

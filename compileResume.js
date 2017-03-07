@@ -8,7 +8,7 @@ $( document).ready(function() {
 		console.log('No AJAX')
 		R = resumeContent;
 	}).always(function() {
-		console.log("\n Compiling...")
+		console.log("Compiling...")
 		compileResume(R);
 	});
 });
@@ -92,12 +92,12 @@ function compileResume(R) {
 
 	// ------------------------ Skills  ------------------------
 	// Full Width, Left or Right?
-	rspace = L_Col_Height - R_Col_Height;
-	if ( rspace >= 144)
-		$('#skills').addClass('skills-rightcol');
-	else if ( rspace <= -96 )
-		$('#skills').addClass('skills-leftcol');
-	else
+	// rspace = L_Col_Height - R_Col_Height;
+	// if ( rspace >= 144)
+	// 	$('#skills').addClass('skills-rightcol');
+	// else if ( rspace <= -96 )
+	// 	$('#skills').addClass('skills-leftcol');
+	// else
 		$('#skills').addClass('skills-fullwidth');	
 
 	for (var s = 0; s < R.skills.length; s++){
@@ -109,9 +109,9 @@ function compileResume(R) {
 		$("#skills .skills-list").append(skl);
 	}
 
-	if (rspace < 0) {
-		$("#skills").css("margin-top","-4px");
-	}
+	// if (rspace < 0) {
+	// 	$("#skills").css("margin-top","-4px");
+	// }
 
 
 	// ------------------------ Education ------------------------
@@ -128,7 +128,6 @@ function compileResume(R) {
 		edu += "</span>";
 
 		if (R.showCourses) {
-
 			edu += "<span class=\"title subsection-degree\">"
 			// if (getFullYear() >= 2017) {
 				edu += R.education[e].degree + " ";
@@ -157,10 +156,11 @@ function compileResume(R) {
 		else {
 			edu += "</div><div class=\"content\">"
 			edu += R.education[e].degree + " " 
-			edu += R.education[e].program + ", <br/>"
+			edu += R.education[e].program + ", "//<br/>"
 			edu += R.education[e].minor + " minor"
-			$("#education").addClass("edu-club-line")
-			$("#clubs").addClass("edu-club-line")
+			$("#education").addClass("edu-one-line")
+			// $("#education").addClass("edu-club-line")
+			// $("#clubs").addClass("edu-club-line")
 
 		}
 		edu += "</div></article>"
@@ -181,11 +181,12 @@ function compileResume(R) {
 		clb += R.clubs[g].description
 		clb += "</div></div></article>"
 
-
 		$("#clubs").append(clb)
+		$("#clubs").addClass("col-right")
+
 	}
 
-	console.log("\n Compiled \n")
+	console.log("Compiled.")
 }
 
 

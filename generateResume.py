@@ -48,9 +48,6 @@ for w,word in enumerate(keywords):
 			tagCount[t] += wordCount
 		if t < 0:
 			tagCount[-t] -= 10
-			# print str(tags[-t]) + str(tagCount[-t])
-		# if t == 1:
-		# 	print tags[t] + " " + word + " " + str(wordCount)
 
 with open('resources/resumeContent.json') as jsonfile:    
     resumeContent = json.load(jsonfile)
@@ -154,7 +151,10 @@ if not(os.path.isfile(jobTitle + '.json')):
 				projWeight[max_idx] = 0
 			defaultProjects = [0,1] # Indexes of always-in projects
 			for x in defaultProjects:
-				del projRank[projRank.index(x)]
+				try:
+					del projRank[projRank.index(x)]
+				except:
+					print len(projRank)
 			projRank = [projRank[0], projRank[1]]
 
 			i = 0
@@ -228,6 +228,7 @@ if not(os.path.isfile(jobTitle + '.json')):
 		elif item == "clubs":
 			toSave[item] = resumeContent[item]
 # else:
+# 	print "Resume Data Already Exists. Recompiling."
 # 	with open(jobTitle + '.json', 'r') as infile:
 # 		toSave = json.load(infile)
 

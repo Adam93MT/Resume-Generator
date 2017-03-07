@@ -57,9 +57,9 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
-                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP", 
+                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
@@ -70,8 +70,8 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Lead the design and development for a new music-dicovery/radio feature in MediaGo.", 
-                "Designed promotional graphics and videos for MediaGo", 
                 "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience", 
+                "Designed promotional graphics and videos for MediaGo", 
                 "Developed the front-end for the new feature using HTML, SASS and jQuery"
             ], 
             "term": "Fall 2013", 
@@ -144,6 +144,15 @@
             ]
         ], 
         [
+            "Origami", 
+            [
+                "origami", 
+                "ux", 
+                "ui", 
+                "prototype"
+            ]
+        ], 
+        [
             "Balsamiq", 
             [
                 "balsamiq", 
@@ -153,12 +162,12 @@
             ]
         ], 
         [
-            "Origami", 
+            "Photoshop", 
             [
-                "origami", 
-                "ux", 
+                "ps", 
+                "photoshop", 
                 "ui", 
-                "prototype"
+                "graphic"
             ]
         ], 
         [
@@ -171,12 +180,12 @@
             ]
         ], 
         [
-            "Photoshop", 
+            "HTML", 
             [
-                "ps", 
-                "photoshop", 
-                "ui", 
-                "graphic"
+                "html", 
+                "web", 
+                "front-end", 
+                "prototype"
             ]
         ], 
         [
@@ -205,14 +214,6 @@
                 "php", 
                 "dev", 
                 "web"
-            ]
-        ], 
-        [
-            "Cinema 4D", 
-            [
-                "cad", 
-                "3D", 
-                "c4d"
             ]
         ]
     ], 

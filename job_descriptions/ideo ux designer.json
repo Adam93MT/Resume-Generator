@@ -57,9 +57,9 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
-                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP", 
+                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
@@ -144,21 +144,21 @@
             ]
         ], 
         [
-            "Balsamiq", 
-            [
-                "balsamiq", 
-                "ux", 
-                "wireframe", 
-                "pm"
-            ]
-        ], 
-        [
             "Origami", 
             [
                 "origami", 
                 "ux", 
                 "ui", 
                 "prototype"
+            ]
+        ], 
+        [
+            "Balsamiq", 
+            [
+                "balsamiq", 
+                "ux", 
+                "wireframe", 
+                "pm"
             ]
         ], 
         [
@@ -177,6 +177,15 @@
                 "photoshop", 
                 "ui", 
                 "graphic"
+            ]
+        ], 
+        [
+            "HTML", 
+            [
+                "html", 
+                "web", 
+                "front-end", 
+                "prototype"
             ]
         ], 
         [
@@ -205,14 +214,6 @@
                 "php", 
                 "dev", 
                 "web"
-            ]
-        ], 
-        [
-            "Cinema 4D", 
-            [
-                "cad", 
-                "3D", 
-                "c4d"
             ]
         ]
     ], 

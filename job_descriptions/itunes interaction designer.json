@@ -33,7 +33,7 @@
                 "Designed the initial UX wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users", 
                 "Performed background research, user analysis, and A/B testing as part of the design process for a new Subscriptions model", 
                 "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebok feed app entry by 36%", 
-                "Managed, analyzed, and reported on key metrics for various in-app experiments"
+                "Analyzed player demographics by monthly spend to better know the sources of revenue, and which players to target for new features"
             ], 
             "term": "Spring 2016", 
             "url": "zynga.com/poker"
@@ -56,10 +56,10 @@
             "location": "Toronto, ON", 
             "position": "UX Designer", 
             "responsibilities": [
-                "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker", 
-                "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor", 
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP", 
+                "Storyboarded, and animated an app intro video for the updated KnowRoaming app", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
+                "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
@@ -87,8 +87,8 @@
             "responsibilities": [
                 "Designed outer casing, and attenuator actuation mechanism", 
                 "Designed and built testing apparatus and developed test evaluation software", 
-                "Managed team priorities and coordinated collaboration efforts", 
-                "Developed analog circuit to determine the perceived loudness at the ear"
+                "Developed analog circuit to determine the perceived loudness at the ear", 
+                "Managed team priorities and coordinated collaboration efforts"
             ], 
             "term": "Sept. 2016 - present"
         }, 
@@ -97,8 +97,8 @@
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
-                "Designed the game interface, and app architecture", 
                 "Developed the web-app front-end, and a portion of the Python server", 
+                "Designed the game interface, and app architecture", 
                 "Designed a mechanism to allow the servo motor to rotate the fountain jet", 
                 "Designed and built the wood and plastic frame and water basin"
             ], 
@@ -111,10 +111,10 @@
             "term": "Fall 2016"
         }, 
         {
-            "description": "A Chrome extension that scans a webpage for Comic Sans, and replaces it with Helvetica.", 
-            "id": "comic-sans", 
-            "name": "Say No To Comic Sans", 
-            "term": "Spring 2013"
+            "description": "A web app that represents the current temperature, weather conditions and time as an HSV colour.", 
+            "id": "color-therm", 
+            "name": "Colour Thermometer", 
+            "term": "Winter 2015"
         }, 
         {}, 
         null, 
@@ -135,24 +135,6 @@
             ]
         ], 
         [
-            "Sketch", 
-            [
-                "sketch", 
-                "ui", 
-                "ux", 
-                "wireframe"
-            ]
-        ], 
-        [
-            "Balsamiq", 
-            [
-                "balsamiq", 
-                "ux", 
-                "wireframe", 
-                "pm"
-            ]
-        ], 
-        [
             "Origami", 
             [
                 "origami", 
@@ -162,30 +144,39 @@
             ]
         ], 
         [
-            "CoffeeScript", 
-            [
-                "coffeescript", 
-                "js", 
-                "web", 
-                "dev"
-            ]
-        ], 
-        [
-            "Photoshop", 
-            [
-                "ps", 
-                "photoshop", 
-                "ui", 
-                "graphic"
-            ]
-        ], 
-        [
             "jQuery", 
             [
                 "jQuery", 
                 "js", 
                 "web", 
                 "front-end", 
+                "dev"
+            ]
+        ], 
+        [
+            "HTML", 
+            [
+                "html", 
+                "web", 
+                "front-end", 
+                "prototype"
+            ]
+        ], 
+        [
+            "Sketch", 
+            [
+                "sketch", 
+                "ui", 
+                "ux", 
+                "wireframe"
+            ]
+        ], 
+        [
+            "CoffeeScript", 
+            [
+                "coffeescript", 
+                "js", 
+                "web", 
                 "dev"
             ]
         ], 
@@ -200,19 +191,29 @@
             ]
         ], 
         [
-            "PHP", 
+            "Photoshop", 
             [
-                "php", 
-                "dev", 
-                "web"
+                "ps", 
+                "photoshop", 
+                "ui", 
+                "graphic"
             ]
         ], 
         [
-            "Cinema 4D", 
+            "3DS Max", 
             [
-                "cad", 
+                "3ds", 
                 "3D", 
-                "c4d"
+                "video"
+            ]
+        ], 
+        [
+            "Balsamiq", 
+            [
+                "balsamiq", 
+                "ux", 
+                "wireframe", 
+                "pm"
             ]
         ]
     ], 
