@@ -3,7 +3,8 @@
 		"Systems Design Engineering",
 		"Systems Design Engineering, BASc",
 		"University of Waterloo",
-		"BASc, University of Waterloo"
+		"BASc, University of Waterloo",
+		"UX Designer <br> University of Waterloo"
 	],
 
 	"objective": "I’m a \"big-picture\" problem solver; always looking for the best solution to the right problem. I’m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.",
@@ -18,7 +19,7 @@
 			"tags": ["pm", "research", "dev", "lead", "ux"]
 		},
 		{
-			"blurb": "Pitching and presenting my own designs at all-hands meetings, backing them up with user-research data, and following through with a plan for imlementation",
+			"blurb": "Pitching and presenting my own designs an ideas, backing them up with research, and following through with a plan for implementation",
 			"tags": ["lead", "pm", "research", "ux", "dev"]
 		},
 		{
@@ -44,11 +45,11 @@
 				"tags": ["research", "ux", "pm", "excel", "balsamiq"]
 			},
 			{
-				"task": "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebok feed app entry by 36%",
+				"task": "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%",
 				"tags": ["pm", "ux", "excel", "sql", "balsamiq"]
 			},
 			{
-				"task": "Designed the initial UX wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users",
+				"task": "Designed initial UX wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users",
 				"tags": ["design", "pm", "ux", "sql", "balsamiq"]
 			},
 			{
@@ -69,7 +70,7 @@
 			"location": "New York City, NY",
 			"responsibilities": [
 			{	
-				"task": "Leveraged user testing results to re-design the meal-logging experience, improving clarity, speed of navigation and to better reflect the common mental model of logging food",
+				"task": "Leveraged user testing data to re-design the meal-logging experience, improving clarity, speed of navigation and to better reflect the common mental model of logging food",
 				"tags": ["ux", "design", "research", "ui", "sketch", "framer", "origami"]
 			},
 			{
@@ -93,11 +94,11 @@
 			"location": "Toronto, ON",
 			"responsibilities": [
 			{
-				"task": "Redesigned both iOS and Android apps from the ground up. I reworked everything from the registration workflow, to the in app experience at home and abroad using the KnowRoaming SIM Sticker",
+				"task": "Redesigned both iOS and Android apps from the ground up—everything from the registration workflow, to the in app experience at home and abroad",
 				"tags": ["ux", "pm", "product", "design", "ucd"]
 			},
 			{
-				"task": "Leveraged customer feedback to iterate on the flow of the app to better correspond with the users' mental model of the 3 use-phases of the product.",
+				"task": "Leveraged customer feedback to improve the flow of the app to better correspond with the 3 use-cases of the product",
 				"tags": ["ux", "research", "ucd"]
 			},
 			{
@@ -164,29 +165,33 @@
 	"projects": [
 		{	
 			"id": "fydp",
-			"name": "Chameleon Hearing Protection",
+			"name": "Chameleon",
 			"term": "Sept. 2016 - present",
-			"description": "A variable hearing protection device for periodically loud environments, such as construction sites and factories which continuously adjusts its attenuation based on the loudness of the environment.",
+			"description": "A variable hearing protection device for periodically loud environments which continuously adjusts its attenuation based on the loudness of the environment.", 
 			"responsibilities": [
 				{
 					"task": "Managed team priorities and coordinated collaboration efforts",
 					"tags": ["pm", "lead", "manage"]
 				},
 				{
+					"task": "Researched user needs and requirements to inform design",
+					"tags": ["research", "design", "ucd", "ux"]
+				},
+				{
 					"task": "Developed analog circuit to determine the perceived loudness at the ear",
 					"tags": ["analog", "signals", "elec"]
 				},
 				{
-					"task": "Designed and built testing apparatus and developed test evaluation software",
-					"tags": ["dev", "mech", "research", "signals", "dsp"]
+					"task": "Developed device testing validation software script",
+					"tags": ["dev", "mech", "research", "signals", "dsp", "python"]
 				},
 				{
-					"task": "Designed outer casing, and attenuator actuation mechanism",
+					"task": "Designed ear-cup and variable attenuation mechanism",
 					"tags": ["design", "mechanical", "hardware", "modelling", "cad", "prototype"]
 				},
 				{
-					"task": "Developed naïve 8-hr equivalent prediction algorithm",
-					"tags": ["dev", "python", "matlab"]
+					"task": "Developed exposure prediction and actuator control logic on Teensy",
+					"tags": ["dev", "arduino", "python", "matlab"]
 				}
 			]
 		},
@@ -210,7 +215,7 @@
 				"tags": ["web", "development", "app", "design", "front-end", "python", "html", "css", "sass", "js"]
 			},
 			{
-				"task": "Designed and built the wood and plastic frame and water basin",
+				"task": "Designed and built the fountain frame and water basin",
 				"tags": ["mechanical", "construction", "prototype", "hardware"]
 			}
 			]
@@ -220,7 +225,7 @@
 			"name": "TAP Metronome",
 			"term": "Fall 2016",
 			"description": "A simple iOS metronome app with a minimal interface built during Hack The North 2016.",
-			"tags": ["ios", "dev", "front-end", "swift", "xcode", "design"]
+			"tags": ["ios", "dev", "front-end", "swift", "xcode", "design", "music", "audio"]
 		},
 		{
 			"id": "color-therm",
@@ -231,9 +236,9 @@
 		},
 		{
 			"id": "tuner",
-			"name": "Analog Single Note Guitar Tuner",
+			"name": "Analog Single-Note Guitar Tuner",
 			"term": "August 2015",
-			"description": "An analog circuit that uses a series of band-pass filters, and envelope detector, and rectifier to discern whether the high-E string is in tune.",
+			"description": "An analog circuit that uses a series of band-pass filters, and envelope detector, and rectifier to discern whether the high-E string is in tune",
 			"tags": ["elec", "analog", "signals", "audio", "music"]
 		},
 		{
@@ -345,7 +350,7 @@
 		},
 		{	"id": "waterboys",
 			"name": "The Water Boys",
-			"description": "Soloist and lead baritone for the ICCA semi-finalist a cappella group",
+			"description": "Soloist and lead baritone for the ICCA finalist a cappella group",
 			"term": "Fall 2013 to Winter 2017"
 		}
 	],
@@ -369,7 +374,7 @@
 		["XCode", ["xcode", "ios", "swift"]],
 		["AutoCad", ["cad", "autocad", "3d", "autodesk"]],
 		["Inventor", ["cad", "inventor", "3d", "autodesk"]],
-		["Cinema 4D", ["cad", "3D", "c4d"]],
+		["Cinema 4D", ["3D", "c4d"]],
 		["Arduino", ["arduino", "prototype", "hardware", "elec", "dsp"]],
 		["Illustrator", ["ai", "illustrator", "graphic"]],
 		["InDesign", ["indesign","graphic"]],

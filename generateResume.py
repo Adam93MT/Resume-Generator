@@ -6,11 +6,15 @@ from pprint import pprint
 
 fileName = str(sys.argv[0])
 jobTitle = str(sys.argv[1])
+try:
+	arg2 = sys.argv[2]
+except:
+	arg2 = False
 
 jobDescriptionFile = "job_descriptions/" + jobTitle + ".txt"
 jobDescription = open(jobDescriptionFile, 'r').read().lower()
 
-MAX_BULLETS = 4
+MAX_BULLETS = 3
 MAX_BULLETS_PROJ = MAX_BULLETS
 MAX_JOBS = 3
 MAX_SKILLS = 10
@@ -63,9 +67,10 @@ def iterateTags(tagsList):
 		weightListElement += tagCount[idx]
 	return weightListElement
 
+# print ", ".join(tags)
 # Iterate through the resume setions & select appropriate text
 toSave = {}
-if not(os.path.isfile(jobTitle + '.json')):
+if not(os.path.isfile("job_descriptions/json/" + jobTitle + '.json')) or "f" in sys.argv:
 	for item in resumeContent:
 		# Tagline
 		if item == "tagline":
@@ -220,28 +225,28 @@ if not(os.path.isfile(jobTitle + '.json')):
 				# print str(skill[0]) + " " + str(skillWeight[s])
 			for x in xrange(0,MAX_SKILLS):
 				max_idx = skillWeight.index(max(skillWeight))
-				skillsToSave.append(resumeContent[item][max_idx])
+				skillsToSave.append(resumeContent[item][max_idx][0])
 				skillWeight[max_idx] = 0
 
 			toSave[item] = skillsToSave
 
 		elif item == "clubs":
 			toSave[item] = resumeContent[item]
-# else:
-# 	print "Resume Data Already Exists. Recompiling."
-# 	with open(jobTitle + '.json', 'r') as infile:
-# 		toSave = json.load(infile)
+else:
+	print "Data Already Exists. Recompiling."
+	with open("job_descriptions/json/" + jobTitle + '.json', 'r') as infile:
+		toSave = json.load(infile)
 
 				
 toSave["showCourses"] = ShowCourses
 toSave["courseDescriptions"] = CourseDescriptions
 
 # Save the file
-with open('resources/data.json', 'w') as outfile:
+with open('resources/tmpdata.json', 'w') as outfile:
     json.dump(toSave, outfile, indent=4, sort_keys=True)
-with open('resources/data.json', 'r') as og:
+with open('resources/tmpdata.json', 'r') as og:
 	data = og.read()
-with open('resources/data.js', 'w') as outfile:
+with open('resources/tmpdata.js', 'w') as outfile:
 	outfile.write("resumeContent = " + data)
 
 pdfName = "compiled/Adam Thompson Resume - " + jobTitle.title() + ".pdf"
@@ -250,10 +255,11 @@ pdfName = pdfName.replace(" ", "\ ")
 # Compile pdf Resume
 os.system("prince --javascript -s resume-style.css resume.html " + pdfName)
 
-with open("job_descriptions/" + jobTitle + '.json', 'w') as outfile:
+with open("job_descriptions/json/" + jobTitle + '.json', 'w') as outfile:
 	json.dump(toSave, outfile, indent=4, sort_keys=True)
 
-
-
-
-
+if ("cl" in sys.argv): 
+	print "Compiling Cover Letter"
+	clName = "cover_letters/Adam Thompson - " + jobTitle.title() + ".pdf"
+	clName = clName.replace(" ", "\ ")
+	os.system("prince --javascript -s resume-style.css coverLetter.html " + clName)

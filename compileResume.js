@@ -1,6 +1,6 @@
 R = resumeContent;
 $( document).ready(function() {
-	$.getJSON("resources/data.json", function(data) {
+	$.getJSON("resources/tmpdata.json", function(data) {
 		R = data;
 		console.log("AJAX");
 	})
@@ -39,7 +39,8 @@ function compileResume(R) {
 		job += "<div class=\"subsection-header\">";
 		job += "<span class=\"title subsection-title\">" + R.experience[j].position + "</span>";
 		job += "<span class=\"title subsection-company\"><a href=\"http://www." + R.experience[j].url + "\">" + R.experience[j].company + "</a></span>";
-		job += "<span class=\"subsection-location\"> <span class =\"subsection-location-before\"> in </span> " + R.experience[j].location + "</span>";
+		job += "<span class=\"subsection-location\"> <span class =\"subsection-location-before\">"
+		job += " — </span> " + R.experience[j].location + "</span>";
 		job += "<span class=\"subsection-duration\">" + R.experience[j].term + "</span>";
 		job += "</div>";
 
@@ -101,9 +102,9 @@ function compileResume(R) {
 		$('#skills').addClass('skills-fullwidth');	
 
 	for (var s = 0; s < R.skills.length; s++){
-		skl_id = R.skills[s][1][0].toLowerCase().replace(/\s+/g, ''); // The first tag is the skill id
+		skl_id = R.skills[s].toLowerCase().replace(/\s+/g, ''); // The first tag is the skill id
 		skl = "<li class=\" resume-item\" id=\"" + skl_id + "\">";
-		skl += "<div class=\"app-logo\"></div><p class=\"app-name\">" + R.skills[s][0] + "</p>";
+		skl += "<div class=\"app-logo\"></div><p class=\"app-name\">" + R.skills[s] + "</p>";
 		skl += "</li>";
 
 		$("#skills .skills-list").append(skl);
@@ -158,13 +159,15 @@ function compileResume(R) {
 			edu += R.education[e].degree + " " 
 			edu += R.education[e].program + ", "//<br/>"
 			edu += R.education[e].minor + " minor"
-			$("#education").addClass("edu-one-line")
+			// $("#education").addClass("edu-one-line")
+			$("#clubs").addClass("full-width")
 			// $("#education").addClass("edu-club-line")
 			// $("#clubs").addClass("edu-club-line")
 
 		}
 		edu += "</div></article>"
 		$("#education").append(edu);
+		$("#education").addClass("col-right")
 	}
 
 	// ------------------------ Clubs & Groups ------------------------
@@ -182,10 +185,9 @@ function compileResume(R) {
 		clb += "</div></div></article>"
 
 		$("#clubs").append(clb)
-		$("#clubs").addClass("col-right")
+		// $("#clubs").addClass("col-right")
 
 	}
-
 	console.log("Compiled.")
 }
 
