@@ -11,24 +11,28 @@
 
 	"summary": [
 		{
-			"blurb": "Experience in UX and Product design since 2013",
+			"blurb": "Experience in UX and Product design since 2013.",
 			"tags": ["ux", "ui", "sketch", "ps"]
 		},
 		{
-			"blurb": "Researching, developing and prioritizing user & technological requirements",
+			"blurb": "Researching, developing and prioritizing user & technological requirements.", 
 			"tags": ["pm", "research", "dev", "lead", "ux"]
 		},
 		{
-			"blurb": "Developing and presenting design ideas backed by research, and following through with an implementation plan", 
+			"blurb": "Developing and presenting design ideas backed by research, and following through with an implementation plan.", 
 			"tags": ["lead", "pm", "research", "ux", "dev"]
 		},
 		{
-			"blurb": "Collaborating and brainstorming design solutions with designers, developers, operations, and marketing",
+			"blurb": "Collaborating solutions with designers, developers, and other stakeholders.", 
 			"tags": ["lead", "team", "ui", "design", "dev"]
 		},
 		{
 			"blurb": "Diverse education in UX, software, electrical, and mechanical engineering",
 			"tags": ["ux", "dev", "research", "elec", "mech", "design"]
+		},
+		{
+			"blurb": "Fluent in English and French.",
+			"tags": ["language", "french"]
 		}
 	],
 
@@ -42,15 +46,15 @@
 			"location": "Toronto, ON",
 			"responsibilities": [
 			{
-				"task": "Performed background research, user analysis, and A/B testing as part of the design process for a new Subscriptions model",
+				"task":  "Performed background research, user analysis, and A/B testing as part of the design process for a new subscription model.", 
 				"tags": ["research", "ux", "pm", "excel", "balsamiq"]
 			},
 			{
-				"task": "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%",
+				"task": "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%."
 				"tags": ["pm", "ux", "excel", "sql", "balsamiq"]
 			},
 			{
-				"task": "Designed initial UX wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users",
+				"task": "Designed initial UX wireframes and feature specifications for a new feature expected to increase Daily Active Users up to 10%.", 
 				"tags": ["design", "pm", "ux", "sql", "balsamiq"]
 			},
 			{
@@ -71,16 +75,16 @@
 			"location": "New York City, NY",
 			"responsibilities": [
 			{	
-				"task": "Leveraged user testing data to re-design the meal-logging experience, improving clarity, speed of navigation and to better reflect the common mental model of logging food",
+				"task": "Leveraging user testing data, re-designed the meal-logging experience to better reflect the observed mental model of logging food, which improved clarity and speed of navigation.", 
 				"tags": ["ux", "design", "research", "ui", "sketch", "framer", "origami"]
 			},
 			{
-				"task": "Initiated multidisciplinary collaboration with all stakeholders to better understand product requirements, and managed the early design process for the coach dashboard",
-				"tags": ["pm", "ux", "lead"]
+				"task": "Enhanced the food portion picker interface to improve user confidence when logging food items.", 
+				"tags": ["ui", "design", "ux", "sketch"]
 			},
 			{
-				"task": "Enhanced the food portion picker interface to improve user confidence when logging food items",
-				"tags": ["ui", "design", "ux", "sketch"]
+				"task": "Managed the early design process for the coach dashboard involving collaboration with all stakeholders to better understand product requirements.", 
+				"tags": ["pm", "ux", "lead"]
 			},
 			{
 				"task": "Prototyped and iterated interaction designs using Sketch, Framer JS, and Origami, and tested using Usability Hub and UserTesting.com",
@@ -95,7 +99,7 @@
 			"location": "Toronto, ON",
 			"responsibilities": [
 			{
-				"task": "Redesigned both iOS and Android apps from the ground up—everything from the registration workflow, to the in app experience at home and abroad",
+				"task": "Redesigned both iOS and Android apps from the ground up. Everything from the registration flow, to the in-app experience for all use cases.", 
 				"tags": ["ux", "pm", "product", "design", "ucd"]
 			},
 			{
@@ -111,11 +115,11 @@
 				"tags": ["ux", "ui", "animation", "video", "media"]
 			},
 			{
-				"task": "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP",
+				"task": "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP.",
 				"tags": ["ux", "web", "development", "ui", "html", "css", "js", "php"]
 			},
 			{
-				"task": "Lead weekly design meetings with relevant stakeholers to discuss the experience and design of the mobile apps",
+				"task": "Lead weekly design meetings with all stakeholers to discuss design of the mobile apps and websites.", 
 				"tags": ["pm", "leader", "manager"]
 			},
 			{
@@ -171,11 +175,11 @@
 			"description": "A variable hearing protection device for periodically loud environments which continuously adjusts its attenuation based on the loudness of the environment.", 
 			"responsibilities": [
 				{
-					"task": "Managed team priorities and coordinated development efforts",
+					"task": "Managed team priorities and coordinated development efforts.", 
 					"tags": ["pm", "lead", "manage"]
 				},
 				{
-					"task": "Researched user needs and requirements to inform design",
+					"task": "Researched user needs and requirements to inform design.",
 					"tags": ["research", "design", "ucd", "ux"]
 				},
 				{
@@ -183,7 +187,7 @@
 					"tags": ["analog", "signals", "elec"]
 				},
 				{
-					"task":  "Developed device testing validation procedures and software",
+					"task": "Developed device testing validation procedures and software",
 					"tags": ["dev", "mech", "research", "signals", "dsp", "python"]
 				},
 				{
@@ -212,7 +216,7 @@
 				"tags": ["mechanical", "cad", "electrical", "hardware", "prototype"]
 			},
 			{
-				"task": "Developed the web-app front-end, and a portion of the Python server",
+				"task": "Developed the web-app front-end, and a portion of the Python server."
 				"tags": ["web", "development", "app", "design", "front-end", "python", "html", "css", "sass", "js"]
 			},
 			{
@@ -346,12 +350,12 @@
 	"clubs": [
 		{	"id": "uwux",
 			"name": "UW/UX",
-			"description": "Vice President of the UW campus UX Club. Currently an active member",
+			"description": "Vice President of the UW campus UX Club.",
 			"term": "Fall 2014 to Spring 2016"
 		},
 		{	"id": "waterboys",
 			"name": "The Water Boys",
-			"description": "Soloist and lead baritone for the ICCA finalist a cappella group",
+			"description": "Soloist and lead baritone for the international finalist A Cappella group.", 
 			"term": "Fall 2013 to Winter 2017"
 		}
 	],

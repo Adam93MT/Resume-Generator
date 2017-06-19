@@ -37,8 +37,8 @@ function compileResume(R) {
 		job = "<article class=\"job\" id=\"" + R.experience[j].company.toLowerCase() + "\"><div class=\"resume-content\">";
 		
 		job += "<div class=\"subsection-header\">";
-		job += "<span class=\"title subsection-title\">" + R.experience[j].position + "</span>";
 		job += "<span class=\"title subsection-company\"><a href=\"http://www." + R.experience[j].url + "\">" + R.experience[j].company + "</a></span>";
+		job += "<span class=\"title subsection-title\">" + R.experience[j].position + "</span>";
 		job += "<span class=\"subsection-location\"> <span class =\"subsection-location-before\">"
 		job += " — </span> " + R.experience[j].location + "</span>";
 		job += "<span class=\"subsection-duration\">" + R.experience[j].term + "</span>";

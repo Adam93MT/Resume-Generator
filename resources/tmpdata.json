@@ -1,13 +1,13 @@
 {
     "clubs": [
         {
-            "description": "Vice President of the UW campus UX Club. Currently an active member", 
+            "description": "Vice President of the UW campus UX Club.", 
             "id": "uwux", 
             "name": "UW/UX", 
             "term": "Fall 2014 to Spring 2016"
         }, 
         {
-            "description": "Soloist and lead baritone for the ICCA finalist a cappella group", 
+            "description": "Soloist and lead baritone for the international finalist A Cappella group.", 
             "id": "waterboys", 
             "name": "The Water Boys", 
             "term": "Fall 2013 to Winter 2017"
@@ -16,7 +16,7 @@
     "courseDescriptions": false, 
     "education": [
         {
-            "degree": "BASc.", 
+            "degree": "B.ASc.", 
             "id": "uwaterloo", 
             "minor": "Cognitive Science", 
             "program": "Systems Design Engineering", 
@@ -30,9 +30,9 @@
             "location": "Toronto, ON", 
             "position": "Product Manager (Poker)", 
             "responsibilities": [
-                "Designed initial UX wireframes and feature specifications for a hand replay feature expected to increase Daily Active Users", 
-                "Performed background research, user analysis, and A/B testing as part of the design process for a new Subscriptions model", 
-                "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%"
+                "Designed initial UX wireframes and feature specifications for a new feature expected to increase Daily Active Users up to 10%.", 
+                "Performed background research, user analysis, and A/B testing as part of the design process for a new subscription model.", 
+                "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%."
             ], 
             "term": "Spring 2016", 
             "url": "zynga.com/poker"
@@ -42,10 +42,10 @@
             "location": "New York City, NY", 
             "position": "Product Designer", 
             "responsibilities": [
-                "Leveraged user testing data to re-design the meal-logging experience, improving clarity, speed of navigation and to better reflect the common mental model of logging food", 
-                "Enhanced the food portion picker interface to improve user confidence when logging food items", 
-                "Managed the early design process for the coach dashboard involving collaboration with all stakeholders to better understand product requirements", 
-                "Prototyped and iterated interaction designs using Sketch, Framer JS, and Origami, and tested using Usability Hub and UserTesting.com"
+                "Leveraging user testing data, re-designed the meal-logging experience to better reflect the observed mental model of logging food, which improved clarity and speed of navigation.", 
+                "Enhanced the food portion picker interface to improve user confidence when logging food items.", 
+                "Managed the early design process for the coach dashboard involving collaboration with all stakeholders to better understand product requirements.", 
+                "Prototyped and iterated interaction designs using Sketch, Framer JS, and Origami, and tested using Usability Hub and UserTesting.com."
             ], 
             "term": "Fall 2015", 
             "url": "noom.com"
@@ -55,9 +55,9 @@
             "location": "Toronto, ON", 
             "position": "UX Designer", 
             "responsibilities": [
-                "Redesigned both iOS and Android apps from the ground up\u2014everything from the registration workflow, to the in app experience at home and abroad", 
-                "Lead weekly design meetings with all stakeholers to discuss design of the mobile apps and websites", 
-                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
+                "Redesigned both iOS and Android apps from the ground up. Everything from the registration flow, to the in-app experience for all use cases.", 
+                "Lead weekly design meetings with all stakeholers to discuss design of the mobile apps and websites.", 
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP."
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
@@ -68,9 +68,9 @@
             "position": "UX Designer", 
             "responsibilities": [
                 "Lead the design and development for a new music-dicovery/radio feature in MediaGo.", 
-                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience", 
-                "Designed promotional graphics and videos for MediaGo", 
-                "Developed the front-end for the new feature using HTML, SASS and jQuery"
+                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience.", 
+                "Designed promotional graphics and videos for MediaGo.", 
+                "Developed the front-end for the new feature using HTML, SASS and jQuery."
             ], 
             "term": "Fall 2013", 
             "url": "mediago.sony.com"
@@ -83,19 +83,19 @@
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
-                "Managed team priorities and coordinated development efforts", 
-                "Researched user needs and requirements to inform design", 
-                "Developed device testing validation procedures and software"
+                "Managed team priorities and coordinated development efforts.", 
+                "Researched user needs and requirements to inform design.", 
+                "Developed device testing validation procedures and software."
             ], 
-            "term": "Sept. 2016 - present"
+            "term": "Sept. 2016 to May. 2017"
         }, 
         {
-            "description": "An interactive fountain with dynamic water spouts controlled by an Arduino, connected via a Raspberry Pi to enable users to play a quiz game with the fountain, which reacted to the quiz responses", 
+            "description": "An interactive fountain with dynamic water spouts controlled by an Arduino, connected via a Raspberry Pi to enable users to play a quiz game with the fountain, which reacted to the quiz responses.", 
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
-                "Designed in-game interface, and information architecture", 
-                "Developed the web-app front-end, and a portion of the Python server"
+                "Designed in-game interface, and information architecture.", 
+                "Developed the web-app front-end, and a portion of the Python server."
             ], 
             "term": "Spring 2015"
         }, 
@@ -116,22 +116,22 @@
     "showCourses": false, 
     "skills": [
         "Balsamiq", 
-        "Framer", 
         "Sketch", 
+        "Photoshop", 
+        "Framer", 
         "Origami", 
         "CoffeeScript", 
-        "Python", 
-        "Git", 
         "jQuery", 
+        "PHP", 
         "Swift", 
-        "PHP"
+        "Python"
     ], 
     "summary": [
-        "Experience in UX and Product design since 2013", 
-        "Developing and presenting design ideas backed by research, and following through with an implementation plan", 
-        "Collaborating solutions with designers, developers, and other stakeholders", 
-        "Researching, developing and prioritizing user & technological requirements", 
-        "Fluent in English and French"
+        "Experience in UX and Product design since 2013.", 
+        "Developing and presenting design ideas backed by research, and following through with an implementation plan.", 
+        "Collaborating solutions with designers, developers, and other stakeholders.", 
+        "Researching, developing and prioritizing user & technological requirements.", 
+        "Fluent in English and French."
     ], 
     "tagline": "B.Asc. Systems Design Engineering - University of Waterloo"
 }

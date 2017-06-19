@@ -242,18 +242,24 @@ article {
 
 			}
 
-				.subsection-title {
+				#experience .subsection-title {
+					color: #4a4a4a;
+					font-size: 14px;
+				}
+
+				#experience .subsection-title::before {
+					content: " - ";
+					font-size: 0.75em;
+				}
+
+				#experience .subsection-company {
 					color: #4a4a4a;
 					font-size: 14px;
 					font-weight: 600;
 				}
-
-				.subsection-company {
-					color: #4a4a4a;
-					font-size: 14px;
-				}
-				.subsection-company::before {
-					content: " at ";
+				#experience .subsection-company::before {
+					/*content: " at ";*/
+					content: ''
 					font-size: 0.75em;
 				}
 
@@ -305,7 +311,11 @@ article {
 	#projects .resume-content {
 		width: 100%;
 	}
-
+	#projects .subsection-title {
+		color: #4a4a4a;
+		font-size: 14px;
+		font-weight: 600;
+	}
 	.project .content {
 		margin: 4px 0;
 	}
