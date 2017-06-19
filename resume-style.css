@@ -20,6 +20,7 @@ body {
 	body {
 		width: 724px;
 		min-height: 100vh;
+		height: 937px;
 		padding: 50px 50px;
 		margin: 0 auto;
 	}
@@ -80,49 +81,47 @@ body {
 .header .tagline {
 	position: relative;
 	display: inline-block;
-	text-align: right;
-	font-family: "Playfair Display";
+	text-align: left;
 	font-weight: 400;
 	font-size: 16px;
-	top: 0.75em;
-	float: right;
-	max-width: 164px;
+/*	top: 15px;
+	float: right;*/
+	line-height: 20px;
+	/*max-width: 164px;*/
 }
 .tagline em {
 	color: #5B753D;
 }
 
 .header .contact {
+	display: inline-block;
+	float: right;
 	color: #5B753D;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 400;
 	margin-top: 4px;
 	font-family: "Playfair Display";
-	/*font-family: "Proxima Nova";*/
 }
 
 .header .contact span {
-	display: inline-block;
+	display: block;
+	text-align: right;
 	/*width: 33%;*/
 }
-.header .contact span:first-child {
-	/*padding-right: 0.8em;*/
+/*.header .contact span:first-child {
 	text-align: left;
 	width: 30%;
 
 }
 .header .contact span:nth-child(2) {
-	/*padding-right: 0.8em;
-	padding-left: 0.8em;*/
 	text-align: center;
 	width: 39%;
 }
 .header .contact span:last-child {
-	/*padding-left: 0.8em;*/
 	text-align: right;
 	width: 30%;
 	float: right;
-}
+}*/
 
 /* -------------- GLOBAL -------------- */
 
@@ -141,11 +140,13 @@ a {
 
 ul.list {
 	padding-left: 16px;
-	font-size: 12px;
-	line-height: 14px;
-	font-weight: 400;
 	margin: 4px auto 0 auto;
-	/*list-style-type: none;*/
+}
+
+ul.list, .content {
+	line-height: 15px;
+	font-size: 12px;
+	font-weight: 400;
 }
 
 .list li {
@@ -157,12 +158,6 @@ ul.list {
 	font-weight: 500;
 }
 
-.content {
-	line-height: 1.2em;
-	font-size: 12px;
-	font-weight: 400;
-}
-
 .col-left{
 	width: 60%;
 	float: left;
@@ -170,7 +165,7 @@ ul.list {
 }
 
 .col-left .resume-content  {
-	margin-right: 12px;
+	margin-right: 16px;
 }
 .col-right {
 	width: 40%;
@@ -178,6 +173,10 @@ ul.list {
 }
 
 /* -------------- BODY -------------- */
+
+article {
+	margin-top: 8px;
+}
 
 .section-header {
 	margin-bottom: 0px;
@@ -273,7 +272,7 @@ ul.list {
 					font-style: italic;
 					float: right;
 					position: relative;
-					top: 5px;
+					top: 0.5em;
 					padding-right: 0.2em;
 				}
 				.subsection-location-before {
@@ -415,10 +414,10 @@ ul.list {
 
 	#sketch .app-logo {
 	background-image: url('image_assets/apps/sketch.png');}
-	#ps .app-logo {
+	#photoshop .app-logo {
 	background-image: url('image_assets/apps/photoshop.png');}
-	#ai .app-logo {
-	background-image: url('image_assets/apps/ai.png');}
+	#illustrator .app-logo {
+	background-image: url('image_assets/apps/illustrator.png');}
 	#indesign .app-logo {
 	background-image: url('image_assets/apps/indd.png');}
 	#balsamiq .app-logo {
@@ -427,6 +426,12 @@ ul.list {
 	background-image: url('image_assets/apps/framer.png');}
 	#origami .app-logo {
 	background-image: url('image_assets/apps/origami.png');}
+
+	#invision .app-logo {
+	background-image: url('image_assets/apps/invision.png');}
+
+	#marvel .app-logo {
+	background-image: url('image_assets/apps/marvel.png');}
 
 	/* Dev 1 */
 	#html .app-logo {
@@ -483,6 +488,8 @@ ul.list {
 	background-image: url('image_assets/apps/premiere.png');}
 	#final_cut .app-logo {
 	background-image: url('image_assets/apps/final_cut.png');}
+	#logic .app-logo {
+	background-image: url('image_assets/apps/logic.png');}
 
 
 	/* Other */
@@ -580,11 +587,11 @@ ul.list {
 	}
 
 #education.edu-club-line {
-	width: 33%;
+	width: 50%;
 	float: left;
 }
 #clubs.edu-club-line {
-	width: 66%;
+	width: 50%;
 	float: right;
 }
 /*#clubs {
@@ -592,12 +599,45 @@ ul.list {
 }*/
 .club .resume-content {
 	width: 100%;
-	float: left;
+	/*float: left;*/
 }
 .club .content, .club .subsection-header {
 	margin-right: 12px;
 }
+.club .content{
+	padding-top: 2px;
+}
 
 #clubs.col-right #waterboys .resume-content{
 	padding-top: 3px;
+}
+
+.clubs.full-width {
+	width: 100%;
+}
+
+.clubs.full-width .section-header{
+	width: 100%;
+}
+.clubs.full-width .club {
+	width: 50%;
+	float: right;
+}
+
+.cover_letter_content {
+}
+
+.cover_letter_content, .sign-off {
+	width: 80%;
+	margin: 24px auto;
+	font-family: "Playfair Display";
+	color: #4a4a4a;
+	line-height: 1.5em;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.sign-off {
+	padding-top: 2em;
+	padding-left: 4em;
 }
