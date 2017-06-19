@@ -14,7 +14,7 @@ except:
 jobDescriptionFile = "job_descriptions/" + jobTitle + ".txt"
 jobDescription = open(jobDescriptionFile, 'r').read().lower()
 
-MAX_BULLETS = 3
+MAX_BULLETS = 4
 MAX_BULLETS_PROJ = MAX_BULLETS
 MAX_JOBS = 3
 MAX_SKILLS = 10
@@ -71,6 +71,8 @@ def iterateTags(tagsList):
 # Iterate through the resume setions & select appropriate text
 toSave = {}
 if not(os.path.isfile("job_descriptions/json/" + jobTitle + '.json')) or "f" in sys.argv:
+	if "f" in sys.argv:
+		print "Forcing re-parse"
 	for item in resumeContent:
 		# Tagline
 		if item == "tagline":

@@ -44,6 +44,7 @@ resumeContent = {
             "responsibilities": [
                 "Leveraged user testing data to re-design the meal-logging experience, improving clarity, speed of navigation and to better reflect the common mental model of logging food", 
                 "Enhanced the food portion picker interface to improve user confidence when logging food items", 
+                "Managed the early design process for the coach dashboard involving collaboration with all stakeholders to better understand product requirements", 
                 "Prototyped and iterated interaction designs using Sketch, Framer JS, and Origami, and tested using Usability Hub and UserTesting.com"
             ], 
             "term": "Fall 2015", 
@@ -55,11 +56,24 @@ resumeContent = {
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up\u2014everything from the registration workflow, to the in app experience at home and abroad", 
-                "Leveraged customer feedback to improve the flow of the app to better correspond with the main use-cases of the product", 
-                "Lead weekly design meetings with relevant stakeholders to discuss the experience and design of the mobile apps"
+                "Lead weekly design meetings with all stakeholers to discuss design of the mobile apps and websites", 
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP"
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
+        }, 
+        {
+            "company": "Sony", 
+            "location": "Waterloo, ON", 
+            "position": "UX Designer", 
+            "responsibilities": [
+                "Lead the design and development for a new music-dicovery/radio feature in MediaGo.", 
+                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience", 
+                "Designed promotional graphics and videos for MediaGo", 
+                "Developed the front-end for the new feature using HTML, SASS and jQuery"
+            ], 
+            "term": "Fall 2013", 
+            "url": "mediago.sony.com"
         }
     ], 
     "objective": "I\u2019m a \"big-picture\" problem solver; always looking for the best solution to the right problem. I\u2019m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.", 
@@ -69,9 +83,9 @@ resumeContent = {
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
+                "Managed team priorities and coordinated development efforts", 
                 "Researched user needs and requirements to inform design", 
-                "Designed ear-cup and variable attenuation mechanism", 
-                "Developed device testing validation software script"
+                "Developed device testing validation procedures and software"
             ], 
             "term": "Sept. 2016 - present"
         }, 
@@ -80,13 +94,13 @@ resumeContent = {
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
-                "Designed the game interface, and app architecture", 
+                "Designed in-game interface, and information architecture", 
                 "Developed the web-app front-end, and a portion of the Python server"
             ], 
             "term": "Spring 2015"
         }, 
         {
-            "description": "A simple iOS metronome app with a minimal interface built during Hack The North 2016.", 
+            "description": "A simple iOS metronome app with a minimal interface built for Hack The North 2016.", 
             "id": "metronome", 
             "name": "TAP Metronome", 
             "term": "Fall 2016"
@@ -97,29 +111,27 @@ resumeContent = {
             "name": "Say No To Comic Sans", 
             "term": "Spring 2013"
         }, 
-        {}, 
-        null, 
-        null, 
-        null
+        {}
     ], 
     "showCourses": false, 
     "skills": [
-        "Sketch", 
         "Balsamiq", 
         "Framer", 
+        "Sketch", 
         "Origami", 
-        "Photoshop", 
-        "Illustrator", 
-        "HTML", 
-        "Swift", 
+        "CoffeeScript", 
         "Python", 
-        "MATLAB"
+        "Git", 
+        "jQuery", 
+        "Swift", 
+        "PHP"
     ], 
     "summary": [
         "Experience in UX and Product design since 2013", 
-        "Product Management experience researching, developing and prioritizing user & tech requirements", 
-        "Pitching and presenting my own designs an ideas, backing them up with research, and following through with a plan for implementation", 
-        "Collaborating and brainstorming design solutions with a diverse team"
+        "Developing and presenting design ideas backed by research, and following through with an implementation plan", 
+        "Collaborating solutions with designers, developers, and other stakeholders", 
+        "Researching, developing and prioritizing user & technological requirements", 
+        "Fluent in English and French"
     ], 
-    "tagline": "Systems Design Engineering"
+    "tagline": "B.Asc. Systems Design Engineering - University of Waterloo"
 }

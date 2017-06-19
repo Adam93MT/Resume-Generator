@@ -159,15 +159,15 @@ function compileResume(R) {
 			edu += R.education[e].degree + " " 
 			edu += R.education[e].program + ", "//<br/>"
 			edu += R.education[e].minor + " minor"
-			// $("#education").addClass("edu-one-line")
-			$("#clubs").addClass("full-width")
+			$("#education").addClass("edu-one-line")
+			// $("#clubs").addClass("full-width")
 			// $("#education").addClass("edu-club-line")
 			// $("#clubs").addClass("edu-club-line")
 
 		}
 		edu += "</div></article>"
 		$("#education").append(edu);
-		$("#education").addClass("col-right")
+		// $("#education").addClass("col-right")
 	}
 
 	// ------------------------ Clubs & Groups ------------------------
@@ -185,7 +185,7 @@ function compileResume(R) {
 		clb += "</div></div></article>"
 
 		$("#clubs").append(clb)
-		// $("#clubs").addClass("col-right")
+		$("#clubs").addClass("col-right")
 
 	}
 	console.log("Compiled.")

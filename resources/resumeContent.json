@@ -15,11 +15,11 @@
 			"tags": ["ux", "ui", "sketch", "ps"]
 		},
 		{
-			"blurb": "Product Management experience researching, developing and prioritizing user & tech requirements",
+			"blurb": "Researching, developing and prioritizing user & technological requirements",
 			"tags": ["pm", "research", "dev", "lead", "ux"]
 		},
 		{
-			"blurb": "Pitching and presenting my own designs an ideas, backing them up with research, and following through with a plan for implementation",
+			"blurb": "Developing and presenting design ideas backed by research, and following through with an implementation plan", 
 			"tags": ["lead", "pm", "research", "ux", "dev"]
 		},
 		{
@@ -31,6 +31,7 @@
 			"tags": ["ux", "dev", "research", "elec", "mech", "design"]
 		}
 	],
+
 
 	"experience": [
 		{
@@ -170,7 +171,7 @@
 			"description": "A variable hearing protection device for periodically loud environments which continuously adjusts its attenuation based on the loudness of the environment.", 
 			"responsibilities": [
 				{
-					"task": "Managed team priorities and coordinated collaboration efforts",
+					"task": "Managed team priorities and coordinated development efforts",
 					"tags": ["pm", "lead", "manage"]
 				},
 				{
@@ -182,7 +183,7 @@
 					"tags": ["analog", "signals", "elec"]
 				},
 				{
-					"task": "Developed device testing validation software script",
+					"task":  "Developed device testing validation procedures and software",
 					"tags": ["dev", "mech", "research", "signals", "dsp", "python"]
 				},
 				{
@@ -203,7 +204,7 @@
 			"description": "An interactive fountain with dynamic water spouts controlled by an Arduino, connected via a Raspberry Pi to enable users to play a quiz game with the fountain, which reacted to the quiz responses",
 			"responsibilities": [
 			{
-				"task": "Designed the game interface, and app architecture",
+				"task": "Designed in-game interface, and information architecture",
 				"tags": ["ui", "design", "ux", "sketch", "product"]
 			},
 			{
