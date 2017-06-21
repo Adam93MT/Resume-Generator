@@ -257,9 +257,8 @@ article {
 					font-size: 14px;
 					font-weight: 600;
 				}
-				#experience .subsection-company::before {
-					/*content: " at ";*/
-					content: ''
+				#experience .subsection-company:before {
+					content: '';
 					font-size: 0.75em;
 				}
 
