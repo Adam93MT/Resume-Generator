@@ -15,7 +15,7 @@ jobDescriptionFile = "job_descriptions/" + jobTitle + ".txt"
 jobDescription = open(jobDescriptionFile, 'r').read().lower()
 
 MAX_BULLETS = 4
-MAX_BULLETS_PROJ = MAX_BULLETS
+MAX_BULLETS_PROJ = 3
 MAX_JOBS = 3
 MAX_SKILLS = 10
 

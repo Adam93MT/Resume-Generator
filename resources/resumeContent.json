@@ -1,5 +1,6 @@
 {
 	"tagline": [
+		"B.ASc. Systems Design Engineering - University of Waterloo",
 		"Systems Design Engineering",
 		"Systems Design Engineering, BASc",
 		"University of Waterloo",
@@ -50,7 +51,7 @@
 				"tags": ["research", "ux", "pm", "excel", "balsamiq"]
 			},
 			{
-				"task": "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%."
+				"task": "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%.",
 				"tags": ["pm", "ux", "excel", "sql", "balsamiq"]
 			},
 			{
@@ -84,10 +85,10 @@
 			},
 			{
 				"task": "Managed the early design process for the coach dashboard involving collaboration with all stakeholders to better understand product requirements.", 
-				"tags": ["pm", "ux", "lead"]
+				"tags": ["pm", "ux", "lead", "pm"]
 			},
 			{
-				"task": "Prototyped and iterated interaction designs using Sketch, Framer JS, and Origami, and tested using Usability Hub and UserTesting.com",
+				"task": "Prototyped and iterated interaction designs using Sketch, Framer, and Origami, and tested using Usability Hub and UserTesting.com",
 				"tags": ["ux", "ui", "sketch", "framer", "js", "origami"]
 			}]
 		},
@@ -111,15 +112,11 @@
 				"tags": ["ux", "pm", "web"]
 			},
 			{
-				"task": "Storyboarded, and animated an app intro video for the updated KnowRoaming app",
-				"tags": ["ux", "ui", "animation", "video", "media"]
-			},
-			{
 				"task": "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP.",
 				"tags": ["ux", "web", "development", "ui", "html", "css", "js", "php"]
 			},
 			{
-				"task": "Lead weekly design meetings with all stakeholers to discuss design of the mobile apps and websites.", 
+				"task": "Lead weekly design meetings with all stakeholders to discuss design of the mobile apps and websites.", 
 				"tags": ["pm", "leader", "manager"]
 			},
 			{
@@ -133,6 +130,10 @@
 			{
 				"task": "Designed a new product package concept, reducing the box side by 50% by leveraging unique features of the KnowRoaming product.",
 				"tags": ["id", "packaging", "retail", "optimization"]
+			},
+			{
+				"task": "Storyboarded, and animated an app intro video for the updated KnowRoaming app",
+				"tags": ["ux", "ui", "animation", "video", "media"]
 			},
 			{
 				"task": "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor",
@@ -216,7 +217,7 @@
 				"tags": ["mechanical", "cad", "electrical", "hardware", "prototype"]
 			},
 			{
-				"task": "Developed the web-app front-end, and a portion of the Python server."
+				"task": "Developed the web-app front-end, and a portion of the Python server.",
 				"tags": ["web", "development", "app", "design", "front-end", "python", "html", "css", "sass", "js"]
 			},
 			{

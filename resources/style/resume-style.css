@@ -436,10 +436,14 @@ article {
 	background-image: url('../image_assets/apps/framer.png');}
 	#origami .app-logo {
 	background-image: url('../image_assets/apps/origami.png');}
+
 	#invision .app-logo {
 	background-image: url('../image_assets/apps/invision.png');}
+
 	#marvel .app-logo {
 	background-image: url('../image_assets/apps/marvel.png');}
+
+	/* Dev 1 */
 	#html .app-logo {
 	background-image: url('../image_assets/apps/html.png');}
 	#css .app-logo {
@@ -474,12 +478,16 @@ article {
 	background-image: url('../image_assets/apps/excel.png');}
 	#sql .app-logo {
 	background-image: url('../image_assets/apps/sql.png');}	
+
+	/* 3d */
 	#autocad .app-logo {
 	background-image: url('../image_assets/apps/autocad.png');}
 	#inventor .app-logo {
 	background-image: url('../image_assets/apps/inventor.png');}
 	#rhino .app-logo {
 	background-image: url('../image_assets/apps/rhino.png');}
+
+	/* video */
 	#cinema4d .app-logo {
 	background-image: url('../image_assets/apps/c4d.png');}
 	#max .app-logo {
@@ -492,6 +500,9 @@ article {
 	background-image: url('../image_assets/apps/final_cut.png');}
 	#logic .app-logo {
 	background-image: url('../image_assets/apps/logic.png');}
+
+
+	/* Other */
 	#espresso .app-logo {
 	background-image: url('../image_assets/apps/espresso.png');}
 	#sublime .app-logo {
@@ -623,9 +634,7 @@ article {
 	float: right;
 }
 
-.cover_letter_content {
-}
-
+/* ---------- COVER LETTER ---------- */
 .cover_letter_content, .sign-off {
 	width: 80%;
 	margin: 24px auto;
@@ -636,7 +645,16 @@ article {
 	font-weight: 400;
 }
 
+.cover_letter_content {
+	margin-bottom: 0;
+}
+
 .sign-off {
-	padding-top: 2em;
-	padding-left: 4em;
+	margin-top: 0;
+	padding-top: 48px;
+	padding-left: 48px;
+	background-image: url("../image_assets/signature.png");
+	background-position: 48px 0;
+	background-size: 144px;
+	background-repeat: no-repeat;
 }
