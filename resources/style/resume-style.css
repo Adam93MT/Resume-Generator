@@ -35,6 +35,13 @@ body {
 		position: relative;
 		display: inline-block;
 	}
+	
+	/* Add en extra blank page to put the watermark on. We get rid of this later in python */
+	body:before {
+		content: ' ';
+		height: 11in;
+		display: block;
+	}
 }
 
 @page {

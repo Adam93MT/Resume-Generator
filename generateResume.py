@@ -32,6 +32,16 @@ keywords = []
 tags = []	
 tagMap = []
 
+def removeFirstPage(name):
+	from PyPDF2 import PdfFileWriter, PdfFileReader
+	infile = PdfFileReader(name, 'rb')
+	output = PdfFileWriter()
+	for x in xrange(infile.getNumPages()):
+		if x is not(0):
+			output.addPage(infile.getPage(x))
+	with open(name, 'wb') as f:
+	   output.write(f)
+
 # Parse Job Description
 with open('resources/tagMap.csv', 'rb') as csvfile:
 	CSVreader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -262,6 +272,8 @@ pdfName = pdfName.replace(" ", "\ ")
 
 # Compile pdf Resume
 os.system("prince --javascript -s resume-style.css resume.html " + pdfName)
+# Once the pdf is compiled, remove the first page that has the watermark
+removeFirstPage(pdfName.replace("\ ", " "))
 
 with open("job_descriptions/json/" + jobTitle + '.json', 'w') as outfile:
 	json.dump(toSave, outfile, indent=4, sort_keys=True)
@@ -286,6 +298,4 @@ if ("cl" in sys.argv):
 		tmpmdfile.write("clContent = '" + mdtext + "'")
 
 	os.system("prince --javascript -s resume-style.css coverLetter.html " + clName)
-
-
-
+	removeFirstPage(clName.replace("\ ", " "))
