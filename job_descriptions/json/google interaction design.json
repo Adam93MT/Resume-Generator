@@ -57,23 +57,10 @@
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. Everything from the registration flow, to the in-app experience for all use cases.", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
-                "Lead weekly design meetings with all stakeholders to discuss design of the mobile apps and websites."
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP."
             ], 
             "term": "Spring 2014 & Winter 2015", 
             "url": "knowroaming.com"
-        }, 
-        {
-            "company": "Sony", 
-            "location": "Waterloo, ON", 
-            "position": "UX Designer", 
-            "responsibilities": [
-                "Lead the design and development for a new music-dicovery/radio feature in MediaGo.", 
-                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience.", 
-                "Designed promotional graphics and videos for MediaGo.", 
-                "Developed the front-end for the new feature using HTML, SASS and jQuery."
-            ], 
-            "term": "Fall 2013", 
-            "url": "mediago.sony.com"
         }
     ], 
     "objective": "I\u2019m a \"big-picture\" problem solver; always looking for the best solution to the right problem. I\u2019m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.", 
@@ -119,21 +106,21 @@
     "showCourses": false, 
     "skills": [
         "Sketch", 
-        "Photoshop", 
-        "Illustrator", 
-        "InVision", 
-        "Zeplin", 
-        "Balsamiq", 
         "Framer", 
         "Origami", 
-        "CoffeeScript", 
+        "Balsamiq", 
+        "HTML", 
+        "Photoshop", 
+        "jQuery", 
+        "Java", 
+        "Python", 
         "Swift"
     ], 
     "summary": [
         "Experience in UX and Product design since 2013.", 
-        "Research, development and prioritization of user & technological requirements.", 
-        "Development and presentation of design ideas backed by research, and following through with an implementation plan.", 
-        "Collaboratng solutions with designers, developers, and other stakeholders."
+        "Researching, developing and prioritizing user & technological requirements.", 
+        "Developing and presenting design ideas backed by research, and following through with an implementation plan.", 
+        "Collaborating solutions with designers, developers, and other stakeholders."
     ], 
     "tagline": "B.ASc. Systems Design Engineering - University of Waterloo"
 }

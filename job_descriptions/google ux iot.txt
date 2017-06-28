@@ -1,0 +1,25 @@
+UX Engineers are the synthesis of design and development. They take Google's most innovative product concepts and bring them to life in an effort to push the boundaries of user interface design. Google is known for its design aesthetic and technical know-how. In a UX Engineer job, you'll need both types of skills to develop the next generation of products. You'll partner with Researchers and Designers to define and deliver new features, test new concepts and assist with final implementation. Details are critical as you iterate on complex interactions, animations and pixel-perfect visual designs.
+
+Our Android UX team works on products across the Android family. As a member of our team, you will work closely with design, research and engineering groups to develop ideas and translate rough concepts into living, breathing prototypes of flagship Google Android experiences and/or grow the design toolkit.
+
+The opportunity to have an impact is huge as Android touches millions of lives every day. You have a mix of Android, and web/ or other prototyping tool skills. You are articulate and opinionated about the design of our products. You feel comfortable working independently, are fearless at diving into new technologies, and push the limits of your skill-sets while living on the edge of mobile technology.
+
+Google is and always will be an engineering company. We hire people with a broad set of technical skills who are ready to take on some of technology's greatest challenges and make an impact on millions, if not billions, of users. At Google, engineers not only revolutionize search, they routinely work on massive scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From AdWords to Chrome, Android to YouTube, Social to Local, Google engineers are changing the world one technological achievement after another.
+
+Responsibilities
+Fulfill several project requests simultaneously while meeting tight deadlines.
+Identify and solve UX problems on emerging technology platforms and devices.
+Deliver innovative, engaging prototypes using the latest in mobile technologies.
+Advise, and collaborate with UX designers and researchers.
+Qualifications
+Minimum qualifications:
+BA/BS degree in Computer Science, HCI, Design, or equivalent practical experience.
+Experience with Internet of Things (IoT) technologies and/or low-level connected product protocols
+
+Preferred qualifications:
+Fluency in Java and Android SDK.
+Able to bounce between multiple software platforms (e.g. Node.js, Python, Android, HTML, Arduino).
+Able to implement software communication between devices (e.g. web sockets, bluetooth).
+Can build digital interfaces to control and interact with physical objects.
+Nimble at repurposing existing technologies for novel uses.
+Excellent leadership, communication, project management, and organizational skills.

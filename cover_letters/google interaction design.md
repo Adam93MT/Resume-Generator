@@ -1,0 +1,3 @@
+Hi Google Team,
+
+I'm a recent grad of Systems Design Engineering at the University of Waterloo—a multidisciplinary engineering program with an emphasis on holistic design thinking. I have worked as a designer for companies like Noom in New York, KnowRoaming in Toronto, and Sony, and as a product manager for Zynga. With my combined work experience and education, I  believe I have the necessary skills, drive, and passion to be a successful interaction designer with Google. 	
