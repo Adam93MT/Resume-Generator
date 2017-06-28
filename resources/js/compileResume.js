@@ -29,7 +29,6 @@ function compileResume(R) {
 		$("#summary .resume-content ul").append("<li>" + R.summary[i] + "</li>");
 	}
 	$("#summary").addClass('col-left')
-	R_Col_Height += $('#summary').height();
 
 	// ------------------------ Experience  ------------------------
 	for (j = 0; j < R.experience.length; j++) {
@@ -58,14 +57,13 @@ function compileResume(R) {
 		}
 	}
 	$('#experience').addClass('col-left')
-	L_Col_Height += $("#experience").height();
 
 	// ------------------------ Projects   ------------------------
 	for (var p = 0; p < R.projects.length; p++){
 		proj = "<article class=\"project\" id=\"" + R.projects[p].id + "\">";
 		proj +=	"<div class=\"resume-content\">";
 		proj += "<div class=\"subsection-header\">";
-		proj += "<span class=\"title subsection-title\">" + R.projects[p].name + "</span>";
+		proj += "<span class=\"title subsection-title\">" + "<a href=\"" + R.projects[p].url + "\">" + R.projects[p].name + "</a></span>";
 		proj += "<span class=\"subsection-duration\">" + R.projects[p].term + "</span>";
 		proj += "</div>";
 		proj += "<div class=\"content\">" + R.projects[p].description + "</div>";
@@ -88,21 +86,13 @@ function compileResume(R) {
 	}
 	$('#projects').addClass('col-right')
 	$('#projects').insertBefore('#experience')
-	R_Col_Height += $("#projects").height();
 
 
 	// ------------------------ Skills  ------------------------
-	// Full Width, Left or Right?
-	// rspace = L_Col_Height - R_Col_Height;
-	// if ( rspace >= 144)
-	// 	$('#skills').addClass('skills-rightcol');
-	// else if ( rspace <= -96 )
-	// 	$('#skills').addClass('skills-leftcol');
-	// else
 		$('#skills').addClass('skills-fullwidth');	
 
 	for (var s = 0; s < R.skills.length; s++){
-		skl_id = R.skills[s].toLowerCase().replace(/\s+/g, ''); // The first tag is the skill id
+		skl_id = R.skills[s].toLowerCase().replace(/\s+/g, '').replace(" ", "-"); // The first tag is the skill id
 		skl = "<li class=\" resume-item\" id=\"" + skl_id + "\">";
 		skl += "<div class=\"app-logo\"></div><p class=\"app-name\">" + R.skills[s] + "</p>";
 		skl += "</li>";
@@ -110,10 +100,32 @@ function compileResume(R) {
 		$("#skills .skills-list").append(skl);
 	}
 
-	// if (rspace < 0) {
-	// 	$("#skills").css("margin-top","-4px");
-	// }
+	// ------------------------ Clubs & Groups ------------------------
 
+	for (var g = 0; g < R.clubs.length; g++) {
+		clb = "<article class=\"club\" id=\"" + R.clubs[g].id + "\">"
+		clb += "<div class=\"resume-content\">"
+		clb += "<div class=\"subsection-header\">"
+		clb += "<span class=\"title subsection-clubname\">"
+		clb += R.clubs[g].name
+		clb += "</span><span class=\"subsection-duration\">"
+		clb += R.clubs[g].term
+		clb += "</span></div>"
+		clb += "<div class=\"content\">"
+		clb += R.clubs[g].description
+		clb += "</div></div></article>"
+
+		$("#clubs").append(clb);
+
+	}
+
+	// Full Width, Left or Right?
+	column_height_diff = Math.abs( R.summary.length + job.length - proj.length );
+	// console.log(clb.length);
+	if (column_height_diff <= clb.length)
+		$('#clubs').addClass("full-width");
+	else
+		$("#clubs").addClass("col-right");
 
 	// ------------------------ Education ------------------------
 	for (var e = 0; e < R.education.length; e++){
@@ -157,37 +169,16 @@ function compileResume(R) {
 		else {
 			edu += "</div><div class=\"content\">"
 			edu += R.education[e].degree + " " 
-			edu += R.education[e].program + ", "//<br/>"
-			edu += R.education[e].minor + " minor"
-			$("#education").addClass("edu-one-line")
-			// $("#clubs").addClass("full-width")
+			edu += R.education[e].program + " with "//<br/>"
+			edu += R.education[e].minor + " Minor"
+			$("#education").addClass("full-width")
 			// $("#education").addClass("edu-club-line")
-			// $("#clubs").addClass("edu-club-line")
-
 		}
 		edu += "</div></article>"
 		$("#education").append(edu);
-		// $("#education").addClass("col-right")
 	}
+	// $("#education").addClass("hide")
 
-	// ------------------------ Clubs & Groups ------------------------
-	for (var g = 0; g < R.clubs.length; g++) {
-		clb = "<article class=\"club\" id=\"" + R.clubs[g].id + "\">"
-		clb += "<div class=\"resume-content\">"
-		clb += "<div class=\"subsection-header\">"
-		clb += "<span class=\"title subsection-clubname\">"
-		clb += R.clubs[g].name
-		clb += "</span><span class=\"subsection-duration\">"
-		clb += R.clubs[g].term
-		clb += "</span></div>"
-		clb += "<div class=\"content\">"
-		clb += R.clubs[g].description
-		clb += "</div></div></article>"
-
-		$("#clubs").append(clb)
-		$("#clubs").addClass("col-right")
-
-	}
 	console.log("Compiled.")
 }
 
