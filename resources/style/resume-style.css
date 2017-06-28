@@ -43,7 +43,9 @@ body {
    margin: 1.5cm 1.5cm;
 }
 
-
+.hide {
+	display: none;
+}
 
 /* -------------- HEADER -------------- */
 .header, .sub-header{
@@ -76,6 +78,7 @@ body {
 .header a, .sub-header a{
   color: inherit;
   text-decoration: none;
+  border: none;
 }
 
 .header .tagline {
@@ -131,7 +134,8 @@ section {
 
 a {
 	text-decoration: none;
-	color: #5B753D;
+	color: #4a4a4a;
+	border-bottom: 1px solid #b3b3b3;
 }
 
 .hidden {
@@ -331,7 +335,7 @@ article {
 }
 #skills.skills-fullwidth {
 	width: 100%;
-	float: left;
+	/*float: left;*/
 }
 #skills.skills-rightcol {
 	width: 40%;
@@ -435,12 +439,12 @@ article {
 	background-image: url('../image_assets/apps/framer.png');}
 	#origami .app-logo {
 	background-image: url('../image_assets/apps/origami.png');}
-
 	#invision .app-logo {
 	background-image: url('../image_assets/apps/invision.png');}
-
 	#marvel .app-logo {
 	background-image: url('../image_assets/apps/marvel.png');}
+	#zeplin .app-logo {
+	background-image: url('../image_assets/apps/zeplin.png');}
 
 	/* Dev 1 */
 	#html .app-logo {
@@ -485,18 +489,22 @@ article {
 	background-image: url('../image_assets/apps/inventor.png');}
 	#rhino .app-logo {
 	background-image: url('../image_assets/apps/rhino.png');}
+	#fusion .app-logo {
+	background-image: url('../image_assets/apps/fusion.png');}
+	#makerbot .app-logo {
+	background-image: url('../image_assets/apps/makerbot.png');}
 
 	/* video */
 	#cinema4d .app-logo {
 	background-image: url('../image_assets/apps/c4d.png');}
 	#max .app-logo {
 	background-image: url('../image_assets/apps/max.png');}
-	#ae .app-logo {
-	background-image: url('../image_assets/apps/ae.png');}
+	#aftereffects .app-logo {
+	background-image: url('../image_assets/apps/aftereffects.png');}
 	#premiere .app-logo {
 	background-image: url('../image_assets/apps/premiere.png');}
-	#final_cut .app-logo {
-	background-image: url('../image_assets/apps/final_cut.png');}
+	#finalcut .app-logo {
+	background-image: url('../image_assets/apps/finalcut.png');}
 	#logic .app-logo {
 	background-image: url('../image_assets/apps/logic.png');}
 
@@ -514,11 +522,25 @@ article {
 	position: relative;
 	display: inline-block;
 }
-.edu-one-line *{
+
+#education.full-width .section-header {
+	display: block;
+}
+
+#education.full-width .school *{
+	display: inline-block;
+}
+
+#education.full-width .content 
+{
+	margin-left: 4px;
+}
+
+#education.full-width.oneline * {
 	display: inline;
 }
-.edu-one-line .subsection-header, .edu-one-line .content{
-	margin-left: 3px;
+#education.full-width.oneline .subsection-header {\
+	margin-left: 4px;
 }
 .school {
 	margin-bottom: 2px;
@@ -595,14 +617,6 @@ article {
 		display: none;
 	}
 
-#education.edu-club-line {
-	width: 50%;
-	float: left;
-}
-#clubs.edu-club-line {
-	width: 50%;
-	float: right;
-}
 /*#clubs {
 	width: 100%;
 }*/
@@ -611,7 +625,7 @@ article {
 	/*float: left;*/
 }
 .club .content, .club .subsection-header {
-	margin-right: 12px;
+	/*margin-right: 12px;*/
 }
 .club .content{
 	padding-top: 2px;
@@ -630,7 +644,13 @@ article {
 }
 .clubs.full-width .club {
 	width: 50%;
-	float: right;
+	float: left;
+}
+
+.clubs.full-width article:first-of-type .subsection-header,
+.clubs.full-width article:first-of-type .content 
+{
+	margin-right: 12px;
 }
 
 /* ---------- COVER LETTER ---------- */
