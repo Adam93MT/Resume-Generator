@@ -16,11 +16,11 @@
 			"tags": ["ux", "ui", "sketch", "ps"]
 		},
 		{
-			"blurb": "Researching, developing and prioritizing user & technological requirements.", 
+			"blurb": "Research, development and prioritization of user & technological requirements.", 
 			"tags": ["pm", "research", "dev", "lead", "ux"]
 		},
 		{
-			"blurb": "Developing and presenting design ideas backed by research, and following through with an implementation plan.", 
+			"blurb": "Development and presentation of design ideas backed by research, and following through with an implementation plan.", 
 			"tags": ["lead", "pm", "research", "ux", "dev"]
 		},
 		{
@@ -28,8 +28,8 @@
 			"tags": ["lead", "team", "ui", "design", "dev"]
 		},
 		{
-			"blurb": "Diverse education in UX, software, electrical, and mechanical engineering",
-			"tags": ["ux", "dev", "research", "elec", "mech", "design"]
+			"blurb": "Diverse education in UX, software, electrical, and mechanical engineering.",
+			"tags": ["ux", "dev", "research", "elec", "mech", "design", "hardware"]
 		},
 		{
 			"blurb": "Fluent in English and French.",
@@ -55,15 +55,15 @@
 				"tags": ["pm", "ux", "excel", "sql", "balsamiq"]
 			},
 			{
-				"task": "Designed initial UX wireframes and feature specifications for a new feature expected to increase Daily Active Users up to 10%.", 
+				"task": "Designed initial UX wireframes and design specifications for a new feature expected to increase Daily Active Users up to 10%.", 
 				"tags": ["design", "pm", "ux", "sql", "balsamiq"]
 			},
 			{
-				"task": "Analyzed player demographics by monthly spend to better know the sources of revenue, and which players to target for new features",
+				"task": "Analyzed player demographics by monthly spend to better know the sources of revenue, and which players to target for new features.",
 				"tags": ["research", "pm", "excel", "sql"]
 			},
 			{
-				"task": "Managed, analyzed, and reported on key metrics for various in-app experiments",
+				"task": "Managed, analyzed, and reported on key metrics for various in-app experiments.",
 				"tags": ["research", "pm", "manage", "excel", "sql"]
 			}
 			]
@@ -76,7 +76,7 @@
 			"location": "New York City, NY",
 			"responsibilities": [
 			{	
-				"task": "Leveraging user testing data, re-designed the meal-logging experience to better reflect the observed mental model of logging food, which improved clarity and speed of navigation.", 
+				"task": "Redesigned the meal-logging experience by leveraging user testing data, in order to better reflect the observed mental model of logging food, which improved clarity and speed of navigation.", 
 				"tags": ["ux", "design", "research", "ui", "sketch", "framer", "origami"]
 			},
 			{
@@ -84,11 +84,11 @@
 				"tags": ["ui", "design", "ux", "sketch"]
 			},
 			{
-				"task": "Managed the early design process for the coach dashboard involving collaboration with all stakeholders to better understand product requirements.", 
+				"task": "Managed the early design process for the coach dashboard, inviting collaboration with all stakeholders to better understand product requirements.", 
 				"tags": ["pm", "ux", "lead", "pm"]
 			},
 			{
-				"task": "Prototyped and iterated interaction designs using Sketch, Framer, and Origami, and tested using Usability Hub and UserTesting.com",
+				"task": "Prototyped and iterated interaction on designs using Sketch, Framer, and Origami, and tested using Usability Hub and UserTesting.com.",
 				"tags": ["ux", "ui", "sketch", "framer", "js", "origami"]
 			}]
 		},
@@ -104,11 +104,11 @@
 				"tags": ["ux", "pm", "product", "design", "ucd"]
 			},
 			{
-				"task": "Leveraged customer feedback to improve the flow of the app to better correspond with the 3 use-cases of the product",
+				"task": "Leveraged customer feedback to improve the flow of the app to better correspond with the 3 use-cases of the product.",
 				"tags": ["ux", "research", "ucd"]
 			},
 			{
-				"task": "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal",
+				"task": "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal.",
 				"tags": ["ux", "pm", "web"]
 			},
 			{
@@ -132,11 +132,11 @@
 				"tags": ["id", "packaging", "retail", "optimization"]
 			},
 			{
-				"task": "Storyboarded, and animated an app intro video for the updated KnowRoaming app",
+				"task": "Storyboarded, and animated an app intro video for the updated KnowRoaming app.",
 				"tags": ["ux", "ui", "animation", "video", "media"]
 			},
 			{
-				"task": "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor",
+				"task": "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor.",
 				"tags": ["id", "modelling", "product", "design", "autocad", "inventor", "3d"]
 			}
 			]
@@ -153,15 +153,15 @@
 				"tags": ["design", "development", "ps", "illustrator", "pm", "ui", "ux"]
 			},
 			{
-				"task": "Developed the front-end for the new feature using HTML, SASS and jQuery",
+				"task": "Developed the front-end for the new feature using HTML, SASS and jQuery.",
 				"tags": ["ui", "web", "development", "html", "css", "sass", "js"]
 			},
 			{
-				"task": "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience",
+				"task": "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience.",
 				"tags": ["ui", "product", "design", "ux", "media"]
 			},
 			{
-				"task": "Designed promotional graphics and videos for MediaGo",
+				"task": "Designed promotional graphics and videos for MediaGo.",
 				"tags": ["ui", "graphic", "design", "animation", "video", "media"]
 			}
 			]
@@ -174,6 +174,7 @@
 			"name": "Chameleon",
 			"term": "Sept. 2016 - present",
 			"description": "A variable hearing protection device for periodically loud environments which continuously adjusts its attenuation based on the loudness of the environment.", 
+			"url": "http://adamthompson.ca/Portfolio/?p=chameleon",
 			"responsibilities": [
 				{
 					"task": "Managed team priorities and coordinated development efforts.", 
@@ -184,19 +185,19 @@
 					"tags": ["research", "design", "ucd", "ux"]
 				},
 				{
-					"task": "Developed analog circuit to determine the perceived loudness at the ear",
+					"task": "Developed analog circuit to determine the perceived loudness at the ear.",
 					"tags": ["analog", "signals", "elec"]
 				},
 				{
-					"task": "Developed device testing validation procedures and software",
+					"task": "Developed device testing validation procedures and software.",
 					"tags": ["dev", "mech", "research", "signals", "dsp", "python"]
 				},
 				{
-					"task": "Designed ear-cup and variable attenuation mechanism",
+					"task": "Designed ear-cup and variable attenuation mechanism.",
 					"tags": ["design", "mechanical", "hardware", "modelling", "cad", "prototype"]
 				},
 				{
-					"task": "Developed exposure prediction and actuator control logic on Teensy",
+					"task": "Developed exposure prediction and actuator control logic on Teensy.",
 					"tags": ["dev", "arduino", "python", "matlab"]
 				}
 			]
@@ -207,13 +208,14 @@
 			"name": "SMRT WATR",
 			"term": "Spring 2015",
 			"description": "An interactive fountain with dynamic water spouts controlled by an Arduino, connected via a Raspberry Pi to enable users to play a quiz game with the fountain, which reacted to the quiz responses",
+			"url": "http://adamthompson.ca/Portfolio/?p=smrtwatr",
 			"responsibilities": [
 			{
-				"task": "Designed in-game interface, and information architecture",
+				"task": "Designed in-game interface, and information architecture.",
 				"tags": ["ui", "design", "ux", "sketch", "product"]
 			},
 			{
-				"task": "Designed a mechanism to allow the servo motor to rotate the fountain jet",
+				"task": "Designed a mechanism to allow the servo motor to rotate the fountain jet.",
 				"tags": ["mechanical", "cad", "electrical", "hardware", "prototype"]
 			},
 			{
@@ -221,7 +223,7 @@
 				"tags": ["web", "development", "app", "design", "front-end", "python", "html", "css", "sass", "js"]
 			},
 			{
-				"task": "Designed and built the fountain frame and water basin",
+				"task": "Designed and built the fountain frame and water basin.",
 				"tags": ["mechanical", "construction", "prototype", "hardware"]
 			}
 			]
@@ -231,6 +233,7 @@
 			"name": "TAP Metronome",
 			"term": "Fall 2016",
 			"description": "A simple iOS metronome app with a minimal interface built during Hack The North 2016.",
+			"url": "http://adamthompson.ca/Portfolio/?p=tap-metronome",
 			"tags": ["ios", "dev", "front-end", "swift", "xcode", "design", "music", "audio"]
 		},
 		{
@@ -238,13 +241,14 @@
 			"name": "Colour Thermometer",
 			"term": "Winter 2015",
 			"description": "A web app that represents the current temperature, weather conditions and time as an HSV colour.",
-			"tags": ["web", "dev", "html", "js", "css"]
+			"url": "http://www.adamthompson.ca/ColourThermometer/",
+			"tags": ["web", "dev", "design", "html", "js", "css"]
 		},
 		{
 			"id": "tuner",
 			"name": "Analog Single-Note Guitar Tuner",
 			"term": "August 2015",
-			"description": "An analog circuit that uses a series of band-pass filters, and envelope detector, and rectifier to discern whether the high-E string is in tune",
+			"description": "An analog circuit that uses a series of band-pass filters, and envelope detector, and rectifier to discern whether the high-E string is in tune.",
 			"tags": ["elec", "analog", "signals", "audio", "music"]
 		},
 		{
@@ -258,7 +262,7 @@
 			"id": "vu-meter",
 			"name": "Arduino VU Meter",
 			"term": "August 2013",
-			"description": "An Arduino system that takes samples from a mono-audio channel and outputs the relative volume on an array of LEDs",
+			"description": "An Arduino system that takes samples from a mono-audio channel and outputs the relative volume on an array of LEDs.",
 			"tags": ["elec", "signals", "dsp"]
 		},
 		{
@@ -268,11 +272,11 @@
 			"description": "A mechanical device to allow instructors of disabled skiers to more easily control and guide their students.",
 			"responsibilities": [
 			{
-				"task": "Designed the rod-and-ring mechanism to ensure the wearer’s skis do not cross",
+				"task": "Designed the rod-and-ring mechanism to ensure the wearer’s skis do not cross.",
 				"tags": ["mech", "design", "cad"]
 			},
 			{
-				"task": "Designed and modelled the device body and built the initial prototype",
+				"task": "Designed and modelled the device body and built the initial prototype.",
 				"tags": ["cad", "mech"]
 			}
 			]
@@ -352,12 +356,12 @@
 		{	"id": "uwux",
 			"name": "UW/UX",
 			"description": "Vice President of the UW campus UX Club.",
-			"term": "Fall 2014 to Spring 2016"
+			"term": "Fall 2014 - Spring 2016"
 		},
 		{	"id": "waterboys",
 			"name": "The Water Boys",
 			"description": "Soloist and lead baritone for the international finalist A Cappella group.", 
-			"term": "Fall 2013 to Winter 2017"
+			"term": "Fall 2013 - Winter 2017"
 		}
 	],
 
