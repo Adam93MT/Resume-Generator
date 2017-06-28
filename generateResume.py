@@ -12,7 +12,13 @@ except:
 	arg2 = False
 
 jobDescriptionFile = "job_descriptions/" + jobTitle + ".txt"
-jobDescription = open(jobDescriptionFile, 'r').read().lower()
+if not(os.path.isfile(jobDescriptionFile)):
+	jobDescriptionFile = "job_descriptions/applied/" + jobTitle + ".txt"
+try:
+	jobDescription = open(jobDescriptionFile, 'r').read().lower()
+except Exception as e:
+	print "Can't load file"
+	raise e
 
 MAX_BULLETS = 4
 MAX_BULLETS_PROJ = 3
@@ -70,7 +76,7 @@ def iterateTags(tagsList):
 # print ", ".join(tags)
 # Iterate through the resume setions & select appropriate text
 toSave = {}
-if not(os.path.isfile("job_descriptions/json/" + jobTitle + '.json')) or "f" in sys.argv:
+if not(os.path.isfile("job_descriptions/json/" + jobTitle + '.json')) or ("f" in sys.argv):
 	if "f" in sys.argv:
 		print "Forcing re-parse"
 	for item in resumeContent:
@@ -173,6 +179,7 @@ if not(os.path.isfile("job_descriptions/json/" + jobTitle + '.json')) or "f" in 
 					projectsToSave[i]["name"] = proj["name"]
 					projectsToSave[i]["term"] = proj["term"]
 					projectsToSave[i]["description"] = proj["description"]
+					projectsToSave[i]["url"] = proj["url"]
 					
 					if "responsibilities" in proj:
 						projectsToSave[i]["responsibilities"] = []
@@ -235,10 +242,9 @@ if not(os.path.isfile("job_descriptions/json/" + jobTitle + '.json')) or "f" in 
 		elif item == "clubs":
 			toSave[item] = resumeContent[item]
 else:
-	print "Data Already Exists. Recompiling."
+	print "Data Already Exists. Rebuilding."
 	with open("job_descriptions/json/" + jobTitle + '.json', 'r') as infile:
 		toSave = json.load(infile)
-
 				
 toSave["showCourses"] = ShowCourses
 toSave["courseDescriptions"] = CourseDescriptions
@@ -260,6 +266,8 @@ os.system("prince --javascript -s resume-style.css resume.html " + pdfName)
 with open("job_descriptions/json/" + jobTitle + '.json', 'w') as outfile:
 	json.dump(toSave, outfile, indent=4, sort_keys=True)
 
+
+# Do we need to build a cover letter too?
 if ("cl" in sys.argv): 
 	print "Compiling Cover Letter"
 	clName = "cover_letters/Adam Thompson - " + jobTitle.title() + ".pdf"
