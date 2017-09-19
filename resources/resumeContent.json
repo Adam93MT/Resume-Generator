@@ -12,7 +12,7 @@
 
 	"summary": [
 		{
-			"blurb": "Experience in UX and Product design since 2013.",
+			"blurb": "Experience in mobile and web UX/Product design since 2013.", 
 			"tags": ["ux", "ui", "sketch", "ps"]
 		},
 		{
@@ -20,11 +20,11 @@
 			"tags": ["pm", "research", "dev", "lead", "ux"]
 		},
 		{
-			"blurb": "Development and presentation of design ideas backed by research, and following through with an implementation plan.", 
+			"blurb": "Development and presentation of well-researched design deliverables, and detailed prototypes", 
 			"tags": ["lead", "pm", "research", "ux", "dev"]
 		},
 		{
-			"blurb": "Collaborating solutions with designers, developers, and other stakeholders.", 
+			"blurb": "Collaboratively creating solutions with designers, developers, and other stakeholders in a fast-paced environment.",
 			"tags": ["lead", "team", "ui", "design", "dev"]
 		},
 		{
@@ -149,7 +149,7 @@
 			"location": "Waterloo, ON",
 			"responsibilities": [
 			{
-				"task": "Lead the design and development for a new music-dicovery/radio feature in MediaGo.",
+				"task": "Lead the design and development for a new music-discovery/radio feature in MediaGo.",
 				"tags": ["design", "development", "ps", "illustrator", "pm", "ui", "ux"]
 			},
 			{
@@ -337,7 +337,7 @@
 				{
 					"name": "Human Factors in Design ",
 					"code": "SYDE 162",
-					"description": "We were introduced to needs-analysis, user interviews, ergonimics and user testing.",
+					"description": "We were introduced to needs-analysis, user interviews, ergonomics and user testing.",
 					"tags": []
 				}
 			]
@@ -360,7 +360,7 @@
 		},
 		{	"id": "waterboys",
 			"name": "The Water Boys",
-			"description": "Soloist and lead baritone for the international finalist A Cappella group.", 
+			"description": "Soloist and lead baritone for the international finalist A Capella group.", 
 			"term": "Fall 2013 - Winter 2017"
 		}
 	],

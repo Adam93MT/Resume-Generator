@@ -462,6 +462,10 @@ article {
 	background-image: url('../image_assets/apps/jquery.png');}
 	#coffeescript .app-logo {
 	background-image: url('../image_assets/apps/coffeescript.png');}
+	#react .app-logo {
+	background-image: url('../image_assets/apps/react.png');}
+	#javascript .app-logo {
+	background-image: url('../image_assets/apps/js.png');}
 	#arduino .app-logo {
 	background-image: url('../image_assets/apps/arduino.png');}
 	#xcode .app-logo {

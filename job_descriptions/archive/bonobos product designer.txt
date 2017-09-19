@@ -1,0 +1,30 @@
+Bonobos is looking for a Product/UX Designer with a range of experience — from user research to a keen design aesthetic and familiarity with responsive web apps, native apps, and front-end code (though coding not required). 
+
+As the largest digitally native apparel company in the US, we are poised to make groundbreaking advances in how customers browse, discover and shop for apparel. Bonobos is uniquely positioned to delight customers by connecting our in-store and online experiences. We're inventing the future of retail. Our customers are fanatical about our clothes and our world-class customer service. 
+
+To achieve this mission, our Tech team is seeking a strong Product/UX Designer who can create effective and elegant solutions with minimal friction—from inception to execution. The ideal candidate has strong self-management skills and can collaborate well with a variety of teams including Data Science, Engineering, Marketing, Customer Service, Brand Creative, Merchandising, and other stakeholders. 
+
+You:
+Have a portfolio with specific examples that demonstrate your thought and design process to produce a great user experience that drives business
+Are data-driven; gathering or working with another's user research and analytics to inform your designs and approach
+Comfortable working from inception through execution (brainstorming, sketching, mapping, wireframing, prototyping, designing, paring or even coding, AB Testing)
+Solve problems with simple and elegant solutions
+Think big picture and detail-oriented
+Have a refined aesthetic – with considerations to usability, simplicity, and consistency – and can design to specific branding needs
+Are honest and humble and can give and take critique productively
+Have fluency with design tools such as Photoshop, Illustrator, Sketch, InVision, Axure, Framer, etc.
+Have experience designing for web – understanding best practices, design patterns, technical tools and their limitations
+Can communicate design approaches to software engineers and stakeholders
+Have a passion to create new, unique, game-changing experiences in the digital space
+Bonus Points for the following:
+Experience with user testing and research tools
+Are able to build simple web pages / prototypes using HTML, CSS, Javascript
+Experience with Ruby web applications
+Experience with CSS preprocessors (e.g., Sass)
+Experience with versioning (Git, Github)
+We:
+Work hard because we love what we're building, but also believe in balance
+Back up our talk with a competitive compensation and benefits package, challenging projects, random acts of team-wide fun and awesome co-workers that feel like family
+Are located in the Flatiron District in the heart of Manhattan
+Are willing to help you relocate
+Are excited to hear from you

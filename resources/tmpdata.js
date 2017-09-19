@@ -32,7 +32,8 @@ resumeContent = {
             "responsibilities": [
                 "Designed initial UX wireframes and design specifications for a new feature expected to increase Daily Active Users up to 10%.", 
                 "Performed background research, user analysis, and A/B testing as part of the design process for a new subscription model.", 
-                "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%."
+                "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%.", 
+                "Managed, analyzed, and reported on key metrics for various in-app experiments."
             ], 
             "term": "Spring 2016", 
             "url": "zynga.com/poker"
@@ -43,9 +44,9 @@ resumeContent = {
             "position": "Product Designer", 
             "responsibilities": [
                 "Redesigned the meal-logging experience by leveraging user testing data, in order to better reflect the observed mental model of logging food, which improved clarity and speed of navigation.", 
+                "Prototyped and iterated interaction on designs using Sketch, Framer, and Origami, and tested using Usability Hub and UserTesting.com.", 
                 "Enhanced the food portion picker interface to improve user confidence when logging food items.", 
-                "Managed the early design process for the coach dashboard, inviting collaboration with all stakeholders to better understand product requirements.", 
-                "Prototyped and iterated interaction on designs using Sketch, Framer, and Origami, and tested using Usability Hub and UserTesting.com."
+                "Managed the early design process for the coach dashboard, inviting collaboration with all stakeholders to better understand product requirements."
             ], 
             "term": "Fall 2015", 
             "url": "noom.com"
@@ -56,6 +57,7 @@ resumeContent = {
             "position": "UX Designer", 
             "responsibilities": [
                 "Redesigned both iOS and Android apps from the ground up. Everything from the registration flow, to the in-app experience for all use cases.", 
+                "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP.", 
                 "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.", 
                 "Lead weekly design meetings with all stakeholders to discuss design of the mobile apps and websites."
             ], 
@@ -68,8 +70,8 @@ resumeContent = {
             "position": "UX Designer", 
             "responsibilities": [
                 "Lead the design and development for a new music-dicovery/radio feature in MediaGo.", 
-                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience.", 
                 "Designed promotional graphics and videos for MediaGo.", 
+                "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience.", 
                 "Developed the front-end for the new feature using HTML, SASS and jQuery."
             ], 
             "term": "Fall 2013", 
@@ -83,9 +85,9 @@ resumeContent = {
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
-                "Researched user needs and requirements to inform design.", 
-                "Managed team priorities and coordinated development efforts.", 
-                "Developed device testing validation procedures and software."
+                "Developed device testing validation procedures and software.", 
+                "Designed ear-cup and variable attenuation mechanism.", 
+                "Researched user needs and requirements to inform design."
             ], 
             "term": "Sept. 2016 - present", 
             "url": "http://adamthompson.ca/Portfolio/?p=chameleon"
@@ -96,7 +98,8 @@ resumeContent = {
             "name": "SMRT WATR", 
             "responsibilities": [
                 "Designed in-game interface, and information architecture.", 
-                "Developed the web-app front-end, and a portion of the Python server."
+                "Developed the web-app front-end, and a portion of the Python server.", 
+                "Designed a mechanism to allow the servo motor to rotate the fountain jet."
             ], 
             "term": "Spring 2015", 
             "url": "http://adamthompson.ca/Portfolio/?p=smrtwatr"
@@ -114,26 +117,30 @@ resumeContent = {
             "name": "Colour Thermometer", 
             "term": "Winter 2015", 
             "url": "http://www.adamthompson.ca/ColourThermometer/"
-        }
+        }, 
+        {}, 
+        null, 
+        null, 
+        null
     ], 
     "showCourses": false, 
     "skills": [
-        "Sketch", 
-        "Photoshop", 
-        "Illustrator", 
-        "InVision", 
-        "Zeplin", 
-        "Balsamiq", 
         "Framer", 
+        "Balsamiq", 
+        "Sketch", 
         "Origami", 
         "CoffeeScript", 
+        "Python", 
+        "jQuery", 
+        "PHP", 
+        "Git", 
         "Swift"
     ], 
     "summary": [
         "Experience in UX and Product design since 2013.", 
-        "Research, development and prioritization of user & technological requirements.", 
-        "Development and presentation of design ideas backed by research, and following through with an implementation plan.", 
-        "Collaboratng solutions with designers, developers, and other stakeholders."
+        "Researching, developing and prioritizing user & technological requirements.", 
+        "Developing and presenting design ideas backed by research, and following through with an implementation plan.", 
+        "Collaborating solutions with designers, developers, and other stakeholders."
     ], 
     "tagline": "B.ASc. Systems Design Engineering - University of Waterloo"
 }

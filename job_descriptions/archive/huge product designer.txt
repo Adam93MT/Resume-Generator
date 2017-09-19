@@ -1,0 +1,16 @@
+Senior Product Designers at Huge are responsible for designing elegant, simple, hard-working interfaces that will be used by millions of people every day.  They work closely with Interaction Designers, Visual Designers, and Developers to concept, design, prototype, test, and iterate products until they meet our high standards of quality. A successful Product Designer has an eagerness to jump in and solve problems and a unique combination of proven talent and ability in interface design, visual design and basic coding. Product designers are often asked to quickly come up with game changing ideas and make them come to life for our clients.
+
+Senior Product Designers communicate conceptual ideas and detailed design rationale both verbally and visually in a way that is both effective and captivating. They have a high level of autonomy and they manage the product design process, drive decisions, track issues, and assist in estimating resource needs and schedules. They also help to mentor and grow other interaction and visual designers on project teams.
+
+What we’d like to see:
+
+The Senior Product Designer needs to be able to prototype as part of their design processes through either HTML/CSS/JS or tools and frameworks like Framer, React, Origami, etc.
+Strong conceptual thinking with an ability to understand customer needs, motivations and behaviors and translate them into actionable deliverables.
+Strong attention to detail and highly developed organizational skills including the ability to prioritize tasks and meet deadlines.
+A self-starter who will bring original ideas and fresh approaches to each project they work on.
+Must be an ego-free, thick-skinned person who can take and give clear feedback.
+Strong knowledge of user interface design processes and methodology, particularly as applied to web-based applications.
+Strong self-management skills as well as ability to work as a contributing member of a multi-discipline team.
+Advanced proficiency with design and prototyping tools such as Photoshop and Illustrator.
+Bachelor's degree or equivalent experience in a related field.
+Knowledge of service design processes are a plus.
