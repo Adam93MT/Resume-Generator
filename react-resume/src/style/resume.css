@@ -1,0 +1,92 @@
+html {
+  font-size: 12px; }
+  html body {
+    padding: 0;
+    margin: 0;
+    font-family: "europa";
+    font-weight: 100;
+    color: #505050;
+    overflow-x: hidden;
+    background-color: #fff; }
+  html *::selection {
+    background: #E1FAD4; }
+
+@media screen {
+  html {
+    background-color: #ddd; }
+    html body {
+      width: 724px;
+      min-height: 100vh;
+      height: 937px;
+      padding: 50px 50px;
+      margin: 0 auto; }
+      html body section.container {
+        position: relative;
+        display: inline-block; } }
+@media print {
+  html body section.container {
+    position: relative;
+    display: inline-block; } }
+@page {
+  size: 8.5in 11in;
+  /*size: 21.0cm 29.7cm */
+  margin: 1.5cm 1.5cm; }
+header.main-header {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  color: inherit;
+  margin-bottom: 8px; }
+  header.main-header .container {
+    height: 62px; }
+    header.main-header .container #name {
+      position: relative;
+      display: inline-block;
+      font-family: "europa";
+      font-size: 56px;
+      line-height: 1em;
+      font-weight: 700;
+      float: left;
+      text-align: left; }
+      header.main-header .container #name a {
+        color: inherit;
+        text-decoration: none; }
+    header.main-header .container #contact {
+      display: inline-block;
+      float: right;
+      color: #55A82F;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: -4px; }
+      header.main-header .container #contact span {
+        display: block;
+        text-align: right; }
+      header.main-header .container #contact a {
+        color: inherit;
+        text-decoration: none; }
+
+/* -------------- GLOBAL -------------- */
+.hidden {
+  display: none !important; }
+
+section {
+  margin: 4px 0 4px 0; }
+  section a {
+    text-decoration: none;
+    color: #5B753D; }
+  section ul.list {
+    padding-left: 16px;
+    margin: 4px auto 0 auto; }
+    section ul.list .content {
+      line-height: 15px;
+      font-size: 12px;
+      font-weight: 400; }
+    section ul.list li {
+      padding-bottom: 4px; }
+
+/* -------------- BODY -------------- */
+
+/*# sourceMappingURL=resume.css.map */
