@@ -1,0 +1,38 @@
+What is the fellowship?
+The Code for Canada Fellowship supports digital professionals for ten month placements with hosting government teams. We match developers, designers, and product managers with government teams to rapidly deploy technology that is easy to use, grounded in user research, and refined through iterative prototyping.
+What do the fellows do?
+Over the course of the project, fellows immerse themselves in the project, researching user needs, meeting with stakeholders, proposing solutions, and collaborating with the government to build technology using an iterative approach, centered around the needs of users.
+For the pilot cohort beginning in 2017, one team of fellows will be based in Toronto working with Ontario’s Ministry of Advanced Education and Skills Development (MAESD).
+We are working on lining up fellowship teams in other cities across Canada, including Ottawa, Edmonton, Regina/Saskatoon, and Fredericton.
+Fellows spend four days a week inside government, and one day working offsite.
+Fellowship teams will work closely with project owners inside the hosting ministry, as well as project champions in the Ontario Digital Service.
+Fellows will have the ongoing support of Code for Canada staff, and their work will be featured in regular open houses and showcases.
+Why become a fellow?
+Being a Code for Canada fellow is a big job–and highly rewarding. Here’s what a successful applicant will look forward to:
+Work that matters: Use your skills to make a significant impact on people’s lives. We work closely with our government partners to identify projects that will enable you to make your mark.
+Connections and leadership: As part of Code for Canada’s pilot cohort, you will be at the leading edge of learning and showing what’s possible. You’ll make connections with leaders in the civic tech sector in Canada, and will play a part in shaping the Code for Canada Fellowship program into the future.
+Professional development: You will develop lasting relationships and learn new skills in a creative and fast-paced atmosphere.
+Exercise creativity: Working in small teams with your government partners, you will decide what you build and how you build it based on user research.
+A labour of love: You’ll accomplish a lot while working with other passionate people.
+Who are we looking for?
+We’re looking for people who are:
+Highly collaborative: You are able to actively work with their teammates as a partner, motivator and teacher. You openly and directly provide and ask for feedback, and you want to work with their governments as partners.
+Comfortable wearing many hats: In small teams, it’s vital to the success of team that teammates are able to jump in and out of roles and tasks to push their product forward. You are a scrappy, resourceful and creative problem solver.
+Adaptable: There is no real “typical day” as a Fellow. While teams will define some sprint plans and decision making processes, things can change on the fly. The Fellowship requires occasional evening or weekend work, and may include travel.
+Able to work independently:  You are self-motivated and know to ask for help when you need it.
+Skilled communicators: Our fellows are highly skilled at communicating about their work to non-experts, with empathy and clarity.
+Fellowship teams are composed of three people, with primary skills in web development, user experience design, and product management. Additional experience in GIS, data science, community organizing, non-profit, government, and policy work is highly desired. Experience in government is not expected or required.
+We recognize that many applicants have multidisciplinary skillsets. We ask that applicants identify their strongest skillset when applying; we’ll provide opportunities to showcase additional experience throughout the application processes. Here are some of the core competencies we’ve identified for each primary skillset. 
+
+User experience design
+Confident leading your team and external stakeholders through design processes
+
+Experience designing online user experiences for complex web content and applications
+
+Ability to translate research findings (both generative and usability) into a design strategy
+
+Proven ability to generate design materials, including: user requirements, storyboards, scenarios, flowcharts, design prototypes, and wireframes
+
+Demonstrated knowledge about inclusive and accessible design, and ability to design experiences that work for everyone from the start
+
+Ability to work closely with developers to ensure designs are implemented according to specifications and on schedule

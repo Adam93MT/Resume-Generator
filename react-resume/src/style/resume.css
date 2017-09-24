@@ -1,54 +1,67 @@
-html {
-  font-size: 12px; }
-  html body {
-    padding: 0;
-    margin: 0;
-    font-family: "europa";
-    font-weight: 100;
-    color: #505050;
-    overflow-x: hidden;
-    background-color: #fff; }
-  html *::selection {
-    background: #E1FAD4; }
+@charset "UTF-8";
+html body {
+  padding: 0;
+  margin: 0;
+  font-family: "europa", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  color: #333333;
+  overflow-x: hidden;
+  background-color: #fff; }
+html *::selection {
+  background: #E1FAD4; }
 
 @media screen {
   html {
+    font-size: 1px;
     background-color: #ddd; }
     html body {
-      width: 724px;
+      width: 8.5in;
+      height: 11in;
+      max-height: 11in;
       min-height: 100vh;
-      height: 937px;
-      padding: 50px 50px;
+      padding: 0.4in 0.5in;
       margin: 0 auto; }
       html body section.container {
         position: relative;
         display: inline-block; } }
 @media print {
-  html body section.container {
-    position: relative;
-    display: inline-block; } }
+  html {
+    font-size: 0.875px;
+    margin: 0.15in 0.15in; }
+    html body section.container {
+      position: relative;
+      display: inline-block; } }
 @page {
   size: 8.5in 11in;
   /*size: 21.0cm 29.7cm */
-  margin: 1.5cm 1.5cm; }
+  margin: 0.5in 0.5in; }
+.body-style, section ul li, section ul li span, section article .content, section#skills ul li .app-name {
+  font-size: 14rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #333333;
+  font-family: "europa", "Helvetica Neue", sans-serif; }
+
 header.main-header {
   position: relative;
-  display: inline-block;
+  display: block;
   height: 100%;
   width: 100%;
   margin: 0;
   overflow: hidden;
   color: inherit;
-  margin-bottom: 8px; }
+  margin-bottom: 12rem;
+  margin-top: 4rem; }
   header.main-header .container {
-    height: 62px; }
+    height: 66rem; }
     header.main-header .container #name {
       position: relative;
       display: inline-block;
-      font-family: "europa";
-      font-size: 56px;
+      font-family: "europa", "Helvetica Neue", sans-serif;
+      font-size: 64rem;
       line-height: 1em;
       font-weight: 700;
+      color: #333333;
       float: left;
       text-align: left; }
       header.main-header .container #name a {
@@ -57,36 +70,152 @@ header.main-header {
     header.main-header .container #contact {
       display: inline-block;
       float: right;
+      font-family: "europa", "Helvetica Neue", sans-serif;
       color: #55A82F;
-      font-size: 14px;
+      font-size: 14rem;
       font-weight: 400;
-      margin-top: -4px; }
+      margin-top: 13rem;
+      line-height: 24rem; }
       header.main-header .container #contact span {
         display: block;
         text-align: right; }
       header.main-header .container #contact a {
         color: inherit;
         text-decoration: none; }
+  header.main-header #tagline {
+    font-family: "europa", "Helvetica Neue", sans-serif;
+    font-size: 20rem;
+    font-weight: 300;
+    color: #505050; }
 
 /* -------------- GLOBAL -------------- */
 .hidden {
   display: none !important; }
 
-section {
-  margin: 4px 0 4px 0; }
-  section a {
-    text-decoration: none;
-    color: #5B753D; }
-  section ul.list {
-    padding-left: 16px;
-    margin: 4px auto 0 auto; }
-    section ul.list .content {
-      line-height: 15px;
-      font-size: 12px;
-      font-weight: 400; }
-    section ul.list li {
-      padding-bottom: 4px; }
+.col-left, section#summary, section#experience, section#skills {
+  width: 60%;
+  float: left; }
+  .col-left > *, section#summary > *, section#experience > *, section#skills > * {
+    margin-right: 24rem; }
 
-/* -------------- BODY -------------- */
+.col-right, section#projects, section#clubs, section#education, section#awards, section#interests {
+  width: 40%;
+  float: none; }
+
+.full-width {
+  width: 100%; }
+
+article, section {
+  display: inline-block;
+  margin-top: 6em; }
+  article:first-child, section:first-child {
+    margin-top: 3rem; }
+
+section h1.section-header {
+  display: block;
+  font-family: "europa", "Helvetica Neue", sans-serif;
+  font-size: 20rem;
+  font-weight: 300;
+  margin: 0;
+  color: #333333; }
+section a {
+  text-decoration: none;
+  color: #55A82F; }
+section ul {
+  padding-left: 20px;
+  font-family: "Merriweather";
+  margin: 0; }
+  section ul li {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    color: #55A82F; }
+section article .item-header {
+  font-family: "europa", "Helvetica Neue", sans-serif; }
+  section article .item-header > * {
+    line-height: 24px; }
+  section article .item-header *:first-child {
+    margin-right: 0.35em; }
+  section article .item-header .item-title {
+    font-size: 16rem;
+    font-weight: 600;
+    color: #333333; }
+    section article .item-header .item-title a {
+      color: inherit; }
+  section article .item-header .item-position {
+    font-size: 18rem;
+    font-weight: 600;
+    color: #55A82F; }
+  section article .item-header .item-duration, section article .item-header .item-location {
+    margin-top: 2rem;
+    font-size: 12rem;
+    float: right;
+    text-align: right;
+    font-weight: 400; }
+  section article .item-header .item-location:after {
+    padding-right: 0.25em;
+    content: " — "; }
+section article .content {
+  display: inline-block; }
+section#summary {
+  margin-top: 0; }
+section#experience .job .item-title {
+  font-weight: 400; }
+section#projects {
+  margin-top: 0; }
+section#skills h1.section-header {
+  color: #333333;
+  margin-bottom: 4rem; }
+section#skills ul {
+  padding-left: 0;
+  display: inline-block;
+  width: 167%;
+  margin-top: 2rem; }
+  section#skills ul li {
+    width: 9.09091%;
+    float: left;
+    list-style-type: none;
+    text-align: center; }
+    section#skills ul li:before {
+      content: "";
+      margin: 0; }
+    section#skills ul li .app-name {
+      position: relative;
+      margin: 0; }
+    section#skills ul li .app-logo {
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      border-radius: 0; }
+      section#skills ul li .app-logo img {
+        width: 100%; }
+section#education h1.section-header {
+  margin-right: 0.3em; }
+section#education article {
+  margin-top: 3rem; }
+  section#education article .item-header * {
+    line-height: 24rem; }
+  section#education article .item-header .item-position {
+    display: block;
+    margin: 0; }
+  section#education article .item-header #degree:before {
+    content: ",";
+    margin-right: 0.35em; }
+  section#education article .item-header #minor {
+    display: block;
+    font-style: italic;
+    color: #333333;
+    font-weight: 300;
+    font-size: 16rem;
+    line-height: 1.2em; }
+    section#education article .item-header #minor:before {
+      margin-right: 0.35em;
+      margin-left: 0.35em; }
+  section#education article .item-header #minor:after {
+    content: " Minor"; }
+  section#education article .item-header .item-location, section#education article .item-header .item-duration {
+    float: none;
+    display: none; }
 
 /*# sourceMappingURL=resume.css.map */

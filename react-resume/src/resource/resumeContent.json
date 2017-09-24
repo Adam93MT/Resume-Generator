@@ -7,11 +7,12 @@
 		},
 		"contact": {
 			"email": "adam.m.thompson@icloud.com",
-			"phone": "2269722838",
+			"phone": "+1-226-972-2838",
 			"web": "adamthompson.ca"
 		},
 		"tagline": [
-			"B.ASc. Systems Design Engineering - University of Waterloo",
+			"Product Designer - University of Waterloo",
+			"Systems Design Engineering - University of Waterloo",
 			"Systems Design Engineering",
 			"Systems Design Engineering, BASc",
 			"University of Waterloo",
@@ -20,24 +21,22 @@
 		]
 	},
 
-	"objective": "I’m a \"big-picture\" problem solver; always looking for the best solution to the right problem. I’m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.",
-
 	"summary": [
 		{
-			"text": "Experience in mobile and web UX/Product design since 2013.", 
+			"text": "Experience in mobile/web/desktop UX and product design since 2013.", 
 			"tags": ["ux", "ui", "sketch", "ps"]
 		},
 		{
-			"text": "Research, development and prioritization of user & technological requirements.", 
-			"tags": ["pm", "research", "dev", "lead", "ux"]
-		},
-		{
-			"text": "Development and presentation of well-researched design deliverables, and detailed prototypes", 
+			"text": "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
 			"tags": ["lead", "pm", "research", "ux", "dev"]
 		},
 		{
-			"text": "Collaboratively creating solutions with designers, developers, and other stakeholders in a fast-paced environment.",
+			"text": "Collaboratively identifying and solving problems with designers, developers, PMs and other stakeholders in fast-paced environments.",
 			"tags": ["lead", "team", "ui", "design", "dev"]
+		},
+		{
+			"text": "Research and prioritization of user requirements, and translation into technical requirements.", 
+			"tags": ["pm", "research", "dev", "lead", "ux"]
 		},
 		{
 			"text": "Diverse education in UX, software, electrical, and mechanical engineering.",
@@ -52,23 +51,23 @@
 
 	"experience": [
 		{
-			"company": "Zynga",
+			"company": "Zynga Poker",
 			"url": "zynga.com/poker",
 			"term": "Spring 2016",
-			"position": "Product Manager (Poker)",
-			"location": "Toronto, ON",
+			"position": "Product Manager",
+			"location": "Toronto",
 			"responsibilities": [
 			{
-				"text":  "Performed background research, user analysis, and A/B testing as part of the design process for a new subscription model.", 
-				"tags": ["research", "ux", "pm", "excel", "balsamiq"]
+				"text": "Performed user research, competitor analysis and A/B testing for a new subscription-based revenue model.", 
+				"tags": ["research", "ux", "pm", "excel", "balsamiq", "subscription"]
 			},
 			{
-				"text": "Configured final tuning parameters and UX flow for a viral engagement feature which increased Facebook-feed app entry by 36%.",
-				"tags": ["pm", "ux", "excel", "sql", "balsamiq"]
+				"text": "Configured the user flow and final parameters for a feature that increased daily news-feed app entry by 4%.",
+				"tags": ["pm", "ux", "excel", "sql", "balsamiq", "basket"]
 			},
 			{
-				"text": "Designed initial UX wireframes and design specifications for a new feature expected to increase Daily Active Users up to 10%.", 
-				"tags": ["design", "pm", "ux", "sql", "balsamiq"]
+				"text": "Designed initial wireframes and feature specifications for a new engagement feature expected to increase daily active users by 10%.", 
+				"tags": ["ux", "pm", "design", "sql", "balsamiq", "replay"]
 			},
 			{
 				"text": "Analyzed player demographics by monthly spend to better know the sources of revenue, and which players to target for new features.",
@@ -84,97 +83,103 @@
 			"company": "Noom",
 			"url": "noom.com",
 			"term": "Fall 2015",
-			"position": ["Product Designer", "UX Designer"],
-			"location": "New York City, NY",
+			"position": "Product Designer",
+			"location": "New York",
 			"responsibilities": [
-			{	
-				"text": "Redesigned the meal-logging experience by leveraging user testing data, in order to better reflect the observed mental model of logging food, which improved clarity and speed of navigation.", 
-				"tags": ["ux", "design", "research", "ui", "sketch", "framer", "origami"]
-			},
-			{
-				"text": "Enhanced the food portion picker interface to improve user confidence when logging food items.", 
-				"tags": ["ui", "design", "ux", "sketch"]
-			},
-			{
-				"text": "Managed the early design process for the coach dashboard, inviting collaboration with all stakeholders to better understand product requirements.", 
-				"tags": ["pm", "ux", "lead", "pm"]
-			},
-			{
-				"text": "Prototyped and iterated interaction on designs using Sketch, Framer, and Origami, and tested using Usability Hub and UserTesting.com.",
-				"tags": ["ux", "ui", "sketch", "framer", "js", "origami"]
-			}]
+				{	
+					"text": "Simplified the food logging experience to better fit with the observed mental model, without compromising functionality.", 
+					"tags": ["ux", "design", "research", "ui", "sketch", "framer", "origami"]
+				},
+				{
+					"text": "Leveraged data from rigorously user tested prototypes to inform further design iterations.",
+					"tags": []
+				},
+				{
+					"text": "Initiated collaboration with users and stakeholders, and managed the early design process for a Coach Dashboard re-design.", 
+					"tags": ["pm", "ux", "lead", "pm"]
+				},
+				{
+					"text": "Improved user confidence when logging food by simplifying the portion picker interface.", 
+					"tags": ["ui", "design", "ux", "sketch"]
+				},
+
+				{
+					"text": "Built prototypes and designs using Sketch, Framer, and Origami, and tested using Usability Hub and UserTesting.com.",
+					"tags": ["ux", "ui", "sketch", "framer", "js", "origami"]
+				}
+			]
 		},
 		{
 			"company": "KnowRoaming",
 			"url": "knowroaming.com",
-			"term": "Spring 2014 & Winter 2015",
-			"position": ["UX Designer", "Product Designer", "Product Manager"],
-			"location": "Toronto, ON",
+			"term": "Spring 2014/Winter 2015",
+			"position": "UX Designer",
+			"location": "Toronto",
 			"responsibilities": [
-			{
-				"text": "Redesigned both iOS and Android apps from the ground up. Everything from the registration flow, to the in-app experience for all use cases.", 
-				"tags": ["ux", "pm", "product", "design", "ucd"]
-			},
-			{
-				"text": "Leveraged customer feedback to improve the flow of the app to better correspond with the 3 use-cases of the product.",
-				"tags": ["ux", "research", "ucd"]
-			},
-			{
-				"text": "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal.",
-				"tags": ["ux", "pm", "web"]
-			},
-			{
-				"text": "Designed and developed the KnowRoaming Athletes sign-up page using HTML5, CSS3, CoffeeScript and PHP.",
-				"tags": ["ux", "web", "development", "ui", "html", "css", "js", "php"]
-			},
-			{
-				"text": "Lead weekly design meetings with all stakeholders to discuss design of the mobile apps and websites.", 
-				"tags": ["pm", "leader", "manager"]
-			},
-			{
-				"text": "Created, branded and optimized a core company service, now called ReachMe.",
-				"tags": ["pm", "marketing", "branding"]
-			},
-			{
-				"text": "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.",
-				"tags": ["id", "product", "design", "prototype", "retail"]
-			},
-			{
-				"text": "Designed a new product package concept, reducing the box side by 50% by leveraging unique features of the KnowRoaming product.",
-				"tags": ["id", "packaging", "retail", "optimization"]
-			},
-			{
-				"text": "Storyboarded, and animated an app intro video for the updated KnowRoaming app.",
-				"tags": ["ux", "ui", "animation", "video", "media"]
-			},
-			{
-				"text": "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor.",
-				"tags": ["id", "modelling", "product", "design", "autocad", "inventor", "3d"]
-			}
+				{
+					"text": "Overhauled design and structure of iOS and Android apps to make it simpler, more informative, and conform to common user behaviour.",
+					"tags": ["ux", "pm", "product", "design", "ucd"]
+				},
+				{
+					"text": "Designed and built a sponsorship sign-up page from scratch using SASS, CoffeeScript and PHP.",
+					"tags": ["ux", "web", "development", "ui", "html", "css", "js", "php"]
+				},
+				{
+					"text": "Organized semiweekly design meetings with all stakeholders to present prototypes and discuss design of the mobile apps and websites.", 
+					"tags": ["pm", "leader", "manager"]
+				},
+				{
+					"text": "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal.",
+					"tags": ["ux", "pm", "web"]
+				},
+				{
+					"text": "Improved the flow of the app to correspond with the 3 use-phases of the product.",
+					"tags": ["ux", "research", "ucd"]
+				},
+				{
+					"text": "Created, branded and optimized a core company service, now called ReachMe.",
+					"tags": ["pm", "marketing", "branding"]
+				},
+				{
+					"text": "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores.",
+					"tags": ["id", "product", "design", "prototype", "retail"]
+				},
+				{
+					"text": "Designed a new product package concept, reducing the box side by 50% by leveraging unique features of the KnowRoaming product.",
+					"tags": ["id", "packaging", "retail", "optimization"]
+				},
+				{
+					"text": "Storyboarded, and animated an app intro video for the updated KnowRoaming app.",
+					"tags": ["ux", "ui", "animation", "video", "media"]
+				},
+				{
+					"text": "Created 3D concept models of an automated sticker application device using AutoCAD and Inventor.",
+					"tags": ["id", "modeling", "product", "design", "autocad", "inventor", "3d"]
+				}
 			]
 		},
 		{
 			"company": "Sony",
 			"url": "mediago.sony.com",
 			"term": "Fall 2013",
-			"position": ["UX Designer", "User Experience Designer"],
-			"location": "Waterloo, ON",
+			"position": "UI Designer",
+			"location": "Waterloo",
 			"responsibilities": [
 			{
-				"text": "Lead the design and development for a new music-discovery/radio feature in MediaGo.",
+				"text": "Spearheaded design and development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery.",
 				"tags": ["design", "development", "ps", "illustrator", "pm", "ui", "ux"]
 			},
 			{
-				"text": "Developed the front-end for the new feature using HTML, SASS and jQuery.",
-				"tags": ["ui", "web", "development", "html", "css", "sass", "js"]
-			},
-			{
-				"text": "Proposed a UI re-design of the entire MediaGo application, enhancing aesthetics, and ove user experience.",
+				"text": "Proposed a UI re-design of MediaGo, improving aesthetics and clarity.",
 				"tags": ["ui", "product", "design", "ux", "media"]
 			},
 			{
 				"text": "Designed promotional graphics and videos for MediaGo.",
 				"tags": ["ui", "graphic", "design", "animation", "video", "media"]
+			},
+						{
+				"text": "Developed the front-end for the new feature using HTML, SASS and jQuery.",
+				"tags": ["ui", "web", "development", "html", "css", "sass", "js"]
 			}
 			]
 		}
@@ -185,16 +190,16 @@
 			"id": "fydp",
 			"name": "Chameleon",
 			"term": "Sept. 2016 - present",
-			"description": "A variable hearing protection device for periodically loud environments which continuously adjusts its attenuation based on the loudness of the environment.", 
-			"url": "http://adamthompson.ca/Portfolio/?p=chameleon",
+			"description": "Smart hearing protection that automatically adjusts its attenuation based on the environment.", 
+			"url": "adamthompson.ca/Portfolio/?p=chameleon",
 			"responsibilities": [
 				{
-					"text": "Managed team priorities and coordinated development efforts.", 
-					"tags": ["pm", "lead", "manage"]
+					"text": "Researched user needs and current behaviour to inform design, and technical requirements.",
+					"tags": ["research", "design", "ucd", "ux"]
 				},
 				{
-					"text": "Researched user needs and requirements to inform design.",
-					"tags": ["research", "design", "ucd", "ux"]
+					"text": "Managed project priorities, and led development of mechanical, software and electronic systems.", 
+					"tags": ["pm", "lead", "manage"]
 				},
 				{
 					"text": "Developed analog circuit to determine the perceived loudness at the ear.",
@@ -219,15 +224,15 @@
 			"id": "smrt-watr",
 			"name": "SMRT WATR",
 			"term": "Spring 2015",
-			"description": "An interactive fountain with dynamic water spouts controlled by an Arduino, connected via a Raspberry Pi to enable users to play a quiz game with the fountain, which reacted to the quiz responses",
-			"url": "http://adamthompson.ca/Portfolio/?p=smrtwatr",
+			"description": "An interactive IoT water fountain that reacts to player inputs and responses in a web-based quiz game.",
+			"url": "adamthompson.ca/Portfolio/?p=smrtwatr",
 			"responsibilities": [
 			{
-				"text": "Designed in-game interface, and information architecture.",
+				"text": "Designed and built the game interface using JavaScript and a Tornado Python server.",
 				"tags": ["ui", "design", "ux", "sketch", "product"]
 			},
 			{
-				"text": "Designed a mechanism to allow the servo motor to rotate the fountain jet.",
+				"text": "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain jet.",
 				"tags": ["mechanical", "cad", "electrical", "hardware", "prototype"]
 			},
 			{
@@ -241,22 +246,31 @@
 			]
 		},
 		{
-			"id": "metronome",
-			"name": "TAP Metronome",
-			"term": "Fall 2016",
-			"description": "A simple iOS metronome app with a minimal interface built during Hack The North 2016.",
-			"url": "http://adamthompson.ca/Portfolio/?p=tap-metronome",
-			"responsibilities": [],
-			"tags": ["ios", "dev", "front-end", "swift", "xcode", "design", "music", "audio"]
-		},
-		{
 			"id": "color-therm",
 			"name": "Colour Thermometer",
 			"term": "Winter 2015",
 			"description": "A web app that represents the current temperature, weather conditions and time as an HSV colour.",
-			"url": "http://www.adamthompson.ca/ColourThermometer/",
+			"url": "adamthompson.ca/ColourThermometer/",
 			"responsibilities": [],
 			"tags": ["web", "dev", "design", "html", "js", "css"]
+		},
+		{
+			"id": "metronome",
+			"name": "TAP Metronome",
+			"term": "Fall 2016",
+			"description": "A simple iOS metronome app with a minimal interface. Built independently for Hack The North 2016.",
+			"url": "adamthompson.ca/Portfolio/?p=tap-metronome",
+			"responsibilities": [],
+			"tags": ["ios", "dev", "front-end", "swift", "xcode", "design", "music", "audio"]
+		},
+		{
+			"id": "comic-sans",
+			"name": "Say No To Comic Sans",
+			"term": "Spring 2013",
+			"description": "A Chrome extension that scans a site for Comic Sans, and replaces it with Helvetica.",
+			"url": "",
+			"responsibilities": [],
+			"tags": ["web", "dev", "design"]
 		},
 		{
 			"id": "tuner",
@@ -265,14 +279,6 @@
 			"description": "An analog circuit that uses a series of band-pass filters, and envelope detector, and rectifier to discern whether the high-E string is in tune.",
 			"responsibilities": [],
 			"tags": ["elec", "analog", "signals", "audio", "music"]
-		},
-		{
-			"id": "comic-sans",
-			"name": "Say No To Comic Sans",
-			"term": "Spring 2013",
-			"description": "A Chrome extension that scans a webpage for Comic Sans, and replaces it with Helvetica.",
-			"responsibilities": [],
-			"tags": ["web", "dev", "design"]
 		},
 		{
 			"id": "vu-meter",
@@ -306,8 +312,9 @@
 			"url": "uwaterloo.ca/systems-design-engineering/about-systems-design-engineering",
 			"school": "University of Waterloo",
 			"program": "Systems Design Engineering",
-			"degree": "BASc.",
+			"degree": "BASc",
 			"minor": "Cognitive Science",
+			"class": "Class of 2017",
 			"courses": [
 				{
 					"name": "Cognitive Ergonomics",
@@ -330,7 +337,7 @@
 				{
 					"name": "Engineering Design",
 					"code": "SYDE 361",
-					"description": "In this class, we learned about the design process; from problem definition to ideation and prototyping. We practiced what we were learning with a term-long design project. Our team designed an <a href=\"http://www.adamthompson.ca/Portfolio/?p=smrtwatr\">interactive water fountain</a>",
+					"description": "In this class, we learned about the design process; from problem definition to ideation and prototyping. We practiced what we were learning with a term-long design project. Our team designed an <a href=\"www.adamthompson.ca/Portfolio/?p=smrtwatr\">interactive water fountain</a>",
 					"tags": []
 				},
 				{
@@ -370,34 +377,67 @@
 	],
 
 	"clubs": [
-		{	"id": "uwux",
-			"name": "UW/UX",
-			"description": "Vice President of the UW campus UX Club.",
-			"term": "Fall 2014 - Spring 2016",
-			"responsibilities": []
-		},
 		{	"id": "waterboys",
 			"name": "The Water Boys",
-			"description": "Soloist and lead baritone for the international finalist A Capella group.", 
+			"description": "Soloist and baritone leader for the internationally ranked all-male a Capella group.", 
 			"term": "Fall 2013 - Winter 2017",
+			"url": "facebook.com/waterboysuw/",
 			"responsibilities": []
+		},
+		{	"id": "uwux",
+			"name": "UW/UX",
+			"description": "Vice President of the UW campus UX Club, helping with mentorship and event planning.",
+			"term": "Fall 2014 - Spring 2016",
+			"url": "facebook.com/uwuxwaterloo/",
+			"responsibilities": []
+		}
+	],
+
+	"awards": [
+		{
+			"name": "Norman Esch",
+			"type": "Entrepreneurship Award",
+			"description": "A $10,000 award for our pitch and demo of Chameleon."
+		},
+		{
+			"name": "ICCA finalist",
+			"type": "",
+			"description": "Top 5 internationally with the Water Boys."
+		},
+		{
+			"name": "Outstanding Co-op",
+			"description": "Achieved the highest co-op ranking with KnowRoaming and Noom"
+		}
+	],
+
+	"interests": [
+		{
+			"text": "Music — Guitar and vocals"
+		},
+		{
+			"text": "Travel"
+		},
+		{
+			"text": "Design"
 		}
 	],
 
 	"skills": [
 		["Sketch", ["sketch", "ui", "ux", "wireframe"]], 
-		["Photoshop", ["ps", "photoshop", "ui", "graphic"]], 
-		["Balsamiq", ["balsamiq", "ux", "wireframe", "pm"]],
+		["Photoshop", ["ps", "photoshop", "ui", "graphic"]],
 		["Framer", ["framer", "ux", "ui", "js", "coffeescript", "prototype"]],
-		["Origami", ["origami", "ux", "ui", "prototype"]],
+		["Origami", ["origami", "ux", "ui", "prototype"]], 
+		["Balsamiq", ["balsamiq", "ux", "wireframe", "pm"]],
+		["JavaScript", ["js", "web", "front-end", "dev"]],
+		["Python", ["python", "dev", "front-end", "web", "dsp"]],
+		["Swift", ["swift", "dev", "ios"]],
 		["HTML", ["html", "web", "front-end", "prototype"]],
+		["React", ["react", "web", "mobile"]],
 		["CSS", ["css", "web", "front-end" ]],
 		["jQuery", ["jQuery","js", "web", "front-end", "dev"]],
 		["CoffeeScript", [ "coffeescript","js", "web", "dev"]],	
-		["Swift", ["swift", "dev", "ios"]],
 		["PHP", ["php", "dev", "web"]],
 		["C++", ["cpp", "dev"]],
-		["Python", ["python", "dev", "front-end", "web", "dsp"]],
 		["MATLAB", ["matlab", "dev", "research", "dsp"]],
 		["Git", ["git", "dev"]],
 		["XCode", ["xcode", "ios", "swift"]],

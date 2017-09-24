@@ -1,4 +1,4 @@
-$sans-serif: 'europa'
+$sans-serif: 'europa', 'Helvetica Neue', sans-serif
 $serif: 'Merriweather'
 
 
@@ -21,14 +21,12 @@ $green: #55A82F
 $dark_green: #2B5C12
 
 html
-	font-size: 12px
-
 	body 
 		padding: 0 
 		margin: 0
 		font-family: $sans-serif
 		font-weight: 100 
-		color: $dark_grey
+		color: $black
 		overflow-x: hidden
 		background-color: #fff
 
@@ -36,14 +34,16 @@ html
 		background: $light_green /* WebKit/Blink Browsers */
 
 @media screen 
-	html 
+	html
+		font-size: 1px
 		background-color: #ddd
 
 		body 
-			width: 724px
+			width: 8.5in
+			height: 11in
+			max-height: 11in
 			min-height: 100vh
-			height: 937px
-			padding: 50px 50px
+			padding: 0.4in 0.5in
 			margin: 0 auto
 
 			section.container 
@@ -53,6 +53,8 @@ html
 
 @media print 
 	html
+		font-size: 0.875px // makes the browser preview more WYSIWYG
+		margin: 0.15in 0.15in
 		body
 			section.container 
 				position: relative
@@ -61,31 +63,38 @@ html
 @page 
 	size: 8.5in 11in
 	/*size: 21.0cm 29.7cm*/
-	margin: 1.5cm 1.5cm
+	margin: 0.5in 0.5in
 
+.body-style
+	font-size: 14rem
+	line-height: 1.5em
+	font-weight: 300
+	color: $black
+	font-family: $sans-serif
 
 
 // -------------- HEADER -------------- //
 
 header.main-header
 	position: relative
-	display: inline-block
+	display: block
 	height: 100%
 	width: 100%
 	margin: 0
 	overflow: hidden
 	color: inherit
-	margin-bottom: 8px
+	margin-bottom: 12rem
+	margin-top: 4rem
 	.container 
-		height: 62px
-
+		height: 66rem
 		#name 
 			position: relative
 			display: inline-block
 			font-family: $sans-serif
-			font-size: 56px
-			line-height: 1em
+			font-size: 64rem
+			line-height: 1em // actually em
 			font-weight: 700
+			color: $black
 			float: left
 			text-align: left
 			a
@@ -95,451 +104,288 @@ header.main-header
 		#contact 
 			display: inline-block
 			float: right
+			font-family: $sans-serif
 			color: $green
-			font-size: 14px
+			font-size: 14rem
 			font-weight: 400
-			margin-top: -4px
+			margin-top: 13rem // adjusts distance from top
+			line-height: 24rem // adjusts distance to bottom
 			span 
 				display: block
 				text-align: right
 			a
 				color: inherit
 				text-decoration: none
+				// border-bottom: 1px solid $green
+	#tagline
+		font-family: $sans-serif
+		font-size: 20rem
+		font-weight: 300
+		color: $dark_grey
 
 /* -------------- GLOBAL -------------- */
 
 .hidden 
 	display: none !important
 
+.col-left
+	width: 60%
+	float: left
+	> *  
+		margin-right: 24rem
+.col-right 
+	width: 40%
+	float: none
+
+.full-width
+	width: 100%
+
+// Spacing everything nicely
+article, section
+	display: inline-block
+	margin-top: 6em
+	&:first-child
+		margin-top: 3rem
+
 section 
-	margin: 4px 0 4px 0
+	h1.section-header 
+		display: block
+		font-family: $sans-serif
+		font-size: 20rem
+		font-weight: 300
+		margin: 0
+		color: $black
+		// font-weight: 600
+		// color: $green
+		// border-bottom: 1px solid $green
 	a 
 		text-decoration: none
-		color: #5B753D
+		color: $green
 
 	ul
-		&.list 
-			padding-left: 16px
-			margin: 4px auto 0 auto
-			.content 
-				line-height: 15px
-				font-size: 12px
+		padding-left: 20px
+		font-family: $serif
+		margin: 0
+
+
+		li 
+			@extend .body-style
+			// font-size: 12rem
+			margin-bottom: 4rem
+			margin-top: 4rem
+			color: $green
+			// list-style: none
+			span
+				@extend .body-style
+
+
+			// &:before
+			// 	content: '•'
+			// 	font-weight: 900
+			// 	position: absolute
+			// 	margin-left: -8px
+
+	article 
+		.item-header
+			font-family: $sans-serif
+			> *
+				line-height: 24px
+
+			*:first-child
+				margin-right: 0.35em
+
+			.item-title
+				font-size: 16rem
+				font-weight: 600
+				color: $black
+				// border-bottom: 2px solid $black
+				a
+					color: inherit
+
+			.item-position
+				font-size: 18rem
+				font-weight: 600
+				// color: $black
+				color: $green
+
+			.item-duration, .item-location
+				margin-top: 2rem
+				font-size: 12rem
+				float: right
+				text-align: right
 				font-weight: 400
 
+			.item-location:after
+				padding-right: 0.25em
+				content: ' — '
+		.content
+			@extend .body-style
+			display: inline-block
+
+	&#summary
+		@extend .col-left
+		margin-top: 0
+	&#experience
+		@extend .col-left
+		.job 
+			.item-title
+				font-weight: 400
+	&#projects
+		@extend .col-right
+		margin-top: 0
+	&#clubs
+		@extend .col-right
+	&#skills
+		@extend .col-left
+	&#education
+		@extend .col-right
+	&#awards
+		@extend .col-right
+	&#interests
+		@extend .col-right
+	&#skills
+		h1.section-header
+			color: $black
+			margin-bottom: 4rem
+		$num_skills: 11
+		ul
+			padding-left: 0
+			display: inline-block
+			width: 167% // makes it full width
+			margin-top: 2rem
 			li 
-				padding-bottom: 4px
+				width: 1/$num_skills * 100%
+				float: left
+				list-style-type: none
+				text-align: center
+				&:before
+					content: ''
+					margin: 0
+				.app-name 
+					@extend .body-style
+					position: relative
+					margin: 0
+					// padding-top: 6px
 
-// .title 
-// 	font-family: "Playfair Display"
-// 	font-weight: 500
-
-// .col-left
-// 	width: 60%
-// 	float: left
-// 	margin-top: 8px
-
-// .col-left .resume-content  
-// 	margin-right: 16px
-// .col-right 
-// 	width: 40%
-// 	float: right
-
-/* -------------- BODY -------------- */
-
-// article 
-// 	margin-top: 4px
-
-// .section-header 
-// 	margin-bottom: 0px
-// 	/*border-bottom: 1px solid #5B753D*/
-// 	display: inline-block
-// 	.section-title 
-// 		font-family: "Raleway"
-// 		font-weight: 600
-// 		font-size: 18px
-// 		color: #5B753D
-// 		min-height: 24px
-
-
-// #objective 
-// 	width: 60%
-// 	float: left
-// 	font-weight: 400
-// #objective .content 
-// 	margin: 8px 12px 0 0
-// 	padding: 8px 12px
-// 	border: 2px solid #999
-// 	line-height: 1.2em
-// 	font-size: 12px
-// 	text-align: justify
-
-// #experience 
-// 	article.job 
-// 		display: block
-// 		position: relative
-// 		overflow: hidden
-
-// 		.resume-content 
-// 			min-height: 100%
-// 			display: inline-block
-// 			position: relative
+				.app-logo 
+					position: relative
+					width: 50%
+					margin: 0 auto
+					// padding-bottom: 50%
+					background-size: 100%
+					background-repeat: no-repeat
+					border-radius: 0
+					img
+						width: 100%
 	
+	&#education
+		h1.section-header
+			// display: inline-block
+			margin-right: 0.3em
+		article
+			margin-top: 3rem
+			.item-header
+				*
+					line-height: 24rem
+				.item-position
+					display: block
+					margin: 0
+				#degree
+					&:before
+						content: ","
+						margin-right: 0.35em
 
-// 		#experience .resume-content 
-// 			.subsection-header 
-// 				#experience .subsection-title 
-// 					color: #4a4a4a
-// 					font-size: 14px
-			
-
-// 				#experience .subsection-title::before 
-// 					content: " - "
-// 					font-size: 0.75em
-			
-
-// 				#experience .subsection-company 
-// 					color: #4a4a4a
-// 					font-size: 14px
-// 					font-weight: 600
-			
-// 				#experience .subsection-company::before 
-// 					content: ''
-// 					font-size: 0.75em
-			
-
-// 				.subsection-company a 
-// 					color: #4a4a4a
-// 					border-bottom: 1px solid #b3b3b3
-			
-
-// 				.subsection-duration 
-
-			
-// 				.subsection-duration, .subsection-location 
-// 					font-family: "Lato"
-// 					font-size: 10px
-// 					font-weight: 300
-// 					font-style: italic
-// 					float: right
-// 					position: relative
-// 					top: 0.5em
-// 					padding-right: 0.2em
-			
-// 				.subsection-location-before 
-// 					font-size: 0.75em
-			
-// 			.resume-list 
-
-// 				.resume-content-divider 
-// 					font-size: 1.5em
-// 					line-height: 1.5em
-// 					margin-bottom: 0.5em
-// 					font-style: italic
-// 					display: none
-			
-// 				.resume-list .list-description 
-// 					font-family: "Proxima Nova"
-// 					font-size: 1em
-// 					padding-top: 2px
-			
-
-// #projects 
-
-// 	#projects .resume-content 
-// 		width: 100%
-
-// 	#projects .subsection-title 
-// 		color: #4a4a4a
-// 		font-size: 14px
-// 		font-weight: 600
-
-// 	.project .content 
-// 		margin: 4px 0
+				#minor
+					display: block
+					font-style: italic
+					color: $black
+					font-weight: 300
+					font-size: 16rem
+					line-height: 1.2em
+					&:before
+						// content: 'with'
+						margin-right: 0.35em
+						margin-left: 0.35em
+				#minor:after
+					content: ' Minor'
+				.item-location, .item-duration
+					float: none
+					display: none
 
 
-// 	ul.project-list
-
-// #skills 
-// 	position: relative
-// 	display: inline-block
-// 	margin-top: 4px
-// #skills.skills-fullwidth 
-// 	width: 100%
-// 	float: left
-// #skills.skills-rightcol 
-// 	width: 40%
-// 	float: right
-// #skills.skills-leftcol 
-// 	width: 60%
-// 	float: left
-
-
-	// .skills-fullwidth .skills-list 
-	// 	display: block
-	// 	position: relative
-	// 	padding: 0
-	// 	margin: 0
-	// 	list-style: none
-	// 	//Limit to one row 
-	// 	max-height: 72px 
-	// 	overflow: hidden
-
-	// 	.skills-fullwidth .skills-list li 
-	// 		position: relative
-	// 		width: 10%
-	// 		float: left
-	
-
-	// .skills-leftcol .skills-list 
-	// 	display: block
-	// 	position: relative
-	// 	padding: 0
-	// 	margin: 0 12px 0 0
-	// 	list-style: none
-	// 	// Limit to two rows 
-	// 	max-height: 70px 
-	// 	overflow: hidden
-
-	// .skills-leftcol .skills-list li 
-	// 	position: relative
-	// 	width: 16.6%
-	// 	float: left
-	
-	// 	.skills-leftcol .skills-list li .app-name 
-	// 		width: 100%
-		
-
-	// .skills-rightcol .skills-list 
-	// 	display: block
-	// 	position: relative
-	// 	padding: 0
-	// 	margin: 0
-	// 	list-style: none
-	// 	// Limit to two rows 
-	// 	max-height: 144px 
-	// 	overflow: hidden
-
-	// .skills-rightcol .skills-list li 
-	// 	position: relative
-	// 	width: 25%
-	// 	float: left
-	
-	// 	.skills-rightcol .skills-list li .app-name 
-	// 		width: 100%
-		
-
-	// .skills-list li .app-name 
-	// 	position: relative
-	// 	margin: 0
-	// 	padding-top: 2px
-	// 	font-size: 12px
-	// 	font-weight: 500
-	// 	line-height: 1em
-	// 	min-height: 2em
-	// 	text-align: center
-
-	// .skills-list li .app-logo 
-	// 	position: relative
-	// 	width: 64%
-	// 	margin: 0 18%
-	// 	padding-bottom: 64%
-	// 	background-size: 100%
-	// 	background-repeat: no-repeat
-	// 	border-radius: 0
-
-	// #sketch .app-logo 
-	// background-image: url('../image_assets/apps/sketch.png')
-	// #photoshop .app-logo 
-	// background-image: url('../image_assets/apps/photoshop.png')
-	// #illustrator .app-logo 
-	// background-image: url('../image_assets/apps/illustrator.png')
-	// #indesign .app-logo 
-	// background-image: url('../image_assets/apps/indd.png')
-	// #balsamiq .app-logo 
-	// background-image: url('../image_assets/apps/balsamiq.png')
-	// #framer .app-logo 
-	// background-image: url('../image_assets/apps/framer.png')
-	// #origami .app-logo 
-	// background-image: url('../image_assets/apps/origami.png')
-	// #invision .app-logo 
-	// background-image: url('../image_assets/apps/invision.png')
-	// #marvel .app-logo 
-	// background-image: url('../image_assets/apps/marvel.png')
-	// #html .app-logo 
-	// background-image: url('../image_assets/apps/html.png')
-	// #css .app-logo 
-	// background-image: url('../image_assets/apps/css.png')
-	// #jquery .app-logo 
-	// background-image: url('../image_assets/apps/jquery.png')
-	// #coffeescript .app-logo 
-	// background-image: url('../image_assets/apps/coffeescript.png')
-	// #arduino .app-logo 
-	// background-image: url('../image_assets/apps/arduino.png')
-	// #xcode .app-logo 
-	// background-image: url('../image_assets/apps/xcode.png')
-	// #php .app-logo 
-	// background-image: url('../image_assets/apps/php.png')
-	// #cpp .app-logo 
-	// background-image: url('../image_assets/apps/cpp.png')
-	// #java .app-logo 
-	// background-image: url('../image_assets/apps/java.png')
-	// #swift .app-logo 
-	// background-image: url('../image_assets/apps/swift.png')
-	// #python .app-logo 
-	// background-image: url('../image_assets/apps/python.png')
-	// #matlab .app-logo 
-	// background-image: url('../image_assets/apps/matlab.png')
-	// #git .app-logo 
-	// background-image: url('../image_assets/apps/git.png')
-	// #bootstrap .app-logo 
-	// background-image: url('../image_assets/apps/bootstrap.png')
-	// #sass .app-logo 
-	// background-image: url('../image_assets/apps/sass.png')
-	// #excel .app-logo 
-	// background-image: url('../image_assets/apps/excel.png')
-	// #sql .app-logo 
-	// background-image: url('../image_assets/apps/sql.png')	
-	// #autocad .app-logo 
-	// background-image: url('../image_assets/apps/autocad.png')
-	// #inventor .app-logo 
-	// background-image: url('../image_assets/apps/inventor.png')
-	// #rhino .app-logo 
-	// background-image: url('../image_assets/apps/rhino.png')
-	// #cinema4d .app-logo 
-	// background-image: url('../image_assets/apps/c4d.png')
-	// #max .app-logo 
-	// background-image: url('../image_assets/apps/max.png')
-	// #ae .app-logo 
-	// background-image: url('../image_assets/apps/ae.png')
-	// #premiere .app-logo 
-	// background-image: url('../image_assets/apps/premiere.png')
-	// #final_cut .app-logo 
-	// background-image: url('../image_assets/apps/final_cut.png')
-	// #logic .app-logo 
-	// background-image: url('../image_assets/apps/logic.png')
-	// #espresso .app-logo 
-	// background-image: url('../image_assets/apps/espresso.png')
-	// #sublime .app-logo 
-	// background-image: url('../image_assets/apps/sublime.png')
-	// #coda .app-logo 
-	// background-image: url('../image_assets/apps/coda.png')
-
-
-// #education 
-// 	position: relative
-// 	display: inline-block
-// .edu-one-line *
-// 	display: inline
-// .edu-one-line .subsection-header, .edu-one-line .content
-// 	margin-left: 3px
-// .school 
-// 	margin-bottom: 2px
-// .school .subsection-header
-// 	margin-bottom: 4px
-// 	.subsection-school, .subsection-clubname 
-// 		color: #4a4a4a
-// 		font-size: 14px
-// 		font-weight: 600
-
-// 	.subsection-school a 
-// 		color: #4a4a4a
-// 		border-bottom: 1px solid #b3b3b3
-
-// 	.subsection-school:after 
-// 		content: ", "
-
-// 	.subsection-degree 
-// 		color: #4a4a4a
-// 		font-size: 14px
-
-// 	.subsection-degree#syde:before 
-// 		content: "BASc. "
-// 		display: none
-
-// 	.minor 
-// 		display: inline
-// 		font-family: inherit
-// 		font-size: 1em
-// 		font-weight: lighter
-
-// 	#education .resume-list 
-// 		margin: 2px 0
-
-// 	.course-title 
-// 		font-weight: 700
-
-// 	.course-code 
-// 		font-family: "Playfair Display"
-
-// 	.course-list li.course 
-// 		width: 50%
-// 		float: left
-
-// 	.course .list-description 
-// 		margin-right: 24px
-
-
-// 	ul.course-list.no-courses 
-// 		display: none
-
-
-// 	ul.course-list.titles-only 
-// 		display: inline
-// 		list-style-type: none
-// 		padding-left: 4px
-
-// 	ul.course-list.titles-only li.course 
-// 		width: auto
-// 		float: initial
-// 		display: inline
-// 		padding-right: 2px
-
-// 	ul.course-list.titles-only li.course:after 
-// 		content: ", "
-
-// 	ul.course-list.titles-only .course-title
-// 		font-weight: 500
-
-// 	ul.course-list.titles-only .list-description 
-// 		display: none
-
-
-// #education.edu-club-line 
-// 	width: 50%
-// 	float: left
-// #clubs.edu-club-line 
-// 	width: 50%
-// 	float: right
-// .club .resume-content 
-// 	width: 100%
-// .club .content, .club .subsection-header 
-// 	margin-right: 12px
-// .club .content
-// 	padding-top: 2px
-
-// #clubs.col-right #waterboys .resume-content
-// 	padding-top: 3px
-
-// .clubs.full-width 
-// 	width: 100%
-
-// .clubs.full-width .section-header
-// 	width: 100%
-// .clubs.full-width .club 
-// 	width: 50%
-// 	float: right
-
-// .cover_letter_content 
-
-// .cover_letter_content, .sign-off 
-// 	width: 80%
-// 	margin: 24px auto
-// 	font-family: "Playfair Display"
-// 	color: #4a4a4a
-// 	line-height: 1.5em
-// 	font-size: 14px
-// 	font-weight: 400
-
-// .sign-off 
-// 	padding-top: 2em
-// 	padding-left: 4em
+					// &#sketch 
+					// 	background-image: url('../resource/apps/sketch.png')
+					// &#photoshop 
+					// 	background-image: url('../resource/apps/photoshop.png')
+					// &#illustrator 
+					// 	background-image: url('../resource/apps/illustrator.png')
+					// &#indesign 
+					// 	background-image: url('../resource/apps/indd.png')
+					// &#balsamiq 
+					// 	background-image: url('../resource/apps/balsamiq.png')
+					// &#framer 
+					// 	background-image: url('../resource/apps/framer.png')
+					// &#origami 
+					// 	background-image: url('../resource/apps/origami.png')
+					// &#invision 
+					// 	background-image: url('../resource/apps/invision.png')
+					// &#marvel 
+					// 	background-image: url('../resource/apps/marvel.png')
+					// &#html 
+					// 	background-image: url('../resource/apps/html.png')
+					// &#css 
+					// 	background-image: url('../resource/apps/css.png')
+					// &#jquery 
+					// 	background-image: url('../resource/apps/jquery.png')
+					// &#coffeescript 
+					// 	background-image: url('../resource/apps/coffeescript.png')
+					// &#arduino 
+					// 	background-image: url('../resource/apps/arduino.png')
+					// &#xcode 
+					// 	background-image: url('../resource/apps/xcode.png')
+					// &#php 
+					// 	background-image: url('../resource/apps/php.png')
+					// &#cpp 
+					// 	background-image: url('../resource/apps/cpp.png')
+					// &#java 
+					// 	background-image: url('../resource/apps/java.png')
+					// &#swift 
+					// 	background-image: url('../resource/apps/swift.png')
+					// &#python 
+					// 	background-image: url('../resource/apps/python.png')
+					// &#matlab 
+					// 	background-image: url('../resource/apps/matlab.png')
+					// &#git 
+					// 	background-image: url('../resource/apps/git.png')
+					// &#bootstrap 
+					// 	background-image: url('../resource/apps/bootstrap.png')
+					// &#sass 
+					// 	background-image: url('../resource/apps/sass.png')
+					// &#excel 
+					// 	background-image: url('../resource/apps/excel.png')
+					// &#sql 
+					// 	background-image: url('../resource/apps/sql.png')	
+					// &#autocad 
+					// 	background-image: url('../resource/apps/autocad.png')
+					// &#inventor 
+					// 	background-image: url('../resource/apps/inventor.png')
+					// &#rhino 
+					// 	background-image: url('../resource/apps/rhino.png')
+					// &#cinema4d 
+					// 	background-image: url('../resource/apps/c4d.png')
+					// &#max 
+					// 	background-image: url('../resource/apps/max.png')
+					// &#ae 
+					// 	background-image: url('../resource/apps/ae.png')
+					// &#premiere 
+					// 	background-image: url('../resource/apps/premiere.png')
+					// &#final_cut 
+					// 	background-image: url('../resource/apps/final_cut.png')
+					// &#logic 
+					// 	background-image: url('../resource/apps/logic.png')
+					// &#espresso 
+					// 	background-image: url('../resource/apps/espresso.png')
+					// &#sublime 
+					// 	background-image: url('../resource/apps/sublime.png')
+					// &#coda 
+					// 	background-image: url('../resource/apps/coda.png')

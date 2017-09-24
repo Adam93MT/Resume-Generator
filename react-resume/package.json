@@ -5,6 +5,9 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-html-render": "^1.0.3",
+    "react-inline-css": "^2.3.1",
+    "react-pdf": "^2.1.1",
     "react-scripts": "1.0.13"
   },
   "scripts": {

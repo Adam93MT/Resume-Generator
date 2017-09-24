@@ -1,0 +1,496 @@
+{
+    "bio": {
+        "contact": {
+            "email": "adam.m.thompson@icloud.com", 
+            "phone": "+1-226-972-2838", 
+            "web": "adamthompson.ca"
+        }, 
+        "name": {
+            "first": "Adam", 
+            "last": "Thompson", 
+            "middle": "Michael"
+        }, 
+        "tagline": [
+            "Product Designer - University of Waterloo", 
+            "Systems Design Engineering - University of Waterloo", 
+            "Systems Design Engineering", 
+            "Systems Design Engineering, BASc", 
+            "University of Waterloo", 
+            "BASc, University of Waterloo", 
+            "UX Designer <br> University of Waterloo"
+        ]
+    }, 
+    "clubs": [
+        {
+            "description": "Soloist and baritone leader for the internationally ranked all-male A Capella group.", 
+            "id": "waterboys", 
+            "name": "The Water Boys", 
+            "responsibilities": [], 
+            "term": "Fall 2013 - Winter 2017", 
+            "url": "facebook.com/waterboysuw/"
+        }, 
+        {
+            "description": "Vice President of the UW campus UX Club, helping with mentorship and event planning.", 
+            "id": "uwux", 
+            "name": "UW/UX", 
+            "responsibilities": [], 
+            "term": "Fall 2014 - Spring 2016", 
+            "url": "facebook.com/uwuxwaterloo/"
+        }
+    ], 
+    "courseDescriptions": false, 
+    "education": [
+        {
+            "degree": "BASc", 
+            "id": "uwaterloo", 
+            "minor": "Cognitive Science", 
+            "program": "Systems Design Engineering", 
+            "school": "University of Waterloo", 
+            "url": "uwaterloo.ca/systems-design-engineering/about-systems-design-engineering"
+        }
+    ], 
+    "experience": [
+        {
+            "company": "Zynga Poker", 
+            "location": "Toronto", 
+            "position": "Product Manager", 
+            "responsibilities": [
+                {
+                    "tags": [
+                        "research", 
+                        "ux", 
+                        "pm", 
+                        "excel", 
+                        "balsamiq", 
+                        "subscription"
+                    ], 
+                    "text": "Performed user research, competitor analysis and A/B testing for a new subscription-based revenue model."
+                }, 
+                {
+                    "tags": [
+                        "pm", 
+                        "ux", 
+                        "excel", 
+                        "sql", 
+                        "balsamiq", 
+                        "basket"
+                    ], 
+                    "text": "Configured the user flow and final parameters for a feature that increased daily Facebook-sourced users by 4%."
+                }, 
+                {
+                    "tags": [
+                        "ux", 
+                        "pm", 
+                        "design", 
+                        "sql", 
+                        "balsamiq", 
+                        "replay"
+                    ], 
+                    "text": "Designed initial wireframes and design specifications for a new feature expected to increase engagement and daily active users by 10%."
+                }, 
+                {
+                    "tags": [
+                        "research", 
+                        "pm", 
+                        "excel", 
+                        "sql"
+                    ], 
+                    "text": "Analyzed player demographics by monthly spend to better know the sources of revenue, and which players to target for new features."
+                }
+            ], 
+            "term": "Spring 2016", 
+            "url": "zynga.com/poker"
+        }, 
+        {
+            "company": "Noom", 
+            "location": "New York", 
+            "position": "Product Designer", 
+            "responsibilities": [
+                {
+                    "tags": [
+                        "ux", 
+                        "design", 
+                        "research", 
+                        "ui", 
+                        "sketch", 
+                        "framer", 
+                        "origami"
+                    ], 
+                    "text": "Simplified the food logging experience to better fit with the observed mental model, without compromising functionality."
+                }, 
+                {
+                    "tags": [], 
+                    "text": "Leveraged data from rigorously user tested prototypes to inform further design iterations."
+                }, 
+                {
+                    "tags": [
+                        "ui", 
+                        "design", 
+                        "ux", 
+                        "sketch"
+                    ], 
+                    "text": "Improved user confidence when logging food by simplifying the portion picker interface."
+                }, 
+                {
+                    "tags": [
+                        "pm", 
+                        "ux", 
+                        "lead", 
+                        "pm"
+                    ], 
+                    "text": "Managed the early design process for Coach Dashboard in collaboration with all stakeholders."
+                }
+            ], 
+            "term": "Fall 2015", 
+            "url": "noom.com"
+        }, 
+        {
+            "company": "KnowRoaming", 
+            "location": "Toronto", 
+            "position": "UX Designer", 
+            "responsibilities": [
+                {
+                    "tags": [
+                        "ux", 
+                        "pm", 
+                        "product", 
+                        "design", 
+                        "ucd"
+                    ], 
+                    "text": "Overhauled design and structure of iOS and Android apps to make it simpler, more informative, and correspond with common usage."
+                }, 
+                {
+                    "tags": [
+                        "ux", 
+                        "web", 
+                        "development", 
+                        "ui", 
+                        "html", 
+                        "css", 
+                        "js", 
+                        "php"
+                    ], 
+                    "text": "Designed and built a sponsorship sign-up page from scratch using SASS, CoffeeScript and PHP."
+                }, 
+                {
+                    "tags": [
+                        "pm", 
+                        "leader", 
+                        "manager"
+                    ], 
+                    "text": "Organized semiweekly design meetings with all stakeholders to present and discuss design of the mobile apps and websites."
+                }, 
+                {
+                    "tags": [
+                        "ux", 
+                        "pm", 
+                        "web"
+                    ], 
+                    "text": "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal."
+                }
+            ], 
+            "term": "Spring 2014/Winter 2015", 
+            "url": "knowroaming.com"
+        }, 
+        {
+            "company": "Sony", 
+            "location": "Waterloo", 
+            "position": "UI Designer", 
+            "responsibilities": [
+                {
+                    "tags": [
+                        "design", 
+                        "development", 
+                        "ps", 
+                        "illustrator", 
+                        "pm", 
+                        "ui", 
+                        "ux"
+                    ], 
+                    "text": "Spearheaded design and development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery."
+                }, 
+                {
+                    "tags": [
+                        "ui", 
+                        "product", 
+                        "design", 
+                        "ux", 
+                        "media"
+                    ], 
+                    "text": "Proposed a UI re-design of MediaGo, improving aesthetics and interface clarity."
+                }, 
+                {
+                    "tags": [
+                        "ui", 
+                        "graphic", 
+                        "design", 
+                        "animation", 
+                        "video", 
+                        "media"
+                    ], 
+                    "text": "Designed promotional graphics and videos for MediaGo."
+                }, 
+                {
+                    "tags": [
+                        "ui", 
+                        "web", 
+                        "development", 
+                        "html", 
+                        "css", 
+                        "sass", 
+                        "js"
+                    ], 
+                    "text": "Developed the front-end for the new feature using HTML, SASS and jQuery."
+                }
+            ], 
+            "term": "Fall 2013", 
+            "url": "mediago.sony.com"
+        }
+    ], 
+    "objective": "I\u2019m a \"big-picture\" problem solver; always looking for the best solution to the right problem. I\u2019m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.", 
+    "projects": [
+        {
+            "description": "Smart hearing protection that automatically adjusts its attenuation based on the environment.", 
+            "id": "fydp", 
+            "name": "Chameleon", 
+            "responsibilities": [
+                {
+                    "tags": [
+                        "research", 
+                        "design", 
+                        "ucd", 
+                        "ux"
+                    ], 
+                    "text": "Researched user needs to inform design, and establish technical requirements."
+                }, 
+                {
+                    "tags": [
+                        "pm", 
+                        "lead", 
+                        "manage"
+                    ], 
+                    "text": "Managed project priorities, and led development of mechanical, software and electronic systems."
+                }, 
+                {
+                    "tags": [
+                        "analog", 
+                        "signals", 
+                        "elec"
+                    ], 
+                    "text": "Developed analog circuit to determine the perceived loudness at the ear."
+                }
+            ], 
+            "term": "Sept. 2016 - present", 
+            "url": "adamthompson.ca/Portfolio/?p=chameleon"
+        }, 
+        {
+            "description": "An interactive IoT water fountain that reacts to player inputs and responses in a web-based quiz game.", 
+            "id": "smrt-watr", 
+            "name": "SMRT WATR", 
+            "responsibilities": [
+                {
+                    "tags": [
+                        "ui", 
+                        "design", 
+                        "ux", 
+                        "sketch", 
+                        "product"
+                    ], 
+                    "text": "Designed and built the game interface using JavaScript and a Tornado Python server."
+                }, 
+                {
+                    "tags": [
+                        "mechanical", 
+                        "cad", 
+                        "electrical", 
+                        "hardware", 
+                        "prototype"
+                    ], 
+                    "text": "Designed and built the fountain frame, basin, and a mechanism to rotate the fountain jet."
+                }, 
+                {
+                    "tags": [
+                        "web", 
+                        "development", 
+                        "app", 
+                        "design", 
+                        "front-end", 
+                        "python", 
+                        "html", 
+                        "css", 
+                        "sass", 
+                        "js"
+                    ], 
+                    "text": "Developed the web-app front-end, and a portion of the Python server."
+                }
+            ], 
+            "term": "Spring 2015", 
+            "url": "adamthompson.ca/Portfolio/?p=smrtwatr"
+        }, 
+        {
+            "description": "A web app that represents the current temperature, weather conditions and time as an HSV colour.", 
+            "id": "color-therm", 
+            "name": "Colour Thermometer", 
+            "responsibilities": [], 
+            "term": "Winter 2015", 
+            "url": "adamthompson.ca/ColourThermometer/"
+        }, 
+        {
+            "description": "A simple iOS metronome app with a minimal interface. built during Hack The North 2016.", 
+            "id": "metronome", 
+            "name": "TAP Metronome", 
+            "responsibilities": [], 
+            "term": "Fall 2016", 
+            "url": "adamthompson.ca/Portfolio/?p=tap-metronome"
+        }, 
+        {}, 
+        null, 
+        null, 
+        null
+    ], 
+    "showCourses": false, 
+    "skills": [
+        [
+            "Framer", 
+            [
+                "framer", 
+                "ux", 
+                "ui", 
+                "js", 
+                "coffeescript", 
+                "prototype"
+            ]
+        ], 
+        [
+            "CoffeeScript", 
+            [
+                "coffeescript", 
+                "js", 
+                "web", 
+                "dev"
+            ]
+        ], 
+        [
+            "Python", 
+            [
+                "python", 
+                "dev", 
+                "front-end", 
+                "web", 
+                "dsp"
+            ]
+        ], 
+        [
+            "Sketch", 
+            [
+                "sketch", 
+                "ui", 
+                "ux", 
+                "wireframe"
+            ]
+        ], 
+        [
+            "Origami", 
+            [
+                "origami", 
+                "ux", 
+                "ui", 
+                "prototype"
+            ]
+        ], 
+        [
+            "JavaScript", 
+            [
+                "js", 
+                "web", 
+                "front-end", 
+                "dev"
+            ]
+        ], 
+        [
+            "jQuery", 
+            [
+                "jQuery", 
+                "js", 
+                "web", 
+                "front-end", 
+                "dev"
+            ]
+        ], 
+        [
+            "Balsamiq", 
+            [
+                "balsamiq", 
+                "ux", 
+                "wireframe", 
+                "pm"
+            ]
+        ], 
+        [
+            "PHP", 
+            [
+                "php", 
+                "dev", 
+                "web"
+            ]
+        ], 
+        [
+            "Swift", 
+            [
+                "swift", 
+                "dev", 
+                "ios"
+            ]
+        ], 
+        [
+            "HTML", 
+            [
+                "html", 
+                "web", 
+                "front-end", 
+                "prototype"
+            ]
+        ]
+    ], 
+    "summary": [
+        {
+            "tags": [
+                "ux", 
+                "ui", 
+                "sketch", 
+                "ps"
+            ], 
+            "text": "Experience in mobile/web/desktop UX and product design since 2013."
+        }, 
+        {
+            "tags": [
+                "pm", 
+                "research", 
+                "dev", 
+                "lead", 
+                "ux"
+            ], 
+            "text": "Research, development and prioritization of user & technological requirements."
+        }, 
+        {
+            "tags": [
+                "lead", 
+                "pm", 
+                "research", 
+                "ux", 
+                "dev"
+            ], 
+            "text": "Development and presentation of well-researched design deliverables, and detailed prototypes"
+        }, 
+        {
+            "tags": [
+                "lead", 
+                "team", 
+                "ui", 
+                "design", 
+                "dev"
+            ], 
+            "text": "Collaboratively creating solutions with designers, developers, and other stakeholders in a fast-paced environment."
+        }
+    ]
+}
