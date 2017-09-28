@@ -1,14 +1,16 @@
 @charset "UTF-8";
-html body {
-  padding: 0;
-  margin: 0;
-  font-family: "europa", "Helvetica Neue", sans-serif;
-  font-weight: 100;
-  color: #333333;
-  overflow-x: hidden;
-  background-color: #fff; }
-html *::selection {
-  background: #E1FAD4; }
+html {
+  font-feature-settings: "ss01"; }
+  html body {
+    padding: 0;
+    margin: 0;
+    font-family: "europa", "Helvetica Neue", sans-serif;
+    font-weight: 100;
+    color: #333333;
+    overflow-x: hidden;
+    background-color: #fff; }
+  html *::selection {
+    background: #E1FAD4; }
 
 @media screen {
   html {
@@ -35,7 +37,7 @@ html *::selection {
   size: 8.5in 11in;
   /*size: 21.0cm 29.7cm */
   margin: 0.5in 0.5in; }
-.body-style, section ul li, section ul li span, section article .content, section#skills ul li .app-name {
+.body-style, section ul li, section ul li span, section article .content, section#skills ul li .app-name, .cover_letter .cover_letter_content, .cover_letter .sign-off {
   font-size: 14rem;
   line-height: 1.5em;
   font-weight: 300;
@@ -45,7 +47,6 @@ html *::selection {
 header.main-header {
   position: relative;
   display: block;
-  height: 100%;
   width: 100%;
   margin: 0;
   overflow: hidden;
@@ -74,8 +75,8 @@ header.main-header {
       color: #55A82F;
       font-size: 14rem;
       font-weight: 400;
-      margin-top: 13rem;
-      line-height: 24rem; }
+      margin-top: 16rem;
+      line-height: 28rem; }
       header.main-header .container #contact span {
         display: block;
         text-align: right; }
@@ -83,6 +84,7 @@ header.main-header {
         color: inherit;
         text-decoration: none; }
   header.main-header #tagline {
+    margin-top: 4rem;
     font-family: "europa", "Helvetica Neue", sans-serif;
     font-size: 20rem;
     font-weight: 300;
@@ -164,6 +166,7 @@ section#projects {
   margin-top: 0; }
 section#skills h1.section-header {
   color: #333333;
+  margin-top: 8rem;
   margin-bottom: 4rem; }
 section#skills ul {
   padding-left: 0;
@@ -217,5 +220,28 @@ section#education article {
   section#education article .item-header .item-location, section#education article .item-header .item-duration {
     float: none;
     display: none; }
+
+.cover_letter .cover_letter_content {
+  font-size: 16rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 8rem; }
+  .cover_letter .cover_letter_content p {
+    text-align: left;
+    margin: 1em 2em;
+    display: block; }
+  .cover_letter .cover_letter_content a {
+    color: #55A82F;
+    font-weight: 400;
+    text-decoration: none; }
+.cover_letter .sign-off * {
+  font-size: 16rem;
+  margin: 0.75em 2em;
+  display: block;
+  width: 90%; }
+.cover_letter .sign-off #signature {
+  max-width: 128rem;
+  margin: 0 2em;
+  display: block; }
 
 /*# sourceMappingURL=resume.css.map */

@@ -1,0 +1,43 @@
+Squarespace seeks a Creative Developer who shares our passion for building the future of the web. You’ll help us forge new frontiers by building innovative experiences for Squarespace’s own web presence. Your intuitive compassion for the user drives you to create novel experiences using the latest browser technologies. You’re ready to join a team building some of the most impactful, award-winning, high-traffic websites on the internet.
+
+This year, we’re excited to open up positions for graduating university seniors or anyone seeking their first full-time engineering role. The ideal candidate is a trained engineer with a passion for artistic expression; many have dual degrees or double majors. You’re a tinkerer, constantly creating new experiences with a variety of creative tools and web technologies.
+
+
+ABOUT THE TEAM
+
+The Squarespace Websites team spawns new projects from both strategic insights and creative briefs. Working closely with our world-renowned designers, we use data-driven insights, experimentation, and play to craft an experience worthy of the customers we attract. Our own Developer Platform powers the sites we build, visited by millions each month. Examples include www.squarespace.com, playinglynch.com, and dreamingwithjeff.com. Our cadence is fast, and our ideas bold. We work with any tool that fits the job: from WebGL to Vanilla JS. Join our team of world-class designers and engineers to build the best work of your career.
+
+RESPONSIBILITIES
+
+Create and optimize our impactful websites, including squarespace.com
+Develop new projects with our creative team, helping people learn about Squarespace
+Build new prototypes to push the boundaries of our developer platform
+Optimize site design and performance across a variety of modern devices
+Work closely with our Product, Design and Analytics Teams.
+
+QUALIFICATIONS
+
+You've built outstanding websites from concept to launch
+Are proficient in JavaScript, HTML, and CSS.
+Familiar with the many web techniques and libraries (React, etc.) and understand their opportunities and tradeoffs.
+An eye for interaction, motion, and graphic design or you come from a creative background.
+Knowledge of responsive web design and cross-platform compatible coding techniques and troubleshooting.
+Animation or motion design skills, a plus (e.g. PIXI.js, WebGL)
+ 
+
+ABOUT SQUARESPACE
+
+Squarespace makes beautiful products to help people with creative ideas succeed. By blending elegant design and sophisticated engineering, we empower millions of people — from individuals and local artists to entrepreneurs shaping the world’s most iconic businesses — to share their stories with the world. Squarespace’s team of more than 570 is headquartered in downtown New York City, with offices in Dublin and Portland. For more information, visit www.squarespace.com/about. 
+
+ 
+
+PERKS 
+
+Health insurance with 100% premium covered
+Flexible vacation & paid time off
+Equity plan
+401(k) plan with employer match
+Free lunch and snacks
+Dog-friendly workplace
+And more
+Today, more than a million people around the globe use Squarespace to share different perspectives and experiences with the world. Not only do we embrace and celebrate the diversity of our customer base, but we also strive for the same in our employees. At Squarespace, we are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender, gender identity or expression, or veteran status. We are proud to be an equal opportunity workplace.

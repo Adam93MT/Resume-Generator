@@ -21,6 +21,7 @@ $green: #55A82F
 $dark_green: #2B5C12
 
 html
+	font-feature-settings: "ss01"
 	body 
 		padding: 0 
 		margin: 0
@@ -78,7 +79,6 @@ html
 header.main-header
 	position: relative
 	display: block
-	height: 100%
 	width: 100%
 	margin: 0
 	overflow: hidden
@@ -108,8 +108,8 @@ header.main-header
 			color: $green
 			font-size: 14rem
 			font-weight: 400
-			margin-top: 13rem // adjusts distance from top
-			line-height: 24rem // adjusts distance to bottom
+			margin-top: 16rem // adjusts distance from top
+			line-height: 28rem // adjusts distance to bottom
 			span 
 				display: block
 				text-align: right
@@ -118,6 +118,7 @@ header.main-header
 				text-decoration: none
 				// border-bottom: 1px solid $green
 	#tagline
+		margin-top: 4rem
 		font-family: $sans-serif
 		font-size: 20rem
 		font-weight: 300
@@ -246,6 +247,7 @@ section
 	&#skills
 		h1.section-header
 			color: $black
+			margin-top: 8rem
 			margin-bottom: 4rem
 		$num_skills: 11
 		ul
@@ -311,81 +313,108 @@ section
 				.item-location, .item-duration
 					float: none
 					display: none
+.cover_letter
+	.cover_letter_content
+		@extend .body-style
+		// font-family: "Merriweather"
+		font-size: 16rem
+		width: 100%
+		text-align: center
+		margin-top: 8rem
+		p
+			text-align: left
+			margin: 1em 2em
+			display: block
+		a
+			color: $green
+			font-weight: 400
+			text-decoration: none
+	.sign-off
+		@extend .body-style
+		*
+			font-size: 16rem
+			margin: 0.75em 2em
+			display: block
+			width: 90%
+		#signature
+			max-width: 128rem
+			margin: 0 2em
+			display: block
 
 
-					// &#sketch 
-					// 	background-image: url('../resource/apps/sketch.png')
-					// &#photoshop 
-					// 	background-image: url('../resource/apps/photoshop.png')
-					// &#illustrator 
-					// 	background-image: url('../resource/apps/illustrator.png')
-					// &#indesign 
-					// 	background-image: url('../resource/apps/indd.png')
-					// &#balsamiq 
-					// 	background-image: url('../resource/apps/balsamiq.png')
-					// &#framer 
-					// 	background-image: url('../resource/apps/framer.png')
-					// &#origami 
-					// 	background-image: url('../resource/apps/origami.png')
-					// &#invision 
-					// 	background-image: url('../resource/apps/invision.png')
-					// &#marvel 
-					// 	background-image: url('../resource/apps/marvel.png')
-					// &#html 
-					// 	background-image: url('../resource/apps/html.png')
-					// &#css 
-					// 	background-image: url('../resource/apps/css.png')
-					// &#jquery 
-					// 	background-image: url('../resource/apps/jquery.png')
-					// &#coffeescript 
-					// 	background-image: url('../resource/apps/coffeescript.png')
-					// &#arduino 
-					// 	background-image: url('../resource/apps/arduino.png')
-					// &#xcode 
-					// 	background-image: url('../resource/apps/xcode.png')
-					// &#php 
-					// 	background-image: url('../resource/apps/php.png')
-					// &#cpp 
-					// 	background-image: url('../resource/apps/cpp.png')
-					// &#java 
-					// 	background-image: url('../resource/apps/java.png')
-					// &#swift 
-					// 	background-image: url('../resource/apps/swift.png')
-					// &#python 
-					// 	background-image: url('../resource/apps/python.png')
-					// &#matlab 
-					// 	background-image: url('../resource/apps/matlab.png')
-					// &#git 
-					// 	background-image: url('../resource/apps/git.png')
-					// &#bootstrap 
-					// 	background-image: url('../resource/apps/bootstrap.png')
-					// &#sass 
-					// 	background-image: url('../resource/apps/sass.png')
-					// &#excel 
-					// 	background-image: url('../resource/apps/excel.png')
-					// &#sql 
-					// 	background-image: url('../resource/apps/sql.png')	
-					// &#autocad 
-					// 	background-image: url('../resource/apps/autocad.png')
-					// &#inventor 
-					// 	background-image: url('../resource/apps/inventor.png')
-					// &#rhino 
-					// 	background-image: url('../resource/apps/rhino.png')
-					// &#cinema4d 
-					// 	background-image: url('../resource/apps/c4d.png')
-					// &#max 
-					// 	background-image: url('../resource/apps/max.png')
-					// &#ae 
-					// 	background-image: url('../resource/apps/ae.png')
-					// &#premiere 
-					// 	background-image: url('../resource/apps/premiere.png')
-					// &#final_cut 
-					// 	background-image: url('../resource/apps/final_cut.png')
-					// &#logic 
-					// 	background-image: url('../resource/apps/logic.png')
-					// &#espresso 
-					// 	background-image: url('../resource/apps/espresso.png')
-					// &#sublime 
-					// 	background-image: url('../resource/apps/sublime.png')
-					// &#coda 
-					// 	background-image: url('../resource/apps/coda.png')
+// &#sketch 
+// 	background-image: url('../resource/apps/sketch.png')
+// &#photoshop 
+// 	background-image: url('../resource/apps/photoshop.png')
+// &#illustrator 
+// 	background-image: url('../resource/apps/illustrator.png')
+// &#indesign 
+// 	background-image: url('../resource/apps/indd.png')
+// &#balsamiq 
+// 	background-image: url('../resource/apps/balsamiq.png')
+// &#framer 
+// 	background-image: url('../resource/apps/framer.png')
+// &#origami 
+// 	background-image: url('../resource/apps/origami.png')
+// &#invision 
+// 	background-image: url('../resource/apps/invision.png')
+// &#marvel 
+// 	background-image: url('../resource/apps/marvel.png')
+// &#html 
+// 	background-image: url('../resource/apps/html.png')
+// &#css 
+// 	background-image: url('../resource/apps/css.png')
+// &#jquery 
+// 	background-image: url('../resource/apps/jquery.png')
+// &#coffeescript 
+// 	background-image: url('../resource/apps/coffeescript.png')
+// &#arduino 
+// 	background-image: url('../resource/apps/arduino.png')
+// &#xcode 
+// 	background-image: url('../resource/apps/xcode.png')
+// &#php 
+// 	background-image: url('../resource/apps/php.png')
+// &#cpp 
+// 	background-image: url('../resource/apps/cpp.png')
+// &#java 
+// 	background-image: url('../resource/apps/java.png')
+// &#swift 
+// 	background-image: url('../resource/apps/swift.png')
+// &#python 
+// 	background-image: url('../resource/apps/python.png')
+// &#matlab 
+// 	background-image: url('../resource/apps/matlab.png')
+// &#git 
+// 	background-image: url('../resource/apps/git.png')
+// &#bootstrap 
+// 	background-image: url('../resource/apps/bootstrap.png')
+// &#sass 
+// 	background-image: url('../resource/apps/sass.png')
+// &#excel 
+// 	background-image: url('../resource/apps/excel.png')
+// &#sql 
+// 	background-image: url('../resource/apps/sql.png')	
+// &#autocad 
+// 	background-image: url('../resource/apps/autocad.png')
+// &#inventor 
+// 	background-image: url('../resource/apps/inventor.png')
+// &#rhino 
+// 	background-image: url('../resource/apps/rhino.png')
+// &#cinema4d 
+// 	background-image: url('../resource/apps/c4d.png')
+// &#max 
+// 	background-image: url('../resource/apps/max.png')
+// &#ae 
+// 	background-image: url('../resource/apps/ae.png')
+// &#premiere 
+// 	background-image: url('../resource/apps/premiere.png')
+// &#final_cut 
+// 	background-image: url('../resource/apps/final_cut.png')
+// &#logic 
+// 	background-image: url('../resource/apps/logic.png')
+// &#espresso 
+// 	background-image: url('../resource/apps/espresso.png')
+// &#sublime 
+// 	background-image: url('../resource/apps/sublime.png')
+// &#coda 
+// 	background-image: url('../resource/apps/coda.png')

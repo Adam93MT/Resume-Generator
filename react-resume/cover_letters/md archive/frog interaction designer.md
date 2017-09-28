@@ -1,0 +1,11 @@
+Hello Frog Design Team,
+
+I'm a UX/Product Designer and recent graduate from the University of Waterloo, hoping to create meaningful products that make an impact. I definitely think working at a design firm with such diversity of work as Frog would be a great step in this direction.
+
+In my most recent UX role at [Noom](http://www.noom.com)—a health and lifestyle startup in New York—I worked on the product design team where I re-designed the meal-logging experience in the app. The UI patterns used here had to be carefully thought out so each use case would be intuitive. I created many mockups and prototypes using Invision, Marvel and Framer, and shared final Sketch files with developers using Zeplin.
+
+Previously, I worked as the premiere UX Designer at <a href="http://www.knowroaming.com">KnowRoaming</a> in Toronto where I worked on re-designing their app from the ground-up. Everything from the core workflow, to the UI, icons and branding was reworked. Naturally, this involved creating many workflow diagrams, wireframes and moodboards. In my 8 months with the company there was a good deal of iteration, and collaboration with developers.
+
+I've recently finished my final year in Systems Design Engineering, a multidisciplinary engineering program, with an emphasis on design-thinking and user-centred design. In my final year design project, I designed and built <a href="http://adamthompson.ca/Portfolio/?p=chameleon">Chameleon,</a> a hearing protection device for industrial workers, which varies its attenuation based on the volume of the environment. For this project I performed much of the user research, as well as a large portion of the programming, electrical and mechanical design.
+
+With already several years of design experience on top of a full engineering education, I feel I have the necessary skills, experience, and passion to be a successful interaction designer with Frog. For more, please visit my portfolio online at <a href="http://www.adamthompson.ca">adamthompson.ca</a>.

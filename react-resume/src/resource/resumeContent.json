@@ -27,7 +27,7 @@
 			"tags": ["ux", "ui", "sketch", "ps"]
 		},
 		{
-			"text": "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
+			"text": "Development and presentation of well-researched design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
 			"tags": ["lead", "pm", "research", "ux", "dev"]
 		},
 		{
@@ -224,7 +224,7 @@
 			"id": "smrt-watr",
 			"name": "SMRT WATR",
 			"term": "Spring 2015",
-			"description": "An interactive IoT water fountain that reacts to player inputs and responses in a web-based quiz game.",
+			"description": "An interactive IoT water fountain that reacts to player responses in a web-based quiz game.",
 			"url": "adamthompson.ca/Portfolio/?p=smrtwatr",
 			"responsibilities": [
 			{
@@ -428,6 +428,7 @@
 		["Framer", ["framer", "ux", "ui", "js", "coffeescript", "prototype"]],
 		["Origami", ["origami", "ux", "ui", "prototype"]], 
 		["Balsamiq", ["balsamiq", "ux", "wireframe", "pm"]],
+		["InVision", ["invision", "ux", "prototype", "ui" ]],
 		["JavaScript", ["js", "web", "front-end", "dev"]],
 		["Python", ["python", "dev", "front-end", "web", "dsp"]],
 		["Swift", ["swift", "dev", "ios"]],

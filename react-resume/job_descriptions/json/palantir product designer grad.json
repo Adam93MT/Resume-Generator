@@ -117,7 +117,7 @@
             "url": "adamthompson.ca/Portfolio/?p=chameleon"
         }, 
         {
-            "description": "An interactive IoT water fountain that reacts to player responses in a web-based quiz game.", 
+            "description": "An interactive IoT water fountain that reacts to player inputs and responses in a web-based quiz game.", 
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
@@ -153,15 +153,15 @@
     "skills": [
         "Sketch", 
         "Photoshop", 
-        "Framer", 
-        "Origami", 
-        "Balsamiq", 
-        "InVision", 
-        "JavaScript", 
-        "Python", 
-        "Swift", 
+        "Illustrator", 
         "HTML", 
-        "React"
+        "JavaScript", 
+        "AE", 
+        "Keynote", 
+        "InVision", 
+        "Balsamiq", 
+        "Origami", 
+        "Framer"
     ], 
     "summary": [
         "Experience in mobile/web/desktop UX and product design since 2013.", 

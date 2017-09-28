@@ -143,25 +143,21 @@
             "responsibilities": [], 
             "term": "Fall 2016", 
             "url": "adamthompson.ca/Portfolio/?p=tap-metronome"
-        }, 
-        {}, 
-        null, 
-        null, 
-        null
+        }
     ], 
     "showCourses": false, 
     "skills": [
         "Sketch", 
         "Photoshop", 
+        "Illustrator", 
         "Framer", 
-        "Origami", 
         "Balsamiq", 
         "InVision", 
+        "Keynote", 
         "JavaScript", 
         "Python", 
         "Swift", 
-        "HTML", 
-        "React"
+        "HTML"
     ], 
     "summary": [
         "Experience in mobile/web/desktop UX and product design since 2013.", 

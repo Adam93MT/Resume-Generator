@@ -117,7 +117,7 @@
             "url": "adamthompson.ca/Portfolio/?p=chameleon"
         }, 
         {
-            "description": "An interactive IoT water fountain that reacts to player inputs and responses in a web-based quiz game.", 
+            "description": "An interactive IoT water fountain that reacts to player responses in a web-based quiz game.", 
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
@@ -143,25 +143,29 @@
             "responsibilities": [], 
             "term": "Fall 2016", 
             "url": "adamthompson.ca/Portfolio/?p=tap-metronome"
-        }
+        }, 
+        {}, 
+        null, 
+        null, 
+        null
     ], 
     "showCourses": false, 
     "skills": [
         "Sketch", 
+        "Photoshop", 
         "Framer", 
         "Origami", 
         "Balsamiq", 
-        "Photoshop", 
         "InVision", 
-        "HTML", 
         "JavaScript", 
         "Python", 
-        "React", 
-        "Swift"
+        "Swift", 
+        "HTML", 
+        "React"
     ], 
     "summary": [
         "Experience in mobile/web/desktop UX and product design since 2013.", 
-        "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
+        "Designing and developing numerous web and mobile front-ends using JavaScript, React, Framer, Swift, Python and more.", 
         "Collaboratively identifying and solving problems with designers, developers, PMs and other stakeholders in fast-paced environments.", 
         "Research and prioritization of user requirements, and translation into technical requirements."
     ]

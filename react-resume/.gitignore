@@ -19,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/cover_letters/md_archive
+/cover_letters/pdf_archive
+
+/exports
+/exports/applied
+/exports/testing
