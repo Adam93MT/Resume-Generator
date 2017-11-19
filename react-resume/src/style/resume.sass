@@ -231,7 +231,6 @@ section
 
 	&#summary
 		@extend .col-left
-		margin-top: 0
 	&#experience
 		@extend .col-left
 		.job 
@@ -239,7 +238,6 @@ section
 				font-weight: 400
 	&#projects
 		@extend .col-right
-		margin-top: 0
 	&#clubs
 		@extend .col-right
 	&#skills
@@ -250,6 +248,10 @@ section
 		@extend .col-right
 	&#interests
 		@extend .col-right
+
+	// which ones are first
+	&#summary, &#projects
+		margin-top: -8rem
 
 	&#skills
 		$num_skills: 11
@@ -308,7 +310,8 @@ section
 			// display: inline-block
 			margin-right: 0.3em
 		article
-			margin-top: 3rem
+			// margin-top: 3rem
+			margin-top: 0
 			.item-header
 				*
 					line-height: 24rem
@@ -326,13 +329,13 @@ section
 					color: $black
 					font-weight: 300
 					font-size: 16rem
-					line-height: 1.2em
+					// line-height: 1.2em
 					&:before
 						// content: 'with'
 						margin-right: 0.35em
 						margin-left: 0.35em
 				#minor:after
-					content: ' Minor'
+					content: ' minor'
 				.item-location, .item-duration
 					float: none
 					display: none

@@ -156,12 +156,10 @@ section article .item-header {
     content: " — "; }
 section article .content {
   display: inline-block; }
-section#summary {
-  margin-top: 0; }
 section#experience .job .item-title {
   font-weight: 400; }
-section#projects {
-  margin-top: 0; }
+section#summary, section#projects {
+  margin-top: -8rem; }
 section#skills {
   width: 100%;
   display: flex;
@@ -209,7 +207,7 @@ section#skills {
 section#education h1.section-header {
   margin-right: 0.3em; }
 section#education article {
-  margin-top: 3rem; }
+  margin-top: 0; }
   section#education article .item-header * {
     line-height: 24rem; }
   section#education article .item-header .item-position {
@@ -223,13 +221,12 @@ section#education article {
     font-style: italic;
     color: #333333;
     font-weight: 300;
-    font-size: 16rem;
-    line-height: 1.2em; }
+    font-size: 16rem; }
     section#education article .item-header #minor:before {
       margin-right: 0.35em;
       margin-left: 0.35em; }
   section#education article .item-header #minor:after {
-    content: " Minor"; }
+    content: " minor"; }
   section#education article .item-header .item-location, section#education article .item-header .item-duration {
     float: none;
     display: none; }

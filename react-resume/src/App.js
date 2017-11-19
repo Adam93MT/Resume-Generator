@@ -191,7 +191,7 @@ function Summary(props) {
 function Experience(props) {
   return (
     <section id="experience">
-      <SectionHeader id="Recent Experience"/>
+      <SectionHeader id="Experience"/>
       <WorkList items={props} limit="4" bulletLimit="3"/>
     </section>
   )
@@ -232,15 +232,15 @@ function Education(props) {
       <article className="school" id={school.id}>
           <div className="item-header">
             <span className="title item-position">
+              <a href={"http://"+ school.url}>
+                {school.school}
+              </a>
+            </span>
+            <span className="title item-title">
                 {school.program}
               <span id="degree">
                 {school.degree}
               </span>
-            </span>
-            <span className="title item-title">
-              <a href={"http://"+ school.url}>
-                {school.school}
-              </a>
             </span>
             <span id="minor">
                 {school.minor}

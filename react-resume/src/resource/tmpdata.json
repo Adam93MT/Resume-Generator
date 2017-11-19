@@ -11,13 +11,7 @@
             "middle": "Michael"
         }, 
         "tagline": [
-            "Product Designer - University of Waterloo", 
-            "Systems Design Engineering - University of Waterloo", 
-            "Systems Design Engineering", 
-            "Systems Design Engineering, BASc", 
-            "University of Waterloo", 
-            "BASc, University of Waterloo", 
-            "UX Designer <br> University of Waterloo"
+            "Product Designer - University of Waterloo"
         ]
     }, 
     "clubs": [
@@ -95,7 +89,7 @@
             "position": "UI Designer", 
             "responsibilities": [
                 "Spearheaded design and development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery.", 
-                "Proposed a UI re-design of MediaGo, improving aesthetics and clarity.", 
+                "Proposed a UI re-design of MediaGo, improving aesthetics and contextual clarity.", 
                 "Designed promotional graphics and videos for MediaGo.", 
                 "Developed the front-end for the new feature using HTML, SASS and jQuery."
             ], 
@@ -122,47 +116,47 @@
             "name": "SMRT WATR", 
             "responsibilities": [
                 "Designed and built the game interface using JavaScript and a Tornado Python server.", 
-                "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain.", 
+                "Created a mechanism to rotate the fountain, and constructed the fountain basin.", 
                 "Developed the web-app front-end, and a portion of the Python server."
             ], 
             "term": "Spring 2015", 
             "url": "adamthompson.ca/Portfolio/?p=smrtwatr"
         }, 
         {
-            "description": "A web app that represents the current temperature, weather conditions and time as an HSV colour.", 
-            "id": "color-therm", 
-            "name": "Colour Thermometer", 
-            "responsibilities": [], 
-            "term": "Winter 2015", 
-            "url": "adamthompson.ca/ColourThermometer/"
-        }, 
-        {
             "description": "A simple iOS metronome app with a minimal interface for distraction-free practice.", 
             "id": "metronome", 
             "name": "TAP Metronome", 
             "responsibilities": [], 
-            "term": "Sept. 2016 - present", 
+            "term": "Fall 2016 - present", 
             "url": "adamthompson.ca/Portfolio/?p=tap-metronome"
+        }, 
+        {
+            "description": "A web app that represents the current temperature, weather conditions and time as an HSV colour.", 
+            "id": "color-therm", 
+            "name": "Colour Thermometer", 
+            "responsibilities": [], 
+            "term": "Winter 2015/Spring 2017", 
+            "url": "adamthompson.ca/ColourThermometer/"
         }
     ], 
     "showCourses": false, 
     "skills": [
         "Sketch", 
-        "Photoshop", 
-        "Illustrator", 
         "Framer", 
         "Origami", 
         "Balsamiq", 
+        "Photoshop", 
         "InVision", 
-        "AE", 
+        "HTML", 
         "JavaScript", 
-        "KeyNote", 
-        "HTML"
+        "Swift", 
+        "Python", 
+        "React"
     ], 
     "summary": [
         "Experience in mobile/web UX and product design since 2013.", 
-        "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes and prototypes.", 
+        "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes, prototypes, and more.", 
         "Collaboratively identifying and solving problems with designers, developers, PMs and other stakeholders in fast-paced environments.", 
-        "Research and prioritization of user requirements, and translation into technical requirements."
+        "Research, development and prioritization of user & technological requirements."
     ]
 }
