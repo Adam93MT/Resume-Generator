@@ -218,7 +218,7 @@ function Clubs(props) {
 function Skills(props) {
   return (
     <section id="skills">
-      <SectionHeader id="My Toolbox"/>
+      <SectionHeader id="Toolbox"/>
       <SkillsList items={props} limit="11"/>
     </section>
   )
@@ -278,8 +278,8 @@ function Resume(props) {
       <Experience {...props.experience} />
       <Projects {...props.projects} />
       <Clubs {...props.clubs} />
-      <Skills {...props.skills} />
       <Education {...props.education} />
+      <Skills {...props.skills} />
     </div>
   )
 }

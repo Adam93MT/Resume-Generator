@@ -1,7 +1,7 @@
 {
     "bio": {
         "contact": {
-            "email": "adam.m.thompson@icloud.com", 
+            "email": "adam.m.thompson@outlook.com", 
             "phone": "+1-226-972-2838", 
             "web": "adamthompson.ca"
         }, 
@@ -95,7 +95,7 @@
             "position": "UI Designer", 
             "responsibilities": [
                 "Spearheaded design and development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery.", 
-                "Proposed a UI re-design of MediaGo, improving aesthetics and clarity.", 
+                "Proposed a UI re-design of MediaGo, improving aesthetics and contextual clarity.", 
                 "Designed promotional graphics and videos for MediaGo.", 
                 "Developed the front-end for the new feature using HTML, SASS and jQuery."
             ], 
@@ -109,7 +109,7 @@
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
-                "Researched user needs and behaviours to inform design, and establish technical requirements.", 
+                "Researched user needs and current behaviour to inform design, and technical requirements.", 
                 "Managed project priorities, and led development of mechanical, software and electronic systems.", 
                 "Developed analog circuit to determine the perceived loudness at the ear."
             ], 
@@ -122,7 +122,7 @@
             "name": "SMRT WATR", 
             "responsibilities": [
                 "Designed and built the game interface using JavaScript and a Tornado Python server.", 
-                "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain jet.", 
+                "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain.", 
                 "Developed the web-app front-end, and a portion of the Python server."
             ], 
             "term": "Spring 2015", 
@@ -137,7 +137,7 @@
             "url": "adamthompson.ca/ColourThermometer/"
         }, 
         {
-            "description": "A simple iOS metronome app with a minimal interface. Built independently for Hack The North 2016.", 
+            "description": "A simple iOS metronome app with a minimal interface for distraction-free practice.", 
             "id": "metronome", 
             "name": "TAP Metronome", 
             "responsibilities": [], 
@@ -160,9 +160,9 @@
         "React"
     ], 
     "summary": [
-        "Experience in mobile/web/desktop UX and product design since 2013.", 
+        "Experience in mobile/web UX and product design since 2013.", 
+        "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes and prototypes.", 
         "Collaboratively identifying and solving problems with designers, developers, PMs and other stakeholders in fast-paced environments.", 
-        "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
         "Research, development and prioritization of user & technological requirements."
     ]
 }

@@ -23,11 +23,11 @@
 
 	"summary": [
 		{
-			"text": "Experience in mobile/web/desktop UX and product design since 2013.", 
+			"text": "Experience in mobile/web UX and product design since 2013.", 
 			"tags": ["ux", "ui", "sketch", "ps"]
 		},
 		{
-			"text": "Development and presentation of well-researched design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
+			"text": "Development and presentation of well-researched design deliverables, like user flows, personas, wireframes and prototypes.", 
 			"tags": ["lead", "pm", "research", "ux", "dev"]
 		},
 		{
@@ -170,7 +170,7 @@
 				"tags": ["design", "development", "ps", "illustrator", "pm", "ui", "ux"]
 			},
 			{
-				"text": "Proposed a UI re-design of MediaGo, improving aesthetics and clarity.",
+				"text": "Proposed a UI re-design of MediaGo, improving aesthetics and contextual clarity.",
 				"tags": ["ui", "product", "design", "ux", "media"]
 			},
 			{
@@ -232,7 +232,7 @@
 				"tags": ["ui", "design", "ux", "sketch", "product"]
 			},
 			{
-				"text": "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain jet.",
+				"text": "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain.",
 				"tags": ["mechanical", "cad", "electrical", "hardware", "prototype"]
 			},
 			{
@@ -258,7 +258,7 @@
 			"id": "metronome",
 			"name": "TAP Metronome",
 			"term": "Fall 2016",
-			"description": "A simple iOS metronome app with a minimal interface. Built independently for Hack The North 2016.",
+			"description": "A simple iOS metronome app with a minimal interface for distraction-free practice.",
 			"url": "adamthompson.ca/Portfolio/?p=tap-metronome",
 			"responsibilities": [],
 			"tags": ["ios", "dev", "front-end", "swift", "xcode", "design", "music", "audio"]

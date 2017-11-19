@@ -1,0 +1,13 @@
+Hello iHeartRadio Team,
+
+I'm a product designer, passionate about creating products, especially when it comes to music. You can often find me writing, singing or playing my guitar at home or at an open mic. This past spring I had the amazing opportunity to perform at the Beacon theatre in the finals of the [International Competition for Collegiate A Capella](https://varsityvocals.com/event/the-2017-international-championship-of-collegiate-a-cappella-finals-the-beacon-theatre/) with the Water Boys.
+
+My passion for music, and enabling people to enjoy the experience of listening led me to create my most recent project with a team of peers—a [hearing protection device](http://adamthompson.ca/Portfolio/?p=chameleon) that solves users' real needs, and responds to the environment. 
+
+I've worked as a product designer at companies like Sony, KnowRoaming and Noom where I worked closely with PMs, developers and other designers to deliver exceptional designs centered on the user, and ensure optimal technical implementation. I was a pioneer in setting up semiweekly meetings at [KnowRoaming](http://adamthompson.ca/Portfolio/?p=knowroaming) to present deliverables and discuss rationale with all project stakeholders.
+
+While simplifying the core food logging experience at [Noom](http://adamthompson.ca/Portfolio/?p=noom), and in other roles as well, I created countless wireframes, user flows, interactive prototypes and high-fidelity designs using apps like Sketch, Framer, After Effects and InVision, participated in setting up user testing and analyzing data, and finally delivered specs and assets using tools like Zeplin.
+
+At KnowRoaming, I wore several "hats", creating a [style guide](http://adamthompson.ca/Portfolio/?p=kr_branding), re-branding the [ReachMe](http://adamthompson.ca/Portfolio/?p=kr_reachme) service, designing [marketing materials](http://adamthompson.ca/Portfolio/?p=kr_marketing), building an [athlete sponsorship mini-site](http://adamthompson.ca/Portfolio/?p=kr_athletes), animating an [intro video](http://adamthompson.ca/Portfolio/?p=kr_video) for the app, designing more efficient [packaging](http://adamthompson.ca/Portfolio/?p=kr_packaging) and even designing a [retail stand](http://adamthompson.ca/Portfolio/?p=kr_retail) to display the SIM stickers in stores.
+
+With a passion for music and great design, I believe I have what it takes to be a great product designer with iHeartRadio, and I hope to chat with someone from the team soon! Please check out my portfolio online at [adamthompson.ca](http://adamthompson.ca) for more.

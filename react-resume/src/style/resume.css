@@ -21,7 +21,7 @@ html {
       height: 11in;
       max-height: 11in;
       min-height: 100vh;
-      padding: 0.4in 0.5in;
+      padding: 0.5in 0.5in;
       margin: 0 auto; }
       html body section.container {
         position: relative;
@@ -29,14 +29,10 @@ html {
 @media print {
   html {
     font-size: 0.875px;
-    margin: 0.15in 0.15in; }
+    margin: 0.2in 0.25in; }
     html body section.container {
       position: relative;
       display: inline-block; } }
-@page {
-  size: 8.5in 11in;
-  /*size: 21.0cm 29.7cm */
-  margin: 0.5in 0.5in; }
 .body-style, section ul li, section ul li span, section article .content, section#skills ul li .app-name, .cover_letter .cover_letter_content, .cover_letter .sign-off {
   font-size: 14rem;
   line-height: 1.5em;
@@ -51,39 +47,37 @@ header.main-header {
   margin: 0;
   overflow: hidden;
   color: inherit;
-  margin-bottom: 12rem;
-  margin-top: 4rem; }
-  header.main-header .container {
-    height: 66rem; }
-    header.main-header .container #name {
-      position: relative;
-      display: inline-block;
-      font-family: "europa", "Helvetica Neue", sans-serif;
-      font-size: 64rem;
-      line-height: 1em;
-      font-weight: 700;
-      color: #333333;
-      float: left;
-      text-align: left; }
-      header.main-header .container #name a {
-        color: inherit;
-        text-decoration: none; }
-    header.main-header .container #contact {
-      display: inline-block;
-      float: right;
-      font-family: "europa", "Helvetica Neue", sans-serif;
-      color: #55A82F;
-      font-size: 14rem;
-      font-weight: 400;
-      margin-top: 16rem;
-      line-height: 28rem; }
-      header.main-header .container #contact span {
-        display: block;
-        text-align: right; }
-      header.main-header .container #contact a {
-        color: inherit;
-        text-decoration: none; }
+  margin-bottom: 0; }
+  header.main-header .container #name {
+    position: relative;
+    display: inline-block;
+    font-family: "europa", "Helvetica Neue", sans-serif;
+    font-size: 64rem;
+    line-height: 1em;
+    font-weight: 700;
+    color: #333333;
+    float: left;
+    text-align: left; }
+    header.main-header .container #name a {
+      color: inherit;
+      text-decoration: none; }
+  header.main-header .container #contact {
+    display: inline-block;
+    float: right;
+    font-family: "europa", "Helvetica Neue", sans-serif;
+    color: #55A82F;
+    font-size: 14rem;
+    font-weight: 400;
+    margin-top: 16rem;
+    line-height: 23rem; }
+    header.main-header .container #contact span {
+      display: block;
+      text-align: right; }
+    header.main-header .container #contact a {
+      color: inherit;
+      text-decoration: none; }
   header.main-header #tagline {
+    display: none;
     margin-top: 4rem;
     font-family: "europa", "Helvetica Neue", sans-serif;
     font-size: 20rem;
@@ -98,7 +92,7 @@ header.main-header {
   width: 60%;
   float: left; }
   .col-left > *, section#summary > *, section#experience > *, section#skills > * {
-    margin-right: 24rem; }
+    margin-right: 34rem; }
 
 .col-right, section#projects, section#clubs, section#education, section#awards, section#interests {
   width: 40%;
@@ -107,17 +101,21 @@ header.main-header {
 .full-width {
   width: 100%; }
 
-article, section {
+section {
   display: inline-block;
-  margin-top: 6em; }
-  article:first-child, section:first-child {
-    margin-top: 3rem; }
+  margin-top: 12rem; }
+
+article {
+  display: inline-block;
+  margin-top: 4rem; }
+  article:first-child {
+    margin-top: 2rem; }
 
 section h1.section-header {
   display: block;
   font-family: "europa", "Helvetica Neue", sans-serif;
   font-size: 20rem;
-  font-weight: 300;
+  font-weight: 600;
   margin: 0;
   color: #333333; }
 section a {
@@ -139,7 +137,7 @@ section article .item-header {
     margin-right: 0.35em; }
   section article .item-header .item-title {
     font-size: 16rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #333333; }
     section article .item-header .item-title a {
       color: inherit; }
@@ -164,35 +162,50 @@ section#experience .job .item-title {
   font-weight: 400; }
 section#projects {
   margin-top: 0; }
-section#skills h1.section-header {
-  color: #333333;
-  margin-top: 8rem;
-  margin-bottom: 4rem; }
-section#skills ul {
-  padding-left: 0;
-  display: inline-block;
-  width: 167%;
-  margin-top: 2rem; }
-  section#skills ul li {
-    width: 9.09091%;
-    float: left;
-    list-style-type: none;
-    text-align: center; }
-    section#skills ul li:before {
-      content: "";
-      margin: 0; }
-    section#skills ul li .app-name {
+section#skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 24rem; }
+  section#skills h1.section-header {
+    display: block;
+    color: #333333;
+    text-align: center;
+    line-height: 2.7em;
+    margin: auto; }
+  section#skills ul {
+    padding-left: 0;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 4rem;
+    max-height: 54rem; }
+    section#skills ul li {
+      width: 9.09091%;
+      float: left;
+      list-style-type: none;
+      text-align: center;
       position: relative;
+      height: 100%;
       margin: 0; }
-    section#skills ul li .app-logo {
-      position: relative;
-      width: 50%;
-      margin: 0 auto;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      border-radius: 0; }
-      section#skills ul li .app-logo img {
-        width: 100%; }
+      section#skills ul li:before {
+        content: "";
+        margin: 0; }
+      section#skills ul li .app-name {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: 0; }
+      section#skills ul li .app-logo {
+        position: relative;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 0; }
+        section#skills ul li .app-logo img {
+          width: 100%; }
 section#education h1.section-header {
   margin-right: 0.3em; }
 section#education article {

@@ -1,6 +1,5 @@
 Hi Spotify Team,
 
-
 I'm a product designer, passionate about creating products, especially when it comes to music. You can often find me writing, singing or playing my guitar at home or at an open mic. This past spring I had the amazing opportunity to perform at the Beacon theatre in the finals of the [International Competition for Collegiate A Capella](https://varsityvocals.com/event/the-2017-international-championship-of-collegiate-a-cappella-finals-the-beacon-theatre/) with the Water Boys.
 
 My passion for music, and enabling people to enjoy the experience of listening led me to create my most recent project with a team of peers—a [hearing protection device](http://adamthompson.ca/Portfolio/?p=chameleon) that solves users' real needs, and responds to the environment. 

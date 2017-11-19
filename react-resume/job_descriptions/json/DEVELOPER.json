@@ -55,10 +55,9 @@
             "location": "Toronto", 
             "position": "Product Manager", 
             "responsibilities": [
+                "Analyzed player demographics in Excel, from numerous SQL queries, to better understand revenue sources.", 
                 "Performed user research, competitor analysis and A/B testing for a new subscription-based revenue model.", 
-                "Configured the user flow and final parameters for a feature that increased daily news-feed app entry by 4%.", 
-                "Designed initial wireframes and feature specifications for a new engagement feature expected to increase daily active users by 10%.", 
-                "Analyzed player demographics by monthly spend to better know the sources of revenue, and which players to target for new features."
+                "Configured the user flow and final parameters for a feature that increased daily news-feed app entry by 4%."
             ], 
             "term": "Spring 2016", 
             "url": "zynga.com/poker"
@@ -69,9 +68,8 @@
             "position": "Product Designer", 
             "responsibilities": [
                 "Simplified the food logging experience to better fit with the observed mental model, without compromising functionality.", 
-                "Leveraged data from rigorously user tested prototypes to inform further design iterations.", 
-                "Initiated collaboration with users and stakeholders, and managed the early design process for a Coach Dashboard re-design.", 
-                "Improved user confidence when logging food by simplifying the portion picker interface."
+                "Prototyped UI designs using Swift, CoffeeScript and HTML in Framer, and in Origami", 
+                "Leveraged data from rigorously tested prototypes to inform further design iterations."
             ], 
             "term": "Fall 2015", 
             "url": "noom.com"
@@ -81,10 +79,9 @@
             "location": "Toronto", 
             "position": "UX Designer", 
             "responsibilities": [
-                "Overhauled design and structure of iOS and Android apps to make it simpler, more informative, and conform to common user behaviour.", 
                 "Designed and built a sponsorship sign-up page from scratch using SASS, CoffeeScript and PHP.", 
-                "Organized semiweekly design meetings with all stakeholders to present prototypes and discuss design of the mobile apps and websites.", 
-                "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal."
+                "Overhauled design and structure of iOS and Android apps to make it simpler, more informative, and conform to common user behaviour.", 
+                "Revamped the mobile site front-end, implementing the new design language into the web app."
             ], 
             "term": "Spring 2014/Winter 2015", 
             "url": "knowroaming.com"
@@ -95,9 +92,7 @@
             "position": "UI Designer", 
             "responsibilities": [
                 "Spearheaded design and development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery.", 
-                "Proposed a UI re-design of MediaGo, improving aesthetics and clarity.", 
-                "Designed promotional graphics and videos for MediaGo.", 
-                "Developed the front-end for the new feature using HTML, SASS and jQuery."
+                "Proposed a UI re-design of MediaGo, improving aesthetics and contextual clarity."
             ], 
             "term": "Fall 2013", 
             "url": "mediago.sony.com"
@@ -109,9 +104,8 @@
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
-                "Researched user needs and behaviours to inform design, and establish technical requirements.", 
-                "Managed project priorities, and led development of mechanical, software and electronic systems.", 
-                "Developed analog circuit to determine the perceived loudness at the ear."
+                "Managed project priorities, and led development of software, mechanical, and electronic systems.", 
+                "Developed testing software in Python, and controller software on Arduino in C."
             ], 
             "term": "Sept. 2016 - present", 
             "url": "adamthompson.ca/Portfolio/?p=chameleon"
@@ -122,8 +116,7 @@
             "name": "SMRT WATR", 
             "responsibilities": [
                 "Designed and built the game interface using JavaScript and a Tornado Python server.", 
-                "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain jet.", 
-                "Developed the web-app front-end, and a portion of the Python server."
+                "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain."
             ], 
             "term": "Spring 2015", 
             "url": "adamthompson.ca/Portfolio/?p=smrtwatr"
@@ -137,7 +130,7 @@
             "url": "adamthompson.ca/ColourThermometer/"
         }, 
         {
-            "description": "A simple iOS metronome app with a minimal interface. Built independently for Hack The North 2016.", 
+            "description": "A simple iOS Swift app with a minimal interface for distraction-free practice.", 
             "id": "metronome", 
             "name": "TAP Metronome", 
             "responsibilities": [], 
@@ -147,22 +140,22 @@
     ], 
     "showCourses": false, 
     "skills": [
-        "Sketch", 
-        "Framer", 
-        "Origami", 
-        "Balsamiq", 
-        "Photoshop", 
-        "InVision", 
         "HTML", 
         "JavaScript", 
-        "Swift", 
         "Python", 
-        "React"
+        "Swift", 
+        "React", 
+        "Node", 
+        "Apache", 
+        "Php", 
+        "Arduino", 
+        "Photoshop", 
+        "XCode"
     ], 
     "summary": [
-        "Experience in mobile/web/desktop UX and product design since 2013.", 
-        "Collaboratively identifying and solving problems with designers, developers, PMs and other stakeholders in fast-paced environments.", 
-        "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
-        "Research, development and prioritization of user & technological requirements."
+        "Multidisciplinary engineering education, including software development and user-centered design.", 
+        "Development of production web sites and web apps as well as iOS and Android apps and prototypes.", 
+        "Research and development of user needs, and prioritization of technological requirements.", 
+        "Experience in mobile/web UX and product design since 2013."
     ]
 }

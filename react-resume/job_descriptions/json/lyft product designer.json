@@ -22,7 +22,7 @@
     }, 
     "clubs": [
         {
-            "description": "Soloist and baritone leader for the internationally ranked all-male A Capella group.", 
+            "description": "Soloist and baritone leader for the internationally ranked all-male a Capella group.", 
             "id": "waterboys", 
             "name": "The Water Boys", 
             "responsibilities": [], 
@@ -55,49 +55,10 @@
             "location": "Toronto", 
             "position": "Product Manager", 
             "responsibilities": [
-                {
-                    "tags": [
-                        "ux", 
-                        "pm", 
-                        "design", 
-                        "sql", 
-                        "balsamiq", 
-                        "replay"
-                    ], 
-                    "text": "Designed initial wireframes and design specifications for a new feature expected to increase engagement and daily active users by 10%."
-                }, 
-                {
-                    "tags": [
-                        "research", 
-                        "ux", 
-                        "pm", 
-                        "excel", 
-                        "balsamiq", 
-                        "subscription"
-                    ], 
-                    "text": "Performed user research, competitor analysis and A/B testing for a new subscription-based revenue model."
-                }, 
-                {
-                    "tags": [
-                        "pm", 
-                        "ux", 
-                        "excel", 
-                        "sql", 
-                        "balsamiq", 
-                        "basket"
-                    ], 
-                    "text": "Configured the user flow and final parameters for a feature that increased daily Facebook-sourced users by 4%."
-                }, 
-                {
-                    "tags": [
-                        "research", 
-                        "pm", 
-                        "manage", 
-                        "excel", 
-                        "sql"
-                    ], 
-                    "text": "Managed, analyzed, and reported on key metrics for various in-app experiments."
-                }
+                "Performed user research, competitor analysis and A/B testing for a new subscription-based revenue model.", 
+                "Configured the user flow and final parameters for a feature that increased daily news-feed app entry by 4%.", 
+                "Designed initial wireframes and feature specifications for a new engagement feature expected to increase daily active users by 10%.", 
+                "Analyzed player demographics by monthly spend to better know the sources of revenue, and which players to target for new features."
             ], 
             "term": "Spring 2016", 
             "url": "zynga.com/poker"
@@ -107,47 +68,10 @@
             "location": "New York", 
             "position": "Product Designer", 
             "responsibilities": [
-                {
-                    "tags": [
-                        "ux", 
-                        "design", 
-                        "research", 
-                        "ui", 
-                        "sketch", 
-                        "framer", 
-                        "origami"
-                    ], 
-                    "text": "Simplified the food logging experience to better fit with the observed mental model, without compromising functionality."
-                }, 
-                {
-                    "tags": [
-                        "ux", 
-                        "ui", 
-                        "sketch", 
-                        "framer", 
-                        "js", 
-                        "origami"
-                    ], 
-                    "text": "Built prototypes and designs using Sketch, Framer, and Origami, and tested using Usability Hub and UserTesting.com."
-                }, 
-                {
-                    "tags": [
-                        "ui", 
-                        "design", 
-                        "ux", 
-                        "sketch"
-                    ], 
-                    "text": "Improved user confidence when logging food by simplifying the portion picker interface."
-                }, 
-                {
-                    "tags": [
-                        "pm", 
-                        "ux", 
-                        "lead", 
-                        "pm"
-                    ], 
-                    "text": "Managed the early design process for Coach Dashboard in collaboration with all stakeholders."
-                }
+                "Simplified the food logging experience to better fit with the observed mental model, without compromising functionality.", 
+                "Leveraged data from rigorously user tested prototypes to inform further design iterations.", 
+                "Initiated collaboration with users and stakeholders, and managed the early design process for a Coach Dashboard re-design.", 
+                "Improved user confidence when logging food by simplifying the portion picker interface."
             ], 
             "term": "Fall 2015", 
             "url": "noom.com"
@@ -157,42 +81,10 @@
             "location": "Toronto", 
             "position": "UX Designer", 
             "responsibilities": [
-                {
-                    "tags": [
-                        "ux", 
-                        "pm", 
-                        "product", 
-                        "design", 
-                        "ucd"
-                    ], 
-                    "text": "Overhauled design and structure of iOS and Android apps to make it simpler, more informative, and correspond with common usage."
-                }, 
-                {
-                    "tags": [
-                        "id", 
-                        "product", 
-                        "design", 
-                        "prototype", 
-                        "retail"
-                    ], 
-                    "text": "Designed and prototyped a retail stand for dispensing product boxes and displaying product information in retail stores."
-                }, 
-                {
-                    "tags": [
-                        "pm", 
-                        "leader", 
-                        "manager"
-                    ], 
-                    "text": "Organized semiweekly design meetings with all stakeholders to present and discuss design of the mobile apps and websites."
-                }, 
-                {
-                    "tags": [
-                        "pm", 
-                        "marketing", 
-                        "branding"
-                    ], 
-                    "text": "Created, branded and optimized a core company service, now called ReachMe."
-                }
+                "Overhauled design and structure of iOS and Android apps to make it simpler, more informative, and conform to common user behaviour.", 
+                "Designed and built a sponsorship sign-up page from scratch using SASS, CoffeeScript and PHP.", 
+                "Organized semiweekly design meetings with all stakeholders to present prototypes and discuss design of the mobile apps and websites.", 
+                "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal."
             ], 
             "term": "Spring 2014/Winter 2015", 
             "url": "knowroaming.com"
@@ -202,135 +94,36 @@
             "location": "Waterloo", 
             "position": "UI Designer", 
             "responsibilities": [
-                {
-                    "tags": [
-                        "design", 
-                        "development", 
-                        "ps", 
-                        "illustrator", 
-                        "pm", 
-                        "ui", 
-                        "ux"
-                    ], 
-                    "text": "Spearheaded design and development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery."
-                }, 
-                {
-                    "tags": [
-                        "ui", 
-                        "graphic", 
-                        "design", 
-                        "animation", 
-                        "video", 
-                        "media"
-                    ], 
-                    "text": "Designed promotional graphics and videos for MediaGo."
-                }, 
-                {
-                    "tags": [
-                        "ui", 
-                        "product", 
-                        "design", 
-                        "ux", 
-                        "media"
-                    ], 
-                    "text": "Proposed a UI re-design of MediaGo, improving aesthetics and interface clarity."
-                }, 
-                {
-                    "tags": [
-                        "ui", 
-                        "web", 
-                        "development", 
-                        "html", 
-                        "css", 
-                        "sass", 
-                        "js"
-                    ], 
-                    "text": "Developed the front-end for the new feature using HTML, SASS and jQuery."
-                }
+                "Spearheaded design and development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery.", 
+                "Proposed a UI re-design of MediaGo, improving aesthetics and contextual clarity.", 
+                "Designed promotional graphics and videos for MediaGo.", 
+                "Developed the front-end for the new feature using HTML, SASS and jQuery."
             ], 
             "term": "Fall 2013", 
             "url": "mediago.sony.com"
         }
     ], 
-    "objective": "I\u2019m a \"big-picture\" problem solver; always looking for the best solution to the right problem. I\u2019m someone who will rise to a challenge and will get the job done. My engineering education, and skills in user-centred design, human-factors, and front-end development allow me to approach complex problems from a unique perspective, specifically when designing and researching at Noom, KnowRoaming, and Sony.", 
     "projects": [
         {
             "description": "Smart hearing protection that automatically adjusts its attenuation based on the environment.", 
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
-                {
-                    "tags": [
-                        "design", 
-                        "mechanical", 
-                        "hardware", 
-                        "modelling", 
-                        "cad", 
-                        "prototype"
-                    ], 
-                    "text": "Designed ear-cup and variable attenuation mechanism."
-                }, 
-                {
-                    "tags": [
-                        "research", 
-                        "design", 
-                        "ucd", 
-                        "ux"
-                    ], 
-                    "text": "Researched user needs to inform design, and establish technical requirements."
-                }, 
-                {
-                    "tags": [
-                        "pm", 
-                        "lead", 
-                        "manage"
-                    ], 
-                    "text": "Managed project priorities, and led development of mechanical, software and electronic systems."
-                }
+                "Researched user needs and current behaviour to inform design, and technical requirements.", 
+                "Managed project priorities, and led development of mechanical, software and electronic systems.", 
+                "Developed analog circuit to determine the perceived loudness at the ear."
             ], 
             "term": "Sept. 2016 - present", 
             "url": "adamthompson.ca/Portfolio/?p=chameleon"
         }, 
         {
-            "description": "An interactive IoT water fountain that reacts to player inputs and responses in a web-based quiz game.", 
+            "description": "An interactive IoT water fountain that reacts to player responses in a web-based quiz game.", 
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
-                {
-                    "tags": [
-                        "ui", 
-                        "design", 
-                        "ux", 
-                        "sketch", 
-                        "product"
-                    ], 
-                    "text": "Designed and built the game interface using JavaScript and a Tornado Python server."
-                }, 
-                {
-                    "tags": [
-                        "web", 
-                        "development", 
-                        "app", 
-                        "design", 
-                        "front-end", 
-                        "python", 
-                        "html", 
-                        "css", 
-                        "sass", 
-                        "js"
-                    ], 
-                    "text": "Developed the web-app front-end, and a portion of the Python server."
-                }, 
-                {
-                    "tags": [
-                        "mechanical", 
-                        "cad", 
-                        "electrical", 
-                        "hardware", 
-                        "prototype"
-                    ], 
-                    "text": "Designed and built the fountain frame, basin, and a mechanism to rotate the fountain jet."
-                }
+                "Designed and built the game interface using JavaScript and a Tornado Python server.", 
+                "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain.", 
+                "Developed the web-app front-end, and a portion of the Python server."
             ], 
             "term": "Spring 2015", 
             "url": "adamthompson.ca/Portfolio/?p=smrtwatr"
@@ -344,160 +137,32 @@
             "url": "adamthompson.ca/ColourThermometer/"
         }, 
         {
-            "description": "A simple iOS metronome app with a minimal interface. built during Hack The North 2016.", 
+            "description": "A simple iOS metronome app with a minimal interface for distraction-free practice.", 
             "id": "metronome", 
             "name": "TAP Metronome", 
             "responsibilities": [], 
             "term": "Fall 2016", 
             "url": "adamthompson.ca/Portfolio/?p=tap-metronome"
-        }, 
-        {}, 
-        null, 
-        null, 
-        null
+        }
     ], 
     "showCourses": false, 
     "skills": [
-        [
-            "Framer", 
-            [
-                "framer", 
-                "ux", 
-                "ui", 
-                "js", 
-                "coffeescript", 
-                "prototype"
-            ]
-        ], 
-        [
-            "Balsamiq", 
-            [
-                "balsamiq", 
-                "ux", 
-                "wireframe", 
-                "pm"
-            ]
-        ], 
-        [
-            "Sketch", 
-            [
-                "sketch", 
-                "ui", 
-                "ux", 
-                "wireframe"
-            ]
-        ], 
-        [
-            "Origami", 
-            [
-                "origami", 
-                "ux", 
-                "ui", 
-                "prototype"
-            ]
-        ], 
-        [
-            "Photoshop", 
-            [
-                "ps", 
-                "photoshop", 
-                "ui", 
-                "graphic"
-            ]
-        ], 
-        [
-            "HTML", 
-            [
-                "html", 
-                "web", 
-                "front-end", 
-                "prototype"
-            ]
-        ], 
-        [
-            "CoffeeScript", 
-            [
-                "coffeescript", 
-                "js", 
-                "web", 
-                "dev"
-            ]
-        ], 
-        [
-            "JavaScript", 
-            [
-                "js", 
-                "web", 
-                "front-end", 
-                "dev"
-            ]
-        ], 
-        [
-            "jQuery", 
-            [
-                "jQuery", 
-                "js", 
-                "web", 
-                "front-end", 
-                "dev"
-            ]
-        ], 
-        [
-            "Illustrator", 
-            [
-                "ai", 
-                "illustrator", 
-                "graphic"
-            ]
-        ], 
-        [
-            "Swift", 
-            [
-                "swift", 
-                "dev", 
-                "ios"
-            ]
-        ]
+        "Sketch", 
+        "Photoshop", 
+        "Illustrator", 
+        "Framer", 
+        "Origami", 
+        "Balsamiq", 
+        "InVision", 
+        "AE", 
+        "HTML", 
+        "JavaScript", 
+        "Swift"
     ], 
     "summary": [
-        {
-            "tags": [
-                "ux", 
-                "ui", 
-                "sketch", 
-                "ps"
-            ], 
-            "text": "Experience in mobile/web/desktop UX and product design since 2013."
-        }, 
-        {
-            "tags": [
-                "pm", 
-                "research", 
-                "dev", 
-                "lead", 
-                "ux"
-            ], 
-            "text": "Research, development and prioritization of user & technological requirements."
-        }, 
-        {
-            "tags": [
-                "lead", 
-                "pm", 
-                "research", 
-                "ux", 
-                "dev"
-            ], 
-            "text": "Development and presentation of well-researched design deliverables, and detailed prototypes"
-        }, 
-        {
-            "tags": [
-                "lead", 
-                "team", 
-                "ui", 
-                "design", 
-                "dev"
-            ], 
-            "text": "Collaboratively creating solutions with designers, developers, and other stakeholders in a fast-paced environment."
-        }
+        "Experience in mobile/web UX and product design since 2013.", 
+        "Development and presentation of well-researched design deliverables, like user flows, personas, wireframes and prototypes.", 
+        "Collaboratively identifying and solving problems with designers, developers, PMs and other stakeholders in fast-paced environments.", 
+        "Research and prioritization of user requirements, and translation into technical requirements."
     ]
 }

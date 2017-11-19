@@ -109,7 +109,7 @@
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
-                "Researched user needs and behaviours to inform design, and establish technical requirements.", 
+                "Researched user needs and current behaviour to inform design, and technical requirements.", 
                 "Managed project priorities, and led development of mechanical, software and electronic systems.", 
                 "Developed analog circuit to determine the perceived loudness at the ear."
             ], 
@@ -148,21 +148,21 @@
     "showCourses": false, 
     "skills": [
         "Sketch", 
+        "Photoshop", 
+        "Illustrator", 
         "Framer", 
         "Origami", 
         "Balsamiq", 
-        "Photoshop", 
         "InVision", 
         "HTML", 
         "JavaScript", 
-        "Swift", 
         "Python", 
-        "React"
+        "Swift"
     ], 
     "summary": [
         "Experience in mobile/web/desktop UX and product design since 2013.", 
+        "Development and presentation of well-researched design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
         "Collaboratively identifying and solving problems with designers, developers, PMs and other stakeholders in fast-paced environments.", 
-        "Development of well-researched user-centered design deliverables, like user flows, personas, wireframes and detailed prototypes.", 
-        "Research, development and prioritization of user & technological requirements."
+        "Research and prioritization of user requirements, and translation into technical requirements."
     ]
 }

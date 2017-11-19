@@ -44,7 +44,7 @@ html
 			height: 11in
 			max-height: 11in
 			min-height: 100vh
-			padding: 0.4in 0.5in
+			padding: 0.5in 0.5in
 			margin: 0 auto
 
 			section.container 
@@ -55,16 +55,16 @@ html
 @media print 
 	html
 		font-size: 0.875px // makes the browser preview more WYSIWYG
-		margin: 0.15in 0.15in
+		margin: 0.2in 0.25in
 		body
 			section.container 
 				position: relative
 				display: inline-block
 
-@page 
-	size: 8.5in 11in
-	/*size: 21.0cm 29.7cm*/
-	margin: 0.5in 0.5in
+// @page 
+// 	size: 8.5in 11in
+// 	//size: 21.0cm 29.7cm
+// 	margin: 0.5in 0.5in
 
 .body-style
 	font-size: 14rem
@@ -83,10 +83,10 @@ header.main-header
 	margin: 0
 	overflow: hidden
 	color: inherit
-	margin-bottom: 12rem
-	margin-top: 4rem
+	margin-bottom: 0
+	// margin-top: 4rem
 	.container 
-		height: 66rem
+		// height: 66rem
 		#name 
 			position: relative
 			display: inline-block
@@ -109,7 +109,12 @@ header.main-header
 			font-size: 14rem
 			font-weight: 400
 			margin-top: 16rem // adjusts distance from top
-			line-height: 28rem // adjusts distance to bottom
+			line-height: 23rem // adjusts distance to bottom
+			// margin-top: 6rem
+			// line-height: 1em
+			#email, #phone
+				// padding-top: 6rem
+
 			span 
 				display: block
 				text-align: right
@@ -118,6 +123,7 @@ header.main-header
 				text-decoration: none
 				// border-bottom: 1px solid $green
 	#tagline
+		display: none
 		margin-top: 4rem
 		font-family: $sans-serif
 		font-size: 20rem
@@ -133,7 +139,7 @@ header.main-header
 	width: 60%
 	float: left
 	> *  
-		margin-right: 24rem
+		margin-right: 34rem
 .col-right 
 	width: 40%
 	float: none
@@ -142,23 +148,23 @@ header.main-header
 	width: 100%
 
 // Spacing everything nicely
-article, section
+section
 	display: inline-block
-	margin-top: 6em
+	margin-top: 12rem
+article
+	display: inline-block
+	margin-top: 4rem
 	&:first-child
-		margin-top: 3rem
+		margin-top: 2rem
 
 section 
 	h1.section-header 
 		display: block
 		font-family: $sans-serif
 		font-size: 20rem
-		font-weight: 300
+		font-weight: 600
 		margin: 0
 		color: $black
-		// font-weight: 600
-		// color: $green
-		// border-bottom: 1px solid $green
 	a 
 		text-decoration: none
 		color: $green
@@ -197,7 +203,7 @@ section
 
 			.item-title
 				font-size: 16rem
-				font-weight: 600
+				font-weight: 400
 				color: $black
 				// border-bottom: 2px solid $black
 				a
@@ -244,36 +250,53 @@ section
 		@extend .col-right
 	&#interests
 		@extend .col-right
+
 	&#skills
-		h1.section-header
-			color: $black
-			margin-top: 8rem
-			margin-bottom: 4rem
 		$num_skills: 11
+		width: 100%
+		display: flex
+		justify-content: center
+		align-content: center
+		margin-top: 24rem
+		h1.section-header
+			display: block
+			color: $black
+			text-align: center
+			line-height: 2.7em
+			margin: auto
+
 		ul
 			padding-left: 0
 			display: inline-block
-			width: 167% // makes it full width
-			margin-top: 2rem
+			// width: 167% // makes it full width
+			// margin-top: 2rem
+			margin: 0 auto
+			margin-left: 4rem
+			max-height: 54rem
 			li 
 				width: 1/$num_skills * 100%
 				float: left
 				list-style-type: none
 				text-align: center
+				position: relative
+				height: 100%
+				margin: 0
 				&:before
 					content: ''
 					margin: 0
 				.app-name 
 					@extend .body-style
-					position: relative
+					position: absolute
+					bottom: 0
+					width: 100%
 					margin: 0
-					// padding-top: 6px
+					// padding-top: 6rem
 
 				.app-logo 
 					position: relative
-					width: 50%
+					width: 45% // logo size relative to its bounding box
 					margin: 0 auto
-					// padding-bottom: 50%
+					margin-top: 3rem
 					background-size: 100%
 					background-repeat: no-repeat
 					border-radius: 0

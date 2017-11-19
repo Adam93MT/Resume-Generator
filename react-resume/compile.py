@@ -9,7 +9,12 @@ JD_PATH = "./job_descriptions/"
 
 # jsonPath = "http://adamthompson.ca/Resume/resumeContent.json"
 jsonPath = "http://localhost:9999/Resume-Generator/react-resume/src/resource/resumeContent.json"
-jsonfile = urllib2.urlopen(jsonPath)
+
+try:
+	jsonfile = urllib2.urlopen(jsonPath)
+except Exception as e:
+	print('ERROR: Turn o localhost')
+	raise e
 resumeContent = json.load(jsonfile)
 
 if 'default' in sys.argv:
@@ -290,9 +295,17 @@ pdfName = pdfName.replace(" ", "\ ")
 with open(RESOURCE_PATH + "tmpdata.json", 'w') as outfile:
     json.dump(toSave, outfile, indent=4, sort_keys=True)
 
-print "Printing PDF" 
-# Have to use apple script to print
-os.system("osascript printPDF.scpt " + pdfName)
+if 'export' in sys.argv:
+	print "Printing PDF" 
+	# Make sure the server is on
+	# try:
+	    # urllib2.urlopen('http://localhost:3000')
+	    # r = requests.get('http://localhost:3000')
+	# except HTTPError, e:
+	os.system('npm start')
+
+	# Have to use apple script to print
+	os.system("osascript printPDF.scpt " + pdfName)
 
 # save the html
 # with open(RESOURCE_PATH + 'tmphtml.html', 'w') as outfile:
@@ -322,9 +335,13 @@ os.system("osascript printPDF.scpt " + pdfName)
 
 # -------------------- CLEANUP ------------------- #
 # Move the txt file to archive
-os.rename(jobDescriptionFile, JD_PATH + 'archive/' + jobTitle + ".txt")
+if os.path.isfile(jobDescriptionFile):
+	os.rename(jobDescriptionFile, JD_PATH + 'archive/' + jobTitle + ".txt")
 
 # Save the json file for future reference
 with open(JD_PATH + "json/" + jobTitle + '.json', 'w') as outfile:
 	json.dump(toSave, outfile, indent=4, sort_keys=True)
 	
+# Need to print a cover letter?
+if ( os.path.isfile('./cover_letters/' + jobTitle + '.md') or os.path.isfile('./cover_letters/md archive/' + jobTitle + '.md') ):
+	os.system("python cl.py '" + jobTitle.replace(" ", "\ ") + "'")

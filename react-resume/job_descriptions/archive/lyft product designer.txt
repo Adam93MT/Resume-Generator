@@ -1,20 +1,18 @@
-push boundaries
-influence strategy
-make a strong impact on product execution and quality.
-smart, delightful solutions that lock-in on user needs and tightly align with company priorities. 
-passionate about technology, community, and finding better ways to bring people together.
+Lyft is seeking a designer who will push boundaries, influence strategy, and make a strong impact on product execution and quality. 
 
-incredible eye for detail 
-ability to think big, break new ground, and innovate. 
-experience designing for mobile (native apps and mobile web), desktop web, and email
-build prototypes that demonstrate the finer details in transitions, animations, and complex interactions.
+We’re intent on raising the bar with smart, delightful solutions that lock-in on user needs and tightly align with company priorities.
 
-excellent communicator
-flexible team player that can thrive in a very fast-paced, dynamic working environment.
+We also want teammates that are passionate about technology, community, and finding better ways to bring people together.
 
-comfortable working closely with passionate designers, product managers, and engineers that care deeply about creating beautiful, high-impact experiences.
+As a qualified candidate, you have both an incredible eye for detail and an ability to think big, break new ground, and innovate. 
 
-RESPONSIBILITIES
+You have experience designing for mobile (native apps and mobile web), desktop web, and email, and you have the technical chops to build prototypes that demonstrate the finer details in transitions, animations, and complex interactions.
+
+You’re also an excellent communicator and a flexible team player that can thrive in a very fast-paced, dynamic working environment. 
+
+You are comfortable working closely with passionate designers, product managers, and engineers that care deeply about creating beautiful, high-impact experiences.
+
+Responsibilities
 
 Push the boundaries of UX/UI/visual execution and try new ideas. Be able to think “Blue Sky” and explore divergent concepts, then converge on feasible, innovative designs
 
@@ -24,18 +22,30 @@ Validate and substantiate your work, and be an advocate for user-centered design
 
 Know how to present your work effectively, and articulately communicate design rationale to stakeholders
 
-EXPERIENCE AND SKILLS
+Experience And Skills
 
 3+ years of applied UX/UI design experience
+
 Background in product design (UX/UI), with a focus on mobile
+
 Ability to think big and understand complex feature sets
+
 Ability to design for any platform (iOS, Android, mobile web, etc.)
+
 Strong information design skills with a solid foundation in UX design heuristics
+
 Excellent oral and written communication skills
+
 Excellent graphic design skills (layout, typography, color)
+
 Mastery of design tools: Sketch, Illustrator, Photoshop
+
 Mastery of prototyping tools: Framer, Pixate, Origami, HTML/CSS/JS, After Effects, Swift
+
 Ability to generate pixel-perfect production assets
+
 Superb attention to detail
+
 Ability to work well on an ego-free, highly collaborative, and cross-functional team
+
 Ability to thrive in a fast-paced, dynamic startup environment
