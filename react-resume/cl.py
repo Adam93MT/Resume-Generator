@@ -34,5 +34,5 @@ with open('cover_letters/' + jobTitle + '.md', 'r') as mdfile:
 with open('cover_letters/tmpcl.js', 'w') as tmpmdfile:
 	tmpmdfile.write("clContent = '" + mdtext + "'")
 
-# os.system("prince --javascript -s src/style/resume.css cover_letters/coverLetter.html " + clName)
+os.system("prince --javascript -s src/style/resume.css cover_letters/coverLetter.html " + clName)
 # removeFirstPage(clName.replace("\ ", " "))

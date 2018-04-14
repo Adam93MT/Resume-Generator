@@ -71,13 +71,13 @@ class WorkList extends Component {
         return (
           <article className="job" id={jobs[key].company.toLowerCase()}>
             <div className="item-header">
-              <span className="title item-position">
-                {jobs[key].position}
-              </span>
-              <span className="title item-title">
+              <span className="title item-position"> 
                 <a href={"http://"+ jobs[key].url}>
                   {jobs[key].company}
                 </a>
+              </span>
+              <span className="title item-title">
+                {jobs[key].position}
               </span>
               <span className="item-duration">
                 {jobs[key].term}
@@ -218,7 +218,7 @@ function Clubs(props) {
 function Skills(props) {
   return (
     <section id="skills">
-      <SectionHeader id="Toolbox"/>
+      <h1 className="section-header">My Toolbox</h1>
       <SkillsList items={props} limit="11"/>
     </section>
   )

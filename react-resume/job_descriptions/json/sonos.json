@@ -11,7 +11,13 @@
             "middle": "Michael"
         }, 
         "tagline": [
-            "Product Designer - University of Waterloo"
+            "Product Designer - University of Waterloo", 
+            "Systems Design Engineering - University of Waterloo", 
+            "Systems Design Engineering", 
+            "Systems Design Engineering, BASc", 
+            "University of Waterloo", 
+            "BASc, University of Waterloo", 
+            "UX Designer <br> University of Waterloo"
         ]
     }, 
     "clubs": [
@@ -49,9 +55,10 @@
             "location": "Toronto", 
             "position": "Product Manager", 
             "responsibilities": [
-                "Queried and analyzed player data from multiple databases to better understand payer demographics and revenue sources.", 
                 "Performed user research, competitor analysis and A/B testing for a new subscription-based revenue model.", 
-                "Front-end Android developer for Zombies With Friends, an intern hackathon project."
+                "Configured the user flow and final parameters for a feature that increased daily news-feed app entry by 4%.", 
+                "Designed initial wireframes and feature specifications for a new engagement feature expected to increase daily active users by 10%.", 
+                "Analyzed player demographics by monthly spend to better know the sources of revenue, and which players to target for new features."
             ], 
             "term": "Spring 2016", 
             "url": "zynga.com/poker"
@@ -61,9 +68,10 @@
             "location": "New York", 
             "position": "Product Designer", 
             "responsibilities": [
-                "Prototyped UI designs using Swift, CoffeeScript and HTML, and Quartz Composer.", 
+                "Simplified the food logging experience to better fit with the observed mental model, without compromising functionality.", 
                 "Leveraged data from rigorously user tested prototypes to inform further design iterations.", 
-                "Simplified the food logging experience to better fit with the observed mental model, without compromising functionality."
+                "Initiated collaboration with users and stakeholders, and managed the early design process for a Coach Dashboard re-design.", 
+                "Improved user confidence when logging food by simplifying the portion picker interface."
             ], 
             "term": "Fall 2015", 
             "url": "noom.com"
@@ -73,9 +81,10 @@
             "location": "Toronto", 
             "position": "UX Designer", 
             "responsibilities": [
-                "Built a sponsorship sign-up page using SASS, and CoffeeScript, with basic PHP form submission.", 
                 "Overhauled design and structure of iOS and Android apps to make it simpler, more informative, and conform to common user behaviour.", 
-                "Revamped the mobile site front-end, implementing the new design language into the web app with jQuery UI."
+                "Designed and built a sponsorship sign-up page from scratch using SASS, CoffeeScript and PHP.", 
+                "Organized semiweekly design meetings with all stakeholders to present prototypes and discuss design of the mobile apps and websites.", 
+                "Initiated and oversaw the preliminary design of the new company homepage, and corporate portal."
             ], 
             "term": "Spring 2014/Winter 2015", 
             "url": "knowroaming.com"
@@ -85,8 +94,10 @@
             "location": "Waterloo", 
             "position": "UI Designer", 
             "responsibilities": [
-                "Spearheaded design and front-end development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery.", 
-                "Proposed a UI re-design of MediaGo to improve aesthetics and contextual clarity."
+                "Spearheaded design and development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery.", 
+                "Proposed a UI re-design of MediaGo, improving aesthetics and contextual clarity.", 
+                "Designed promotional graphics and videos for MediaGo.", 
+                "Developed the front-end for the new feature using HTML, SASS and jQuery."
             ], 
             "term": "Fall 2013", 
             "url": "mediago.sony.com"
@@ -98,8 +109,9 @@
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
-                "Managed project priorities, and led development of software, mechanical, and electronic systems.", 
-                "Developed audio processing and testing software in Python, and controller software on Arduino in C."
+                "Researched user needs and current behaviour to inform design, and technical requirements.", 
+                "Managed project priorities, and led development of mechanical, software and electronic systems.", 
+                "Developed analog circuit to determine the perceived loudness at the ear."
             ], 
             "term": "Sept. 2016 - present", 
             "url": "adamthompson.ca/Portfolio/?p=chameleon"
@@ -110,45 +122,37 @@
             "name": "SMRT WATR", 
             "responsibilities": [
                 "Designed and built the game interface using JavaScript and a Tornado Python server.", 
-                "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain."
+                "Constructed the fountain frame, basin, and designed a mechanism to rotate the fountain.", 
+                "Developed the web-app front-end, and a portion of the Python server."
             ], 
             "term": "Spring 2015", 
             "url": "adamthompson.ca/Portfolio/?p=smrtwatr"
         }, 
-        {
-            "description": "An iOS Swift metronome app with a minimal interface for distraction-free practice.", 
-            "id": "metronome", 
-            "name": "TAP Metronome", 
-            "responsibilities": [], 
-            "term": "Fall 2016 - present", 
-            "url": "adamthompson.ca/Portfolio/?p=tap-metronome"
-        }, 
-        {
-            "description": "A web app that represents the local temperature, weather conditions and time as an HSV colour.", 
-            "id": "color-therm", 
-            "name": "Colour Thermometer", 
-            "responsibilities": [], 
-            "term": "Winter 2015", 
-            "url": "adamthompson.ca/ColourThermometer/"
-        }
+        {}, 
+        null, 
+        null, 
+        null, 
+        null, 
+        null
     ], 
     "showCourses": false, 
     "skills": [
-        "HTML", 
+        "Sketch", 
+        "Photoshop", 
+        "Framer", 
+        "Origami", 
+        "Balsamiq", 
+        "InVision", 
         "JavaScript", 
         "Python", 
         "Swift", 
-        "React", 
-        "Node", 
-        "jQuery", 
-        "PHP", 
-        "Arduino", 
-        "Android", 
-        "XCode"
+        "HTML", 
+        "React"
     ], 
     "summary": [
-        "Multidisciplinary engineering education, including software development and user-centered design.", 
-        "Development of production web sites, as well as iOS and Android prototypes.", 
-        "Collaboratively identifying and solving problems with multidisciplinary teams of stakeholders in fast-paced environments"
+        "Experience in mobile/web UX and product design since 2013.", 
+        "Development and presentation of well-researched design deliverables, like user flows, personas, wireframes and prototypes.", 
+        "Collaboratively identifying and solving problems with designers, developers, PMs and other stakeholders in fast-paced environments.", 
+        "Research and prioritization of user requirements, and translation into technical requirements."
     ]
 }

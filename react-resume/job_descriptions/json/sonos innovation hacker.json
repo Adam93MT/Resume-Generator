@@ -24,7 +24,7 @@
             "url": "facebook.com/waterboysuw/"
         }, 
         {
-            "description": "Vice President of the UW campus UX Club, involved in mentoring younger students and event planning.", 
+            "description": "Vice President of the UW campus UX Club, mentoring younger students and planning events.", 
             "id": "uwux", 
             "name": "UW/UX", 
             "responsibilities": [], 
@@ -49,11 +49,11 @@
             "location": "Toronto", 
             "position": "Product Manager", 
             "responsibilities": [
-                "Researched the user base, performed competitor analysis and A/B testing for a new subscription-based revenue model.", 
-                "Defined feature requirements and user experience for a new engagement feature expected to increase daily active users by 10%.", 
-                "Configured the user flow and final parameters for a feature that increased daily Facebook Timeline sourced app entry by 4%."
+                "Performed user research, competitor analysis and A/B testing for a new subscription-based revenue model.", 
+                "Designed initial wireframes and feature specifications for a new engagement feature expected to increase daily active users by 10%.", 
+                "Configured the user flow and final parameters for a feature that increased daily news-feed app entry by 4%."
             ], 
-            "term": "May - Aug. 2016", 
+            "term": "Spring 2016", 
             "url": "zynga.com/poker"
         }, 
         {
@@ -62,10 +62,10 @@
             "position": "Product Designer", 
             "responsibilities": [
                 "Simplified the food logging experience to better fit with the observed mental model, without compromising functionality.", 
-                "Leveraged data from rigorously user tested prototypes to inform further design iterations.", 
-                "Identified issues with the Coach Dashboard, and initiated discussion and collaboration with users and stakeholders."
+                "Prototyped UI designs using Swift, CoffeeScript and HTML, and Quartz Composer.", 
+                "Leveraged data from rigorously user tested prototypes to inform further design iterations."
             ], 
-            "term": "Sept. - Dec. 2015", 
+            "term": "Fall 2015", 
             "url": "noom.com"
         }, 
         {
@@ -73,11 +73,11 @@
             "location": "Toronto", 
             "position": "UX Designer", 
             "responsibilities": [
-                "Overhauled the architecture and UI of iOS and Android apps to make them simpler, more informative, and conform to common user behaviour.", 
-                "Pioneered semiweekly design meetings with stakeholders to present prototypes and discuss design of mobile apps and websites.", 
-                "Prototyped both a retail display to highlight product features, and new packaging to increase shipping efficiency."
+                "Overhauled design and structure of iOS and Android apps to make it simpler, more informative, and conform to common user behaviour.", 
+                "Built a sponsorship sign-up page using SASS, and CoffeeScript, with basic PHP form submission.", 
+                "Organized semiweekly design meetings with all stakeholders to present prototypes and discuss design of the mobile apps and websites."
             ], 
-            "term": "May 2014 - April 2015", 
+            "term": "Spring 2014/Winter 2015", 
             "url": "knowroaming.com"
         }, 
         {
@@ -88,7 +88,7 @@
                 "Spearheaded design and front-end development for a new music-discovery/radio feature for MediaGo, built in SASS and jQuery.", 
                 "Proposed a UI re-design of MediaGo to improve aesthetics and contextual clarity."
             ], 
-            "term": "Sept. - Dec. 2013", 
+            "term": "Fall 2013", 
             "url": "mediago.sony.com"
         }
     ], 
@@ -98,8 +98,8 @@
             "id": "fydp", 
             "name": "Chameleon", 
             "responsibilities": [
-                "Researched and highlighted user needs, and defined the ideal product experience.", 
-                "Managed project priorities, and led development of software, mechanical, and electronic systems."
+                "Managed project priorities, and led development of software, mechanical, and electronic systems.", 
+                "Researched user needs, and implemented a hardware system to solve these needs."
             ], 
             "term": "Sept. 2016 - May 2017", 
             "url": "adamthompson.ca/Portfolio/?p=chameleon"
@@ -109,22 +109,22 @@
             "id": "smrt-watr", 
             "name": "SMRT WATR", 
             "responsibilities": [
-                "Designed the game experience, and implemented it using JavaScript and a Tornado Python server.", 
+                "Designed and built the game software using JavaScript and a Tornado Python server.", 
                 "Created a mechanism to rotate the fountain jets, and constructed the fountain basin."
             ], 
             "term": "Spring 2015", 
             "url": "adamthompson.ca/Portfolio/?p=smrtwatr"
         }, 
         {
-            "description": "An iOS metronome app with visual feedback to make group practice easier.", 
+            "description": "An iOS Swift metronome app with a minimal interface for distraction-free practice.", 
             "id": "metronome", 
             "name": "TAP Metronome", 
             "responsibilities": [], 
-            "term": "Sept. 2017 - present", 
+            "term": "Oct. 2016 - present", 
             "url": "adamthompson.ca/Portfolio/?p=tap-metronome"
         }, 
         {
-            "description": "A simple, breadboarded, single-note analog tuner using bandpass filters.", 
+            "description": "A breadboarded single-note analog tuner using bandpass filters.", 
             "id": "analog-tuner", 
             "name": "Analog Guitar Tuner", 
             "responsibilities": [], 
@@ -134,22 +134,22 @@
     ], 
     "showCourses": false, 
     "skills": [
-        "Sketch", 
-        "Balsamiq", 
         "Arduino", 
         "Pi", 
         "Swift", 
         "JavaScript", 
         "Python", 
         "React", 
+        "Sketch", 
+        "Balsamiq", 
         "Photoshop", 
         "InVision", 
         "HTML", 
         "XCode"
     ], 
     "summary": [
-        "Experience in product design and user experience since 2013, and a passion for music.", 
-        "Multidisciplinary systems design engineering education, including software development, user-centered design, and mechatronics. ", 
-        "Collaboratively identifying problems, and defining a product experience with multidisciplinary teams of stakeholders."
+        "Experience in mobile/web UX and product design since 2013, and a passion for music.", 
+        "Multidisciplinary engineering education, including software development, user-centered design, and mechatronic systems. ", 
+        "Collaboratively identifying requirements, and solving problems with multidisciplinary teams of stakeholders in fast-paced environments"
     ]
 }

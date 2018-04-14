@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   font-feature-settings: "ss01"; }
   html body {
@@ -133,7 +132,7 @@ section article .item-header {
   font-family: "europa", "Helvetica Neue", sans-serif; }
   section article .item-header > * {
     line-height: 24px; }
-  section article .item-header *:first-child {
+  section article .item-header > *:first-child {
     margin-right: 0.35em; }
   section article .item-header .item-title {
     font-size: 16rem;
@@ -153,7 +152,7 @@ section article .item-header {
     font-weight: 400; }
   section article .item-header .item-location:after {
     padding-right: 0.25em;
-    content: " — "; }
+    content: " | "; }
 section article .content {
   display: inline-block; }
 section#experience .job .item-title {
@@ -170,7 +169,7 @@ section#skills {
     display: block;
     color: #333333;
     text-align: center;
-    line-height: 2.7em;
+    line-height: 1.4em;
     margin: auto; }
   section#skills ul {
     padding-left: 0;
@@ -193,7 +192,8 @@ section#skills {
         position: absolute;
         bottom: 0;
         width: 100%;
-        margin: 0; }
+        margin: 0;
+        font-size: 12rem; }
       section#skills ul li .app-logo {
         position: relative;
         width: 45%;

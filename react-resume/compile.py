@@ -13,7 +13,7 @@ jsonPath = "http://localhost:9999/Resume-Generator/react-resume/src/resource/res
 try:
 	jsonfile = urllib2.urlopen(jsonPath)
 except Exception as e:
-	print('ERROR: Turn o localhost')
+	print('\nERROR: Turn on localhost:9999 server\n ')
 	raise e
 resumeContent = json.load(jsonfile)
 
@@ -295,7 +295,7 @@ pdfName = pdfName.replace(" ", "\ ")
 with open(RESOURCE_PATH + "tmpdata.json", 'w') as outfile:
     json.dump(toSave, outfile, indent=4, sort_keys=True)
 
-if 'export' in sys.argv:
+if 'export' in sys.argv or 'print' in sys.argv:
 	print "Printing PDF" 
 	# Make sure the server is on
 	# try:
