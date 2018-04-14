@@ -51,6 +51,31 @@
 
 	"experience": [
 		{
+			"company": "MUSIC Group",
+			"url": "musicri.be",
+			"term": "Jan. - Apr. 2018",
+			"position": "Assistant Customer Solutions Manager",
+			"location": "Kitchener/Victoria",
+			"responsibilities": [
+				{
+					"text": "Developed a process and tool in Excel/VBA, now used across the organization in 13 countries, to allow solutions managers to quickly evaluate Go/No-Go decisions for products based on ROI and time-to market, and allow portfolio managers to create product portfolios based on this information. ",
+					"tags" : [],
+				},
+				{
+					"text": "Identified business opportunities, customer needs, built business cases and defined product specifications for a line of accessories and mobile music making products based on insights discovered through market and customer research.",
+					"tags" : [],
+				},
+				{
+					"text": "Worked closely with director of product design on process, and higher level product vision business case development and customer centric strategies",
+					"tags" : [],
+				},
+				{
+					"text": "Collaborated with customers, senior management, engineering, industrial design, sales and marketing to define product story, experience, design and functionality",
+					"tags" : [],
+				}
+			]
+		},
+		{
 			"company": "Zynga Poker",
 			"url": "zynga.com/poker",
 			"term": "Spring 2016",
