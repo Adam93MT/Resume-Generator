@@ -1,0 +1,276 @@
+html {
+  font-feature-settings: "ss01"; }
+  html body {
+    margin: 0;
+    font-family: "europa", "Helvetica Neue", sans-serif;
+    color: #333333; }
+  html .resume {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    overflow-x: hidden;
+    background-color: #fff; }
+  html *::selection {
+    background: #E1FAD4; }
+
+@media screen {
+  html {
+    font-size: 1px;
+    background-color: #ddd; }
+    html .resume {
+      width: 8.5in;
+      min-width: 8.5in;
+      height: 11in;
+      max-height: 11in;
+      min-height: 100vh;
+      padding: 0.5in 0.5in;
+      display: table-cell; }
+    html .control-panel {
+      display: table-cell;
+      vertical-align: top;
+      width: 100%;
+      padding: 16px;
+      border-left: 8px solid #CECECE;
+      background-color: white; }
+      html .control-panel section.container {
+        position: relative;
+        display: inline-block; } }
+@media print {
+  html {
+    font-size: 0.875px;
+    margin: 0.2in 0.25in; }
+    html .resume section.container {
+      position: relative;
+      display: inline-block; }
+    html .control-panel {
+      display: none; } }
+.body-style, .resume section ul li, .resume section ul li span, .resume section article .content, .resume section#skills ul li .app-name, .cover_letter .cover_letter_content, .cover_letter .sign-off {
+  font-size: 14rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #333333;
+  font-family: "europa", "Helvetica Neue", sans-serif; }
+
+.resume {
+  /* -------------- GLOBAL -------------- */ }
+  .resume header.main-header {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    color: inherit;
+    margin-bottom: 0; }
+    .resume header.main-header .container #name {
+      position: relative;
+      display: inline-block;
+      font-family: "europa", "Helvetica Neue", sans-serif;
+      font-size: 64rem;
+      line-height: 1em;
+      font-weight: 700;
+      color: #333333;
+      float: left;
+      text-align: left; }
+      .resume header.main-header .container #name a {
+        color: inherit;
+        text-decoration: none; }
+    .resume header.main-header .container #contact {
+      display: inline-block;
+      float: right;
+      font-family: "europa", "Helvetica Neue", sans-serif;
+      color: #55A82F;
+      font-size: 14rem;
+      font-weight: 400;
+      margin-top: 16rem;
+      line-height: 23rem; }
+      .resume header.main-header .container #contact span {
+        display: block;
+        text-align: right; }
+      .resume header.main-header .container #contact a {
+        color: inherit;
+        text-decoration: none; }
+    .resume header.main-header #tagline {
+      display: none;
+      margin-top: 4rem;
+      font-family: "europa", "Helvetica Neue", sans-serif;
+      font-size: 20rem;
+      font-weight: 300;
+      color: #505050; }
+  .resume .hidden {
+    display: none !important; }
+  .resume .col-left, .resume section#summary, .resume section#experience, .resume section#skills {
+    width: 60%;
+    float: left; }
+    .resume .col-left > *, .resume section#summary > *, .resume section#experience > *, .resume section#skills > * {
+      margin-right: 34rem; }
+  .resume .col-right, .resume section#projects, .resume section#clubs, .resume section#education, .resume section#awards, .resume section#interests {
+    width: 40%;
+    float: none; }
+  .resume .full-width {
+    width: 100%; }
+  .resume section {
+    display: inline-block;
+    margin-top: 12rem; }
+  .resume article {
+    display: inline-block;
+    margin-top: 4rem; }
+    .resume article:first-child {
+      margin-top: 2rem; }
+  .resume section h1.section-header {
+    display: block;
+    font-family: "europa", "Helvetica Neue", sans-serif;
+    font-size: 20rem;
+    font-weight: 600;
+    margin: 0;
+    color: #333333; }
+  .resume section a {
+    text-decoration: none;
+    color: #55A82F; }
+  .resume section ul {
+    padding-left: 20px;
+    font-family: "Merriweather";
+    margin: 0; }
+    .resume section ul li {
+      margin-bottom: 4rem;
+      margin-top: 4rem;
+      color: #55A82F; }
+  .resume section article .item-header {
+    font-family: "europa", "Helvetica Neue", sans-serif; }
+    .resume section article .item-header > * {
+      line-height: 24px; }
+    .resume section article .item-header > *:first-child {
+      margin-right: 0.35em; }
+    .resume section article .item-header .item-title {
+      font-size: 16rem;
+      font-weight: 400;
+      color: #333333; }
+      .resume section article .item-header .item-title a {
+        color: inherit; }
+    .resume section article .item-header .item-position {
+      font-size: 18rem;
+      font-weight: 600;
+      color: #55A82F; }
+    .resume section article .item-header .item-duration, .resume section article .item-header .item-location {
+      margin-top: 2rem;
+      font-size: 12rem;
+      float: right;
+      text-align: right;
+      font-weight: 400; }
+    .resume section article .item-header .item-location:after {
+      padding-right: 0.25em;
+      content: " | "; }
+  .resume section article .content {
+    display: inline-block; }
+  .resume section#experience .job .item-title {
+    font-weight: 400; }
+  .resume section#summary, .resume section#projects {
+    margin-top: -8rem; }
+  .resume section#skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 24rem; }
+    .resume section#skills h1.section-header {
+      display: block;
+      color: #333333;
+      text-align: center;
+      line-height: 1.4em;
+      margin: auto; }
+    .resume section#skills ul {
+      padding-left: 0;
+      display: inline-block;
+      margin: 0 auto;
+      margin-left: 4rem;
+      max-height: 54rem; }
+      .resume section#skills ul li {
+        width: 9.09091%;
+        float: left;
+        list-style-type: none;
+        text-align: center;
+        position: relative;
+        height: 100%;
+        margin: 0; }
+        .resume section#skills ul li:before {
+          content: "";
+          margin: 0; }
+        .resume section#skills ul li .app-name {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          margin: 0;
+          font-size: 12rem; }
+        .resume section#skills ul li .app-logo {
+          position: relative;
+          width: 45%;
+          margin: 0 auto;
+          margin-top: 3rem;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          border-radius: 0; }
+          .resume section#skills ul li .app-logo img {
+            width: 100%; }
+  .resume section#education h1.section-header {
+    margin-right: 0.3em; }
+  .resume section#education article {
+    margin-top: 0; }
+    .resume section#education article .item-header * {
+      line-height: 24rem; }
+    .resume section#education article .item-header .item-position {
+      display: block;
+      margin: 0; }
+    .resume section#education article .item-header #degree:before {
+      content: ",";
+      margin-right: 0.35em; }
+    .resume section#education article .item-header #minor {
+      display: block;
+      font-style: italic;
+      color: #333333;
+      font-weight: 300;
+      font-size: 16rem; }
+      .resume section#education article .item-header #minor:before {
+        margin-right: 0.35em;
+        margin-left: 0.35em; }
+    .resume section#education article .item-header #minor:after {
+      content: " minor"; }
+    .resume section#education article .item-header .item-location, .resume section#education article .item-header .item-duration {
+      float: none;
+      display: none; }
+
+.cover_letter .cover_letter_content {
+  font-size: 16rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 8rem; }
+  .cover_letter .cover_letter_content p {
+    text-align: left;
+    margin: 1em 2em;
+    display: block; }
+  .cover_letter .cover_letter_content a {
+    color: #55A82F;
+    font-weight: 400;
+    text-decoration: none; }
+.cover_letter .sign-off * {
+  font-size: 16rem;
+  margin: 0.75em 2em;
+  display: block;
+  width: 90%; }
+.cover_letter .sign-off #signature {
+  max-width: 128rem;
+  margin: 0 2em;
+  display: block; }
+
+.control-panel {
+  font-size: 16em; }
+  .control-panel label {
+    padding-left: 4px; }
+  .control-panel .lvl1 {
+    margin-left: 8px; }
+  .control-panel .lvl2 {
+    margin-left: 16px; }
+  .control-panel .lvl3 {
+    margin-left: 24px; }
+  .control-panel .lvl4 {
+    margin-left: 32px; }
+
+/*# sourceMappingURL=resume-generator.css.map */
