@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typekit from 'react-typekit';
-import './style/resume.css';
+import './style/resume-generator.css';
 // import resumeContent from './resource/resumeContent.json';
 import resumeContent from './resource/tmpdata.json';
 
@@ -12,6 +12,13 @@ function importAll(r) {
   return images;
 }
 const apps = importAll(require.context('./resource/apps', false, /\.(png|jpe?g|svg)$/));
+
+// ================================================================================ //
+// ================================================================================ //
+// ==================================== Resume ==================================== //
+// ================================================================================ //
+// ================================================================================ //
+
 
 class Header extends React.Component{
   render() {
@@ -272,7 +279,7 @@ function Interests(props) {
 
 function Resume(props) {
   return(
-    <div>
+    <div className="resume">
       <Header {...props.bio}/>
       <Summary {...props.summary} /> 
       <Experience {...props.experience} />
@@ -284,58 +291,104 @@ function Resume(props) {
   )
 }
 
-class App extends Component {
-  // constructor(props) {
-  //     super(props);
-  //     this.pdfToHTML=this.pdfToHTML.bind(this);
-  // }
+// ======================================================================================= //
+// ======================================================================================= //
+// ==================================== Control Panel ==================================== //
+// ======================================================================================= //
+// ======================================================================================= //
 
-  componentDidMount() {
-    // window.print()
-    // this.pdfToHTML()
-    // console.log(document.documentElement)
-    // Prince().input(document.documentElement.outerHTML)
+class CtrlPanelItem extends React.Component {
+  render() {
+    var text = this.props.text
+    var id = this.props.id
+    var lvl = this.props.lvl
+    return (
+      <div id={id} className={"lvl"+lvl}>
+        <input type="checkbox" name={id}></input>
+        <label for={id}>{text}</label>
+      </div>
+    )
+  }
+}
+
+
+class ControlPanel extends Component {
+  constructor() {
+    super();
+    this.htmlArr = []
   }
 
-  // pdfToHTML() {
-  //   console.log("PDF")
-  //   var pdf = new jsPDF('p', 'pt', 'letter');
-  //   // source needs to have css in it
-  //   var source = document.documentElement;
-  //   console.log(source)
-  //   var specialElementHandlers = {
-  //     '#bypassme': function(element, renderer) {
-  //       return true
-  //     }
-  //   };
+  iterate(obj, lvl, id){
+    var that = this
+    Object.keys(obj).forEach(function(key){
 
-  //   var margins = {
-  //     // top: 50,
-  //     // left: 60,
-  //     // width: 545
-  //   };
+      var child = obj[key]
+      var childLen = Object.keys(child).length
 
-  //   pdf.fromHTML (
-  //     source // HTML string or DOM elem ref.
-  //     , margins.left // x coord
-  //     , margins.top // y coord
-  //     , {
-  //         'width': margins.width // max width of content on PDF
-  //         , 'elementHandlers': specialElementHandlers
-  //       },
-  //     function (dispose) {
-  //       // dispose: object with X, Y of the last line add to the PDF
-  //       // this allow the insertion of new lines after html
-  //       pdf.save('html2pdf.pdf');
-  //     }
-  //   )
-  // }
+      if (typeof child == "string") {
+        id = id+"-"+key
+        that.htmlArr.push(<CtrlPanelItem text={child} id={id} lvl={lvl} ></CtrlPanelItem>)
+      }
+      else if (childLen >= 0) {
+        id = id+"-"+key
+        var text = key.replace( /([A-Z])/g, " $1" );
+        text = text.charAt(0).toUpperCase() + text.slice(1);
+        that.htmlArr.push(<CtrlPanelItem text={text} id={id} lvl={lvl}></CtrlPanelItem>)
+        that.iterate(child, lvl+1, id)
+      }
+      return that.htmlArr
+    });
+
+    console.log(that.htmlArr)
+    return (that.htmlArr)
+  }
+
+  render() {
+
+    console.log(this.props)
+    return(
+      <div className="control-panel">
+        <header><h1>Control Panel</h1></header>
+
+        <form>
+          {
+
+            this.iterate(this.props, 0, "")
+
+            // foreach element in Object
+
+            //   if element is a string, 
+              // then add checkbox with string as label to html
+
+            //   else if element is not a string and is longer than 0
+            //     then add checkbox with name as label to html
+            //     and then iterate through element
+
+          }
+        </form>
+      </div>
+    )
+  };
+}
+
+
+// ======================================================================================= //
+// ======================================================================================= //
+// ========================================= APP ========================================= //
+// ======================================================================================= //
+// ======================================================================================= //
+
+class App extends Component {
+  componentDidMount() {
+
+  }
 
   render() {
     return (
       <div>
         <Typekit kitId="onu2sfw" />
         <Resume {...resumeContent}/>
+        <ControlPanel {...resumeContent }/>
       </div>  
     );
   }

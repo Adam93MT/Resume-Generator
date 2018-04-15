@@ -1,257 +1,104 @@
-html {
-  font-feature-settings: "ss01"; }
-  html body {
-    padding: 0;
-    margin: 0;
-    font-family: "europa", "Helvetica Neue", sans-serif;
-    font-weight: 100;
-    color: #333333;
-    overflow-x: hidden;
-    background-color: #fff; }
-  html *::selection {
-    background: #E1FAD4; }
+/*
+Error: Undefined variable: "$sans-serif".
+        on line 17 of resume.sass
 
-@media screen {
-  html {
-    font-size: 1px;
-    background-color: #ddd; }
-    html body {
-      width: 8.5in;
-      height: 11in;
-      max-height: 11in;
-      min-height: 100vh;
-      padding: 0.5in 0.5in;
-      margin: 0 auto; }
-      html body section.container {
-        position: relative;
-        display: inline-block; } }
-@media print {
-  html {
-    font-size: 0.875px;
-    margin: 0.2in 0.25in; }
-    html body section.container {
-      position: relative;
-      display: inline-block; } }
-.body-style, section ul li, section ul li span, section article .content, section#skills ul li .app-name, .cover_letter .cover_letter_content, .cover_letter .sign-off {
-  font-size: 14rem;
-  line-height: 1.5em;
-  font-weight: 300;
-  color: #333333;
-  font-family: "europa", "Helvetica Neue", sans-serif; }
+12: 		.container 
+13: 			// height: 66rem
+14: 			#name 
+15: 				position: relative
+16: 				display: inline-block
+17: 				font-family: $sans-serif
+18: 				font-size: 64rem
+19: 				line-height: 1em // actually em
+20: 				font-weight: 700
+21: 				color: $black
+22: 				float: left
 
-header.main-header {
-  position: relative;
-  display: block;
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  color: inherit;
-  margin-bottom: 0; }
-  header.main-header .container #name {
-    position: relative;
-    display: inline-block;
-    font-family: "europa", "Helvetica Neue", sans-serif;
-    font-size: 64rem;
-    line-height: 1em;
-    font-weight: 700;
-    color: #333333;
-    float: left;
-    text-align: left; }
-    header.main-header .container #name a {
-      color: inherit;
-      text-decoration: none; }
-  header.main-header .container #contact {
-    display: inline-block;
-    float: right;
-    font-family: "europa", "Helvetica Neue", sans-serif;
-    color: #55A82F;
-    font-size: 14rem;
-    font-weight: 400;
-    margin-top: 16rem;
-    line-height: 23rem; }
-    header.main-header .container #contact span {
-      display: block;
-      text-align: right; }
-    header.main-header .container #contact a {
-      color: inherit;
-      text-decoration: none; }
-  header.main-header #tagline {
-    display: none;
-    margin-top: 4rem;
-    font-family: "europa", "Helvetica Neue", sans-serif;
-    font-size: 20rem;
-    font-weight: 300;
-    color: #505050; }
-
-/* -------------- GLOBAL -------------- */
-.hidden {
-  display: none !important; }
-
-.col-left, section#summary, section#experience, section#skills {
-  width: 60%;
-  float: left; }
-  .col-left > *, section#summary > *, section#experience > *, section#skills > * {
-    margin-right: 34rem; }
-
-.col-right, section#projects, section#clubs, section#education, section#awards, section#interests {
-  width: 40%;
-  float: none; }
-
-.full-width {
-  width: 100%; }
-
-section {
-  display: inline-block;
-  margin-top: 12rem; }
-
-article {
-  display: inline-block;
-  margin-top: 4rem; }
-  article:first-child {
-    margin-top: 2rem; }
-
-section h1.section-header {
-  display: block;
-  font-family: "europa", "Helvetica Neue", sans-serif;
-  font-size: 20rem;
-  font-weight: 600;
-  margin: 0;
-  color: #333333; }
-section a {
-  text-decoration: none;
-  color: #55A82F; }
-section ul {
-  padding-left: 20px;
-  font-family: "Merriweather";
-  margin: 0; }
-  section ul li {
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-    color: #55A82F; }
-section article .item-header {
-  font-family: "europa", "Helvetica Neue", sans-serif; }
-  section article .item-header > * {
-    line-height: 24px; }
-  section article .item-header > *:first-child {
-    margin-right: 0.35em; }
-  section article .item-header .item-title {
-    font-size: 16rem;
-    font-weight: 400;
-    color: #333333; }
-    section article .item-header .item-title a {
-      color: inherit; }
-  section article .item-header .item-position {
-    font-size: 18rem;
-    font-weight: 600;
-    color: #55A82F; }
-  section article .item-header .item-duration, section article .item-header .item-location {
-    margin-top: 2rem;
-    font-size: 12rem;
-    float: right;
-    text-align: right;
-    font-weight: 400; }
-  section article .item-header .item-location:after {
-    padding-right: 0.25em;
-    content: " | "; }
-section article .content {
-  display: inline-block; }
-section#experience .job .item-title {
-  font-weight: 400; }
-section#summary, section#projects {
-  margin-top: -8rem; }
-section#skills {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 24rem; }
-  section#skills h1.section-header {
-    display: block;
-    color: #333333;
-    text-align: center;
-    line-height: 1.4em;
-    margin: auto; }
-  section#skills ul {
-    padding-left: 0;
-    display: inline-block;
-    margin: 0 auto;
-    margin-left: 4rem;
-    max-height: 54rem; }
-    section#skills ul li {
-      width: 9.09091%;
-      float: left;
-      list-style-type: none;
-      text-align: center;
-      position: relative;
-      height: 100%;
-      margin: 0; }
-      section#skills ul li:before {
-        content: "";
-        margin: 0; }
-      section#skills ul li .app-name {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        margin: 0;
-        font-size: 12rem; }
-      section#skills ul li .app-logo {
-        position: relative;
-        width: 45%;
-        margin: 0 auto;
-        margin-top: 3rem;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        border-radius: 0; }
-        section#skills ul li .app-logo img {
-          width: 100%; }
-section#education h1.section-header {
-  margin-right: 0.3em; }
-section#education article {
-  margin-top: 0; }
-  section#education article .item-header * {
-    line-height: 24rem; }
-  section#education article .item-header .item-position {
-    display: block;
-    margin: 0; }
-  section#education article .item-header #degree:before {
-    content: ",";
-    margin-right: 0.35em; }
-  section#education article .item-header #minor {
-    display: block;
-    font-style: italic;
-    color: #333333;
-    font-weight: 300;
-    font-size: 16rem; }
-    section#education article .item-header #minor:before {
-      margin-right: 0.35em;
-      margin-left: 0.35em; }
-  section#education article .item-header #minor:after {
-    content: " minor"; }
-  section#education article .item-header .item-location, section#education article .item-header .item-duration {
-    float: none;
-    display: none; }
-
-.cover_letter .cover_letter_content {
-  font-size: 16rem;
-  width: 100%;
-  text-align: center;
-  margin-top: 8rem; }
-  .cover_letter .cover_letter_content p {
-    text-align: left;
-    margin: 1em 2em;
-    display: block; }
-  .cover_letter .cover_letter_content a {
-    color: #55A82F;
-    font-weight: 400;
-    text-decoration: none; }
-.cover_letter .sign-off * {
-  font-size: 16rem;
-  margin: 0.75em 2em;
-  display: block;
-  width: 90%; }
-.cover_letter .sign-off #signature {
-  max-width: 128rem;
-  margin: 0 2em;
-  display: block; }
-
-/*# sourceMappingURL=resume.css.map */
+Backtrace:
+resume.sass:17
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/script/tree/node.rb:58:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$sans-serif\".\A         on line 17 of resume.sass\A \A 12: 		.container \A 13: 			// height: 66rem\A 14: 			#name \A 15: 				position: relative\A 16: 				display: inline-block\A 17: 				font-family: $sans-serif\A 18: 				font-size: 64rem\A 19: 				line-height: 1em // actually em\A 20: 				font-weight: 700\A 21: 				color: $black\A 22: 				float: left"; }
