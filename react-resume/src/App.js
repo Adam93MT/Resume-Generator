@@ -66,6 +66,32 @@ class List extends Component{
   };
 }
 
+// class CategoryList extends Component {
+//   render(){
+//     var type = this.props.type
+//     var items = this.props.items
+//     var limit = this.props.limit
+//     var bulletLimit = this.props.bulletLimit
+
+//     var ListItems = Object.keys(items).map(function(key){
+//       if (!(key >= limit))
+//         return(
+//           <article className={type} id={projects[key].id.toLowerCase()}>
+//             <div className="item-header">
+
+//             </div>
+//             <div className="content">
+            
+//             </div>
+
+//           </article>
+//         )
+
+//     }
+
+//   }
+// }
+
 class WorkList extends Component {
   render() {
     var jobs = this.props.items
@@ -297,79 +323,79 @@ function Resume(props) {
 // ======================================================================================= //
 // ======================================================================================= //
 
-class CtrlPanelItem extends React.Component {
-  render() {
-    var text = this.props.text
-    var id = this.props.id
-    var lvl = this.props.lvl
-    return (
-      <div id={id} className={"lvl"+lvl}>
-        <input type="checkbox" name={id}></input>
-        <label for={id}>{text}</label>
-      </div>
-    )
-  }
-}
+// class CtrlPanelItem extends React.Component {
+//   render() {
+//     var text = this.props.text
+//     var id = this.props.id
+//     var lvl = this.props.lvl
+//     return (
+//       <div id={id} className={"lvl"+lvl}>
+//         <input type="checkbox" name={id}></input>
+//         <label for={id}>{text}</label>
+//       </div>
+//     )
+//   }
+// }
 
 
-class ControlPanel extends Component {
-  constructor() {
-    super();
-    this.htmlArr = []
-  }
+// class ControlPanel extends Component {
+//   constructor() {
+//     super();
+//     this.htmlArr = []
+//   }
 
-  iterate(obj, lvl, id){
-    var that = this
-    Object.keys(obj).forEach(function(key){
+//   iterate(obj, lvl, id){
+//     var that = this
+//     Object.keys(obj).forEach(function(key){
 
-      var child = obj[key]
-      var childLen = Object.keys(child).length
+//       var child = obj[key]
+//       var childLen = Object.keys(child).length
 
-      if (typeof child == "string") {
-        id = id+"-"+key
-        that.htmlArr.push(<CtrlPanelItem text={child} id={id} lvl={lvl} ></CtrlPanelItem>)
-      }
-      else if (childLen >= 0) {
-        id = id+"-"+key
-        var text = key.replace( /([A-Z])/g, " $1" );
-        text = text.charAt(0).toUpperCase() + text.slice(1);
-        that.htmlArr.push(<CtrlPanelItem text={text} id={id} lvl={lvl}></CtrlPanelItem>)
-        that.iterate(child, lvl+1, id)
-      }
-      return that.htmlArr
-    });
+//       if (typeof child == "string") {
+//         id = id+"-"+key
+//         that.htmlArr.push(<CtrlPanelItem text={child} id={id} lvl={lvl} ></CtrlPanelItem>)
+//       }
+//       else if (childLen >= 0) {
+//         id = id+"-"+key
+//         var text = key.replace( /([A-Z])/g, " $1" );
+//         text = text.charAt(0).toUpperCase() + text.slice(1);
+//         that.htmlArr.push(<CtrlPanelItem text={text} id={id} lvl={lvl}></CtrlPanelItem>)
+//         that.iterate(child, lvl+1, id)
+//       }
+//       return that.htmlArr
+//     });
 
-    console.log(that.htmlArr)
-    return (that.htmlArr)
-  }
+//     console.log(that.htmlArr)
+//     return (that.htmlArr)
+//   }
 
-  render() {
+//   render() {
 
-    console.log(this.props)
-    return(
-      <div className="control-panel">
-        <header><h1>Control Panel</h1></header>
+//     console.log(this.props)
+//     return(
+//       <div className="control-panel">
+//         <header><h1>Control Panel</h1></header>
 
-        <form>
-          {
+//         <form>
+//           {
 
-            this.iterate(this.props, 0, "")
+//             this.iterate(this.props, 0, "")
 
-            // foreach element in Object
+//             // foreach element in Object
 
-            //   if element is a string, 
-              // then add checkbox with string as label to html
+//             //   if element is a string, 
+//               // then add checkbox with string as label to html
 
-            //   else if element is not a string and is longer than 0
-            //     then add checkbox with name as label to html
-            //     and then iterate through element
+//             //   else if element is not a string and is longer than 0
+//             //     then add checkbox with name as label to html
+//             //     and then iterate through element
 
-          }
-        </form>
-      </div>
-    )
-  };
-}
+//           }
+//         </form>
+//       </div>
+//     )
+//   };
+// }
 
 
 // ======================================================================================= //
@@ -388,7 +414,6 @@ class App extends Component {
       <div>
         <Typekit kitId="onu2sfw" />
         <Resume {...resumeContent}/>
-        <ControlPanel {...resumeContent }/>
       </div>  
     );
   }
