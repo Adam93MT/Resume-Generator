@@ -51,6 +51,7 @@
 
 	"experience": [
 		{
+			"id": "music-group",
 			"company": "MUSIC Group",
 			"url": "musicri.be",
 			"term": "Jan. - Apr. 2018",
@@ -76,6 +77,7 @@
 			]
 		},
 		{
+			"id": "zynga",
 			"company": "Zynga Poker",
 			"url": "zynga.com/poker",
 			"term": "Spring 2016",
@@ -104,7 +106,8 @@
 			}
 			]
 		},
-		{
+		{	
+			"id": "noom",
 			"company": "Noom",
 			"url": "noom.com",
 			"term": "Fall 2015",
@@ -135,6 +138,7 @@
 			]
 		},
 		{
+			"id": "knowroaming",
 			"company": "KnowRoaming",
 			"url": "knowroaming.com",
 			"term": "Spring 2014/Winter 2015",
@@ -184,6 +188,7 @@
 			]
 		},
 		{
+			"id": "sony",
 			"company": "Sony",
 			"url": "mediago.sony.com",
 			"term": "Fall 2013",
